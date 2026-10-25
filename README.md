@@ -1,35 +1,20 @@
-# Stock Market Tycoon MVP 1.1
+# Stock Market Tycoon — V2 trading preview
 
-Modular refactor of the tested single-file MVP 1.0. No options/shorting yet.
+Static multi-file site. Deploy **the contents of this folder** at the root of a public GitHub Pages repository, with `index.html` alongside `js/` and `styles/`. No build tools or paid services needed.
 
-## Play
+## V2 functionality
+- Prior MVP stock markets, trades, candlestick chart, career, news and saved progress
+- Short equity positions, restricted short proceeds, initial 50% additional collateral, daily simulated borrow fee and automatic margin liquidation at 30% maintenance ratio
+- Long European cash-settled call and put options with 100-share multiplier, simplified Black–Scholes quotes, sell-to-close and automatic expiry settlement
+- Portfolio equity includes liabilities and option mark-to-market; new derivatives page and trade ledger
+- Save format migrates prior v1 local saves to v2; export a v1 JSON backup before updating.
 
-Deploy **the entire directory contents** to a GitHub Pages repo root (index.html, js/, styles/). Or use a local server: `python3 -m http.server 8000` from this directory and open http://localhost:8000.
+## Deliberately not included
+- Sell-to-open / naked short options, option spread strategies, American early exercise, accurate exchange microstructure, partial margin auto liquidations, real prices, Greeks display, full advanced career levels.
+- Not a real brokerage or a research-grade pricing engine. Virtual money only.
 
-The old single-file 1.0 works independently. Do not upload index.html alone for 1.1.
+## Testing
+Run `node tests/regression.cjs` for original MVP regression. Run `node tests/v2-regression.cjs` for derivative calculations and accounting. End-to-end Safari and GitHub Pages deployment still require manual verification.
 
-## Compatibility
-
-IndexedDB name remains `stock-tycoon-mvp-v1` and save version remains 1 to load existing 1.0 saves on **the same GitHub Pages origin and repository URL**. Always export a JSON backup from 1.0 before updating. Different domains or repo paths do not automatically share local saves.
-
-## Structure
-
-- `index.html`: page shell
-- `styles/main.css`: responsive styles
-- `js/core.js`: initial state, deterministic RNG, account and trade primitives
-- `js/trading.js`: orders and fulfillment
-- `js/market.js`: market turns, macro events, career rules
-- `js/storage.js`: IndexedDB/localStorage, export/import, schema verification
-- `js/ui.js`: charts, navigation, forms, display and interaction
-- `js/bootstrap.js`: initialization and backward compatible test hooks
-- `tests/regression.cjs`: Node + VM checks for trade rules, market and compatibility
-
-**Architecture note:** Scripts are separated into ordered plain scripts and intentionally share top-level bindings. This keeps behavior identical to MVP 1.0 without requiring a build step. Future versions should replace shared globals with explicit ES module exports and dependency injection.
-
-## Test
-
-`node tests/regression.cjs` tests the market/trading core in an isolated VM. Browser smoke tests should cover UI, reload, and file import/export.
-
-## Roadmap
-
-V2: short selling and options (not included here).
+## Migration
+For the same GitHub Pages origin, existing version 1 IndexedDB saves are loaded then enhanced with new derivative fields. If importing old JSON, v1 is supported. Keep an exported save before replacing a deployed version.
