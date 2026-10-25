@@ -1,0 +1,12 @@
+PASS all original views and new tutorial render without JavaScript errors
+PASS strategy controls open/partial close actual credit spread via UI
+PASS invalid spread and uncovered sell show error without trading
+PASS tutorial completes eight real exercises and restores untouched career finances
+PASS practice trades never save to the career storage key
+PASS reset dialog cancel preserves state and checkbox export precedes reset
+PASS reset can proceed with backup unchecked
+PASS declining transaction confirmation leaves all legs unopened
+PASS localStorage V2.2 autoload migrates existing save on startup
+PASS JSON import/export round-trip and malformed import protection through UI
+PASS all production assets resolve relatively inside a Pages subdirectory
+11/11 DOM tests passed

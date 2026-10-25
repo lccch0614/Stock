@@ -1,10 +1,58 @@
 {
-  "version":"V2.2",
-  "tested_at":"2026-10-25",
-  "mvp_regression":{"passed":8,"total":8},
-  "v21_regression":{"passed":10,"total":10},
-  "v22_regression":{"passed":10,"total":10},
-  "javascript_syntax":{"passed":9,"total":9},
-  "browser_end_to_end":"Not verified: headless Chromium smoke attempt timed out",
-  "notes":"Fictional European cash-settled long options. Legacy V2.1 save format retained."
+  "version": "2.3.0",
+  "generatedAt": "2026-10-25T14:12:40.688Z",
+  "node": "v24.20.0",
+  "platform": "darwin",
+  "passed": 86,
+  "failed": 0,
+  "allSuitesPassed": true,
+  "suites": [
+    {
+      "suite": "regression.cjs",
+      "exitCode": 0,
+      "passed": 8,
+      "failed": 0
+    },
+    {
+      "suite": "v2-regression.cjs",
+      "exitCode": 0,
+      "passed": 10,
+      "failed": 0
+    },
+    {
+      "suite": "v22-regression.cjs",
+      "exitCode": 0,
+      "passed": 10,
+      "failed": 0
+    },
+    {
+      "suite": "v23-regression.cjs",
+      "exitCode": 0,
+      "passed": 47,
+      "failed": 0
+    },
+    {
+      "suite": "ui-regression.cjs",
+      "exitCode": 0,
+      "passed": 11,
+      "failed": 0
+    }
+  ],
+  "uiMethod": "jsdom 26.1.0 DOM interaction tests; not browser rendering",
+  "productionSHA256": {
+    "index.html": "86a16bf610fc789aafa054620c001e719ab3a3be79c7ac9b5fe6666d684d5203",
+    "js/bootstrap.js": "d8f0ed4924d4fcad4d951a12715b1c197984cdb65c4b9d37d4d25df263b809d5",
+    "js/core.js": "ac5533b2c2e18bf9a60a17927fc71639f3d260d5b0e3c1ccc4a06bb28676a9ca",
+    "js/derivatives-ui.js": "b568cf684b61928501a63e85d606aca1f52778b90ce0eba4e56501c013b184af",
+    "js/derivatives.js": "ae5911cd3e82147865b0c5558874818f585a25d0d6a9d738a85fac14aa230ec3",
+    "js/market.js": "91aa6a424de77a72903b33be4c01a5c06cc42f659314ced4ee81da9b9389546a",
+    "js/onboarding.js": "081e861b304988081acc72d584485907555393bcbc4f7dbddb78816a3abd2d29",
+    "js/options-market.js": "0dcd0aa6470633d80247a152bba63b6c9473d84e40c256e3f4a38b816e30cb3e",
+    "js/options-pricing.js": "28eb98f030e5e3d7c054605e28e3d65b0353d7babb5d2098b0b8f51d40e02e27",
+    "js/options-strategies.js": "ad79feeef47e8e858a608add768001e98785400104ffea2d1ed19993211c7586",
+    "js/storage.js": "87ff213db90dff5c32d39b5ea704f560a22ff854fecaf1df8fc0d64e66326718",
+    "js/trading.js": "8967dcc812181d34ad12201c111dd45134f35fbaeb0240d3f99056f509e5f519",
+    "js/ui.js": "fa211969084d02bc94dbb4ac07e698873b81aaaddc585efd72e77c843715328d",
+    "styles/main.css": "98712751cd34459ef0d4389899557fb9f537051c2d75e39472e6b4d02d5e8b79"
+  }
 }

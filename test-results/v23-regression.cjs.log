@@ -1,0 +1,64 @@
+PASS long_call open/mark/close uses correct bid/ask and signed cash
+PASS long_put open/mark/close uses correct bid/ask and signed cash
+PASS bull_call open/mark/close uses correct bid/ask and signed cash
+PASS bear_put open/mark/close uses correct bid/ask and signed cash
+PASS bull_put open/mark/close uses correct bid/ask and signed cash
+PASS bear_call open/mark/close uses correct bid/ask and signed cash
+PASS cash_secured_put open/mark/close uses correct bid/ask and signed cash
+PASS bull_call independent expiry payoff grid and maximum loss
+PASS bear_put independent expiry payoff grid and maximum loss
+PASS bull_put independent expiry payoff grid and maximum loss
+PASS bear_call independent expiry payoff grid and maximum loss
+PASS credit spread reserves width once and preserves net equity
+PASS partial spread close scales all legs and releases matching collateral
+PASS long-leg close of spread is prohibited without any mutation
+PASS naked sell-to-open rejected for calls and puts
+PASS covered call locks shares and prevents duplicate collateral or sale
+PASS pending sell order prevents covered share reuse
+PASS covered-call ITM expiry atomically sells collateral and nets strike cash
+PASS covered-call OTM expiry releases shares without selling them
+PASS covered-call bundled stock close preserves all remaining protection
+PASS CSP reserves full strike cash, rejects extra spending and settles no stock
+PASS covered put requires short shares and conservative strike cash
+PASS combined Greeks equal signed sum of legs, including short gamma sign
+PASS insufficient capital or invalid input leaves every field unchanged
+PASS injected post-leg failure rolls back open including IDs and logs
+PASS injected close failure rolls back both legs and cash
+PASS close cannot consume another strategy collateral and rolls back
+PASS buy limit may spend its own reservation on fill
+PASS sell limit can fill its own locked shares but not covered shares
+PASS borrow fee charged once per simulated day
+PASS maintenance call closes covered put before forced stock cover
+PASS actual V2.2 fixture migrates without cash/RNG/price/transaction changes
+PASS V1 save migrates and migration is pure/idempotent
+PASS schema 3 round-trip retains groups, collateral and Greeks
+PASS malformed saves rejected (NaN, unknown stock, mismatched legs, naked, HTML id)
+PASS corrupt local save blocks automatic overwrite
+PASS reset cancellation changes no state
+PASS reset exports old snapshot before persisting new career
+PASS reset backup failure retains original career
+PASS failed reset storage write retains original in-memory career
+PASS tutorial practice cannot overwrite career, exit restores financial state
+PASS tutorial only advances on correct completed operations and all eight stages
+PASS actual storage quota failure returns false and reset keeps old career
+PASS reset waits for pending writes and final stored snapshot is the new career
+PASS injected expiry failure rolls back covered collateral sale and cash
+PASS partial short covers release proportional restricted proceeds without rounding drift
+PASS 500 mixed-portfolio simulation days retain valid finite accounting
+47/47 V2.3 tests passed
+load error SyntaxError: Unexpected token 'b', "bad json" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at loadSave (storage:70:29)
+    at evalmachine.<anonymous>:1:1
+    at Script.runInContext (node:vm:149:12)
+    at Object.runInContext (node:vm:301:6)
+    at g (/Users/tom/Documents/Codex/2026-10-25/referenced-chatgpt-conversation-this-is-an/work/Stock-Market-Tycoon-V2.3.0/tests/v23-regression.cjs:6:15)
+    at /Users/tom/Documents/Codex/2026-10-25/referenced-chatgpt-conversation-this-is-an/work/Stock-Market-Tycoon-V2.3.0/tests/v23-regression.cjs:44:136
+    at test (/Users/tom/Documents/Codex/2026-10-25/referenced-chatgpt-conversation-this-is-an/work/Stock-Market-Tycoon-V2.3.0/tests/v23-regression.cjs:7:218)
+    at /Users/tom/Documents/Codex/2026-10-25/referenced-chatgpt-conversation-this-is-an/work/Stock-Market-Tycoon-V2.3.0/tests/v23-regression.cjs:44:7
+Error: quota-test
+    at localStorage.setItem (evalmachine.<anonymous>:1:69)
+    at storage:58:22
+Error: quota-test
+    at localStorage.setItem (evalmachine.<anonymous>:1:69)
+    at storage:58:22

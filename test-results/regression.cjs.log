@@ -1,0 +1,8 @@
+PASS initial portfolio and 15 companies
+PASS buy debits cash, adds position
+PASS reject short without permission
+PASS sell updates holdings and realised P&L
+PASS reject unaffordable purchase
+PASS replay deterministic RNG
+PASS 400 days maintain positive finite prices
+PASS v1 save format remains compatible

@@ -1,0 +1,13 @@
+{
+  "name":"stock-market-tycoon",
+  "version":"2.3.0",
+  "private":true,
+  "description":"Buildless, GitHub Pages compatible trading career simulator",
+  "scripts":{
+    "test":"node tests/run-all.cjs",
+    "test:ui":"node tests/ui-regression.cjs",
+    "serve":"python3 -m http.server 8080"
+  },
+  "devDependencies":{"jsdom":"26.1.0"},
+  "engines":{"node":">=20"}
+}

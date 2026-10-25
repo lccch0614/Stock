@@ -1,0 +1,195 @@
+{
+  "suite": "V2.3.0 accounting/migration/reset/tutorial",
+  "passed": 47,
+  "failed": 0,
+  "results": [
+    {
+      "name": "long_call open/mark/close uses correct bid/ask and signed cash",
+      "passed": true
+    },
+    {
+      "name": "long_put open/mark/close uses correct bid/ask and signed cash",
+      "passed": true
+    },
+    {
+      "name": "bull_call open/mark/close uses correct bid/ask and signed cash",
+      "passed": true
+    },
+    {
+      "name": "bear_put open/mark/close uses correct bid/ask and signed cash",
+      "passed": true
+    },
+    {
+      "name": "bull_put open/mark/close uses correct bid/ask and signed cash",
+      "passed": true
+    },
+    {
+      "name": "bear_call open/mark/close uses correct bid/ask and signed cash",
+      "passed": true
+    },
+    {
+      "name": "cash_secured_put open/mark/close uses correct bid/ask and signed cash",
+      "passed": true
+    },
+    {
+      "name": "bull_call independent expiry payoff grid and maximum loss",
+      "passed": true
+    },
+    {
+      "name": "bear_put independent expiry payoff grid and maximum loss",
+      "passed": true
+    },
+    {
+      "name": "bull_put independent expiry payoff grid and maximum loss",
+      "passed": true
+    },
+    {
+      "name": "bear_call independent expiry payoff grid and maximum loss",
+      "passed": true
+    },
+    {
+      "name": "credit spread reserves width once and preserves net equity",
+      "passed": true
+    },
+    {
+      "name": "partial spread close scales all legs and releases matching collateral",
+      "passed": true
+    },
+    {
+      "name": "long-leg close of spread is prohibited without any mutation",
+      "passed": true
+    },
+    {
+      "name": "naked sell-to-open rejected for calls and puts",
+      "passed": true
+    },
+    {
+      "name": "covered call locks shares and prevents duplicate collateral or sale",
+      "passed": true
+    },
+    {
+      "name": "pending sell order prevents covered share reuse",
+      "passed": true
+    },
+    {
+      "name": "covered-call ITM expiry atomically sells collateral and nets strike cash",
+      "passed": true
+    },
+    {
+      "name": "covered-call OTM expiry releases shares without selling them",
+      "passed": true
+    },
+    {
+      "name": "covered-call bundled stock close preserves all remaining protection",
+      "passed": true
+    },
+    {
+      "name": "CSP reserves full strike cash, rejects extra spending and settles no stock",
+      "passed": true
+    },
+    {
+      "name": "covered put requires short shares and conservative strike cash",
+      "passed": true
+    },
+    {
+      "name": "combined Greeks equal signed sum of legs, including short gamma sign",
+      "passed": true
+    },
+    {
+      "name": "insufficient capital or invalid input leaves every field unchanged",
+      "passed": true
+    },
+    {
+      "name": "injected post-leg failure rolls back open including IDs and logs",
+      "passed": true
+    },
+    {
+      "name": "injected close failure rolls back both legs and cash",
+      "passed": true
+    },
+    {
+      "name": "close cannot consume another strategy collateral and rolls back",
+      "passed": true
+    },
+    {
+      "name": "buy limit may spend its own reservation on fill",
+      "passed": true
+    },
+    {
+      "name": "sell limit can fill its own locked shares but not covered shares",
+      "passed": true
+    },
+    {
+      "name": "borrow fee charged once per simulated day",
+      "passed": true
+    },
+    {
+      "name": "maintenance call closes covered put before forced stock cover",
+      "passed": true
+    },
+    {
+      "name": "actual V2.2 fixture migrates without cash/RNG/price/transaction changes",
+      "passed": true
+    },
+    {
+      "name": "V1 save migrates and migration is pure/idempotent",
+      "passed": true
+    },
+    {
+      "name": "schema 3 round-trip retains groups, collateral and Greeks",
+      "passed": true
+    },
+    {
+      "name": "malformed saves rejected (NaN, unknown stock, mismatched legs, naked, HTML id)",
+      "passed": true
+    },
+    {
+      "name": "corrupt local save blocks automatic overwrite",
+      "passed": true
+    },
+    {
+      "name": "reset cancellation changes no state",
+      "passed": true
+    },
+    {
+      "name": "reset exports old snapshot before persisting new career",
+      "passed": true
+    },
+    {
+      "name": "reset backup failure retains original career",
+      "passed": true
+    },
+    {
+      "name": "failed reset storage write retains original in-memory career",
+      "passed": true
+    },
+    {
+      "name": "tutorial practice cannot overwrite career, exit restores financial state",
+      "passed": true
+    },
+    {
+      "name": "tutorial only advances on correct completed operations and all eight stages",
+      "passed": true
+    },
+    {
+      "name": "actual storage quota failure returns false and reset keeps old career",
+      "passed": true
+    },
+    {
+      "name": "reset waits for pending writes and final stored snapshot is the new career",
+      "passed": true
+    },
+    {
+      "name": "injected expiry failure rolls back covered collateral sale and cash",
+      "passed": true
+    },
+    {
+      "name": "partial short covers release proportional restricted proceeds without rounding drift",
+      "passed": true
+    },
+    {
+      "name": "500 mixed-portfolio simulation days retain valid finite accounting",
+      "passed": true
+    }
+  ]
+}

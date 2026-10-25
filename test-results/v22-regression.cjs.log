@@ -1,0 +1,11 @@
+PASS call-put parity, positive annual rate
+PASS delta bounds and signs
+PASS gamma and vega nonnegative
+PASS vega approx 1 percentage point finite diff
+PASS expiry intrinsic for both sides
+PASS chain consistent and bid <= ask
+PASS market IV responds to state and term
+PASS open uses ask, close uses bid
+PASS existing stocks and shorts still work
+PASS expiry idempotent and state financials finite
+10/10 V2.2 tests passed

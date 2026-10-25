@@ -1,0 +1,11 @@
+PASS v1 migration retained 15 stocks and added derivatives
+PASS short open maintains equity less spread + fee
+PASS short proceeds cannot be spent freely
+PASS short cover reduces liability and closes position
+PASS call cost, mark value and close conserve equity with fees
+PASS put increases as underlying falls
+PASS expiry settlement exactly once
+PASS maintenance margin triggers forced cover
+PASS advance day settles options and charges borrow
+PASS unaffordable option and excessive shorts rejected
+10 V2 tests passed

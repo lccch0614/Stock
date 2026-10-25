@@ -1,0 +1,51 @@
+{
+  "suite": "DOM interactions (jsdom, not a real rendering engine)",
+  "passed": 11,
+  "failed": 0,
+  "results": [
+    {
+      "name": "all original views and new tutorial render without JavaScript errors",
+      "passed": true
+    },
+    {
+      "name": "strategy controls open/partial close actual credit spread via UI",
+      "passed": true
+    },
+    {
+      "name": "invalid spread and uncovered sell show error without trading",
+      "passed": true
+    },
+    {
+      "name": "tutorial completes eight real exercises and restores untouched career finances",
+      "passed": true
+    },
+    {
+      "name": "practice trades never save to the career storage key",
+      "passed": true
+    },
+    {
+      "name": "reset dialog cancel preserves state and checkbox export precedes reset",
+      "passed": true
+    },
+    {
+      "name": "reset can proceed with backup unchecked",
+      "passed": true
+    },
+    {
+      "name": "declining transaction confirmation leaves all legs unopened",
+      "passed": true
+    },
+    {
+      "name": "localStorage V2.2 autoload migrates existing save on startup",
+      "passed": true
+    },
+    {
+      "name": "JSON import/export round-trip and malformed import protection through UI",
+      "passed": true
+    },
+    {
+      "name": "all production assets resolve relatively inside a Pages subdirectory",
+      "passed": true
+    }
+  ]
+}
