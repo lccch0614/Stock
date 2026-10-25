@@ -1,36 +1,35 @@
-# Stock Market Tycoon — MVP 1.0
+# Stock Market Tycoon MVP 1.1
 
-A standalone single-page virtual stock market career game (Traditional Chinese UI), containing no external dependencies.
+Modular refactor of the tested single-file MVP 1.0. No options/shorting yet.
 
-## Start
+## Play
 
-Open `index.html` in a current desktop or mobile browser, or serve the folder using `python -m http.server 8000`. For reliable IndexedDB persistence, GitHub Pages or an HTTP localhost server is recommended.
+Deploy **the entire directory contents** to a GitHub Pages repo root (index.html, js/, styles/). Or use a local server: `python3 -m http.server 8000` from this directory and open http://localhost:8000.
 
-For GitHub Pages: upload `index.html` to the repository root, and in Settings → Pages select Deploy from a branch → main → / (root).
+The old single-file 1.0 works independently. Do not upload index.html alone for 1.1.
 
-## MVP features
+## Compatibility
 
-- 15 fictional companies and fundamentals-aware stochastic daily price simulation, news, quarterly changes, regime shifts.
-- Simulation pause, play, 1×/2×/5× and jump to next trading day.
-- Interactive stock selection and candlestick chart with MA20, account equity chart.
-- Market orders, limit orders, stop-sell orders, cancel orders.
-- Cash ledger, cost-basis positions, realized and unrealized P&L, trade history, orders.
-- Basic risk score, portfolio overview, level 1→2 career conditions.
-- IndexedDB autosave (localStorage fallback); JSON export/import.
-- Responsive desktop/mobile interface.
+IndexedDB name remains `stock-tycoon-mvp-v1` and save version remains 1 to load existing 1.0 saves on **the same GitHub Pages origin and repository URL**. Always export a JSON backup from 1.0 before updating. Different domains or repo paths do not automatically share local saves.
 
-## Limitations / known simplifications
+## Structure
 
-- Fictional companies and simulation only; no real stock trading or investment advice.
-- V2 features (options, short selling, margin) and V3 (fund management) are NOT implemented.
-- Daily OHLC candles are simulated from daily time steps. Intraday matching is approximated and has no actual order book or volume-depth fills. Gap fills are approximations.
-- Stop orders are sell-stop only; no trailing stops or stop-buy orders.
-- Simplified model for quarterly EPS/revenue; not audited accounting statements.
-- A browser-only save is not tamper-proof. Multiple tabs should not be used concurrently; robust cross-tab ownership is future work.
-- File access restrictions and storage quotas vary by browser. Export JSON backups.
-- MVP charts include MA20; MA50 / RSI / MACD are deferred.
-- Historical equity sampling occurs at daily close, so on-demand intraday trades do not immediately append to history until the next day.
+- `index.html`: page shell
+- `styles/main.css`: responsive styles
+- `js/core.js`: initial state, deterministic RNG, account and trade primitives
+- `js/trading.js`: orders and fulfillment
+- `js/market.js`: market turns, macro events, career rules
+- `js/storage.js`: IndexedDB/localStorage, export/import, schema verification
+- `js/ui.js`: charts, navigation, forms, display and interaction
+- `js/bootstrap.js`: initialization and backward compatible test hooks
+- `tests/regression.cjs`: Node + VM checks for trade rules, market and compatibility
 
-## Verification
+**Architecture note:** Scripts are separated into ordered plain scripts and intentionally share top-level bindings. This keeps behavior identical to MVP 1.0 without requiring a build step. Future versions should replace shared globals with explicit ES module exports and dependency injection.
 
-Ran a Node VM engine smoke test: initial account equity; buy 10 shares; sell 5 shares; reject short sale without shares; advance 400 market days; confirm positive stock prices and valid state structure. Browser end-to-end tests could not be completed in the present sandbox due to browser navigation restrictions; test in actual deployment before considering mobile/save/GUI interactions fully verified.
+## Test
+
+`node tests/regression.cjs` tests the market/trading core in an isolated VM. Browser smoke tests should cover UI, reload, and file import/export.
+
+## Roadmap
+
+V2: short selling and options (not included here).

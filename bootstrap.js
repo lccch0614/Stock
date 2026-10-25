@@ -1,0 +1,2 @@
+async function init(){db=await openDB();await loadSave();document.addEventListener('click',onClick);document.addEventListener('change',onChange);window.addEventListener('resize',()=>{const c=document.getElementById('stock-chart');if(c)drawChart(c,state.stocks[ticker].historical.slice(-chartRange),{candles:true});const e=document.getElementById('equity-chart');if(e)drawChart(e,state.history.slice(-150))});render();await persist()}init();
+window.STOCK_TYCOON_TEST={initial,trade,advanceDay,equity,validate,getState:()=>state,setState:s=>state=s,processOrders,riskScore};

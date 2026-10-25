@@ -1,0 +1,23 @@
+{
+  "version": "1.1",
+  "architecture": "split static JS/CSS; legacy v1 save schema retained",
+  "passed": [
+    "Node regression: initial assets and 15 stocks",
+    "Buy cash/position",
+    "Reject unauthorized short",
+    "Sell realised P&L",
+    "Reject insufficient cash",
+    "Deterministic 35-day replay",
+    "400-day market stress",
+    "v1 save validation",
+    "Syntax checks of all six JS modules"
+  ],
+  "not_run": [
+    "Browser visual smoke/UI and persistence reload: browser navigation blocked by administrator"
+  ],
+  "not_in_scope": [
+    "Short-selling",
+    "Options",
+    "Margin"
+  ]
+}
