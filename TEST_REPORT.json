@@ -1,23 +1,10 @@
 {
-  "version": "1.1",
-  "architecture": "split static JS/CSS; legacy v1 save schema retained",
-  "passed": [
-    "Node regression: initial assets and 15 stocks",
-    "Buy cash/position",
-    "Reject unauthorized short",
-    "Sell realised P&L",
-    "Reject insufficient cash",
-    "Deterministic 35-day replay",
-    "400-day market stress",
-    "v1 save validation",
-    "Syntax checks of all six JS modules"
-  ],
-  "not_run": [
-    "Browser visual smoke/UI and persistence reload: browser navigation blocked by administrator"
-  ],
-  "not_in_scope": [
-    "Short-selling",
-    "Options",
-    "Margin"
-  ]
+  "version":"V2.2",
+  "tested_at":"2026-10-25",
+  "mvp_regression":{"passed":8,"total":8},
+  "v21_regression":{"passed":10,"total":10},
+  "v22_regression":{"passed":10,"total":10},
+  "javascript_syntax":{"passed":9,"total":9},
+  "browser_end_to_end":"Not verified: headless Chromium smoke attempt timed out",
+  "notes":"Fictional European cash-settled long options. Legacy V2.1 save format retained."
 }

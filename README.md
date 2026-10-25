@@ -1,20 +1,21 @@
-# Stock Market Tycoon — V2 trading preview
+# Stock Market Tycoon V2.2 — Options Terminal
 
-Static multi-file site. Deploy **the contents of this folder** at the root of a public GitHub Pages repository, with `index.html` alongside `js/` and `styles/`. No build tools or paid services needed.
+Open `index.html` through GitHub Pages or any static local server. Upload the contents of this folder (not the enclosing directory) into your GitHub repository root.
 
-## V2 functionality
-- Prior MVP stock markets, trades, candlestick chart, career, news and saved progress
-- Short equity positions, restricted short proceeds, initial 50% additional collateral, daily simulated borrow fee and automatic margin liquidation at 30% maintenance ratio
-- Long European cash-settled call and put options with 100-share multiplier, simplified Black–Scholes quotes, sell-to-close and automatic expiry settlement
-- Portfolio equity includes liabilities and option mark-to-market; new derivatives page and trade ledger
-- Save format migrates prior v1 local saves to v2; export a v1 JSON backup before updating.
+## New in V2.2
+- Integrated Options Chain (11 strikes, 5 expiries) with model-generated Bid/Ask, IV and Delta.
+- Black–Scholes Greeks (Delta, Gamma, Theta per trading day, Vega per 1 percentage point IV).
+- Risk/cost preview using actual execution Ask, exit Bid.
+- Expiry and pre-expiry P&L scenarios; IV and time sliders/selectors.
+- Options portfolio mark-to-Bid and unrealized P&L.
+- Continued V2.1 equity, shorting, margin and career mechanics.
 
-## Deliberately not included
-- Sell-to-open / naked short options, option spread strategies, American early exercise, accurate exchange microstructure, partial margin auto liquidations, real prices, Greeks display, full advanced career levels.
-- Not a real brokerage or a research-grade pricing engine. Virtual money only.
+## Technical limits
+- Fictional companies and modeled European cash-settled long options. No naked short options or multi-leg spreads.
+- The illustrative simulated IV and Bid/Ask are model assumptions, not real exchange prices.
+- Theoretical scenario P&L is not a guaranteed execution quote.
+- Uses same V2.1 IndexedDB key and JSON save schema (version 2). Export a JSON backup before upgrading.
+- Full brokerage fidelity, American exercise, short-option margin are intentionally excluded.
 
-## Testing
-Run `node tests/regression.cjs` for original MVP regression. Run `node tests/v2-regression.cjs` for derivative calculations and accounting. End-to-end Safari and GitHub Pages deployment still require manual verification.
-
-## Migration
-For the same GitHub Pages origin, existing version 1 IndexedDB saves are loaded then enhanced with new derivative fields. If importing old JSON, v1 is supported. Keep an exported save before replacing a deployed version.
+## Tests
+Run `node tests/regression.cjs`, `node tests/v2-regression.cjs`, and `node tests/v22-regression.cjs` from project root.
