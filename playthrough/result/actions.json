@@ -1,0 +1,1364 @@
+[
+  {
+    "day": 0,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-1",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "BIOV",
+    "budget": 1972
+  },
+  {
+    "day": 0,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-2",
+      "msg": "牛市認沽價差 · Bull Put 已整組開倉；淨收入 $28.00"
+    },
+    "strategy": "bull_put",
+    "ticker": "BIOV",
+    "low": 25,
+    "high": 30,
+    "days": 7,
+    "qty": 4,
+    "credit": 28,
+    "maxLoss": 1972,
+    "collateral": 2000,
+    "quotePrice": 34
+  },
+  {
+    "day": 0,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-7",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "QBIT",
+    "budget": 1905
+  },
+  {
+    "day": 0,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-8",
+      "msg": "牛市認沽價差 · Bull Put 已整組開倉；淨收入 $595.00"
+    },
+    "strategy": "bull_put",
+    "ticker": "QBIT",
+    "low": 85,
+    "high": 90,
+    "days": 7,
+    "qty": 5,
+    "credit": 595,
+    "maxLoss": 1905,
+    "collateral": 2500,
+    "quotePrice": 92
+  },
+  {
+    "day": 0,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-13",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "SOLR",
+    "budget": 1796
+  },
+  {
+    "day": 0,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-14",
+      "msg": "牛市認沽價差 · Bull Put 已整組開倉；淨收入 $204.00"
+    },
+    "strategy": "bull_put",
+    "ticker": "SOLR",
+    "low": 40,
+    "high": 45,
+    "days": 7,
+    "qty": 4,
+    "credit": 204,
+    "maxLoss": 1796,
+    "collateral": 2000,
+    "quotePrice": 47
+  },
+  {
+    "day": 0,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-19",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "NVXT",
+    "budget": 1925
+  },
+  {
+    "day": 0,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-20",
+      "msg": "牛市認沽價差 · Bull Put 已整組開倉；淨收入 $575.00"
+    },
+    "strategy": "bull_put",
+    "ticker": "NVXT",
+    "low": 120,
+    "high": 125,
+    "days": 7,
+    "qty": 5,
+    "credit": 575,
+    "maxLoss": 1925,
+    "collateral": 2500,
+    "quotePrice": 128
+  },
+  {
+    "day": 4,
+    "action": "CLOSE",
+    "result": {
+      "ok": true,
+      "msg": "策略已整組平倉，期權損益（連開平倉費）$168.00"
+    },
+    "ticker": "SOLR",
+    "qty": 4,
+    "reason": "80% credit captured",
+    "pnlEstimate": 168
+  },
+  {
+    "day": 4,
+    "action": "CLOSE",
+    "result": {
+      "ok": true,
+      "msg": "策略已整組平倉，期權損益（連開平倉費）$470.00"
+    },
+    "ticker": "NVXT",
+    "qty": 5,
+    "reason": "80% credit captured",
+    "pnlEstimate": 470
+  },
+  {
+    "day": 4,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-29",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "SOLR",
+    "budget": 1696
+  },
+  {
+    "day": 4,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-30",
+      "msg": "熊市認購價差 · Bear Call 已整組開倉；淨收入 $304.00"
+    },
+    "strategy": "bear_call",
+    "ticker": "SOLR",
+    "low": 50,
+    "high": 55,
+    "days": 7,
+    "qty": 4,
+    "credit": 304,
+    "maxLoss": 1696,
+    "collateral": 2000,
+    "quotePrice": 48.7
+  },
+  {
+    "day": 4,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-35",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "NVXT",
+    "budget": 1765
+  },
+  {
+    "day": 4,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-36",
+      "msg": "熊市認購價差 · Bear Call 已整組開倉；淨收入 $735.00"
+    },
+    "strategy": "bear_call",
+    "ticker": "NVXT",
+    "low": 135,
+    "high": 140,
+    "days": 7,
+    "qty": 5,
+    "credit": 735,
+    "maxLoss": 1765,
+    "collateral": 2500,
+    "quotePrice": 133.55
+  },
+  {
+    "day": 7,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-45",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "BIOV",
+    "budget": 2230
+  },
+  {
+    "day": 7,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-46",
+      "msg": "熊市認購價差 · Bear Call 已整組開倉；淨收入 $270.00"
+    },
+    "strategy": "bear_call",
+    "ticker": "BIOV",
+    "low": 40,
+    "high": 45,
+    "days": 7,
+    "qty": 5,
+    "credit": 270,
+    "maxLoss": 2230,
+    "collateral": 2500,
+    "quotePrice": 38.06
+  },
+  {
+    "day": 7,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-51",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "QBIT",
+    "budget": 1950
+  },
+  {
+    "day": 7,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-52",
+      "msg": "熊市認購價差 · Bear Call 已整組開倉；淨收入 $550.00"
+    },
+    "strategy": "bear_call",
+    "ticker": "QBIT",
+    "low": 95,
+    "high": 100,
+    "days": 7,
+    "qty": 5,
+    "credit": 550,
+    "maxLoss": 1950,
+    "collateral": 2500,
+    "quotePrice": 92.56
+  },
+  {
+    "day": 9,
+    "action": "CLOSE",
+    "result": {
+      "ok": true,
+      "msg": "策略已整組平倉，期權損益（連開平倉費）$248.00"
+    },
+    "ticker": "SOLR",
+    "qty": 4,
+    "reason": "80% credit captured",
+    "pnlEstimate": 248
+  },
+  {
+    "day": 9,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-59",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "SOLR",
+    "budget": 2260
+  },
+  {
+    "day": 9,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-60",
+      "msg": "熊市認購價差 · Bear Call 已整組開倉；淨收入 $240.00"
+    },
+    "strategy": "bear_call",
+    "ticker": "SOLR",
+    "low": 50,
+    "high": 55,
+    "days": 7,
+    "qty": 5,
+    "credit": 240,
+    "maxLoss": 2260,
+    "collateral": 2500,
+    "quotePrice": 47.68
+  },
+  {
+    "day": 10,
+    "action": "CLOSE",
+    "result": {
+      "ok": true,
+      "msg": "策略已整組平倉，期權損益（連開平倉費）$245.00"
+    },
+    "ticker": "BIOV",
+    "qty": 5,
+    "reason": "80% credit captured",
+    "pnlEstimate": 245
+  },
+  {
+    "day": 10,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-67",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "BIOV",
+    "budget": 1980
+  },
+  {
+    "day": 10,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-68",
+      "msg": "熊市認購價差 · Bear Call 已整組開倉；淨收入 $20.00"
+    },
+    "strategy": "bear_call",
+    "ticker": "BIOV",
+    "low": 40,
+    "high": 45,
+    "days": 7,
+    "qty": 4,
+    "credit": 20,
+    "maxLoss": 1980,
+    "collateral": 2000,
+    "quotePrice": 35.12
+  },
+  {
+    "day": 11,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-75",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "NVXT",
+    "budget": 2050
+  },
+  {
+    "day": 11,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-76",
+      "msg": "熊市認購價差 · Bear Call 已整組開倉；淨收入 $450.00"
+    },
+    "strategy": "bear_call",
+    "ticker": "NVXT",
+    "low": 140,
+    "high": 145,
+    "days": 7,
+    "qty": 5,
+    "credit": 450,
+    "maxLoss": 2050,
+    "collateral": 2500,
+    "quotePrice": 135.02
+  },
+  {
+    "day": 13,
+    "action": "CLOSE",
+    "result": {
+      "ok": true,
+      "msg": "策略已整組平倉，期權損益（連開平倉費）$205.00"
+    },
+    "ticker": "SOLR",
+    "qty": 5,
+    "reason": "80% credit captured",
+    "pnlEstimate": 205
+  },
+  {
+    "day": 13,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-83",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "SOLR",
+    "budget": 2045
+  },
+  {
+    "day": 13,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-84",
+      "msg": "牛市認沽價差 · Bull Put 已整組開倉；淨收入 $455.00"
+    },
+    "strategy": "bull_put",
+    "ticker": "SOLR",
+    "low": 40,
+    "high": 45,
+    "days": 7,
+    "qty": 5,
+    "credit": 455,
+    "maxLoss": 2045,
+    "collateral": 2500,
+    "quotePrice": 45.76
+  },
+  {
+    "day": 14,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-91",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "QBIT",
+    "budget": 2065
+  },
+  {
+    "day": 14,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-92",
+      "msg": "熊市認購價差 · Bear Call 已整組開倉；淨收入 $435.00"
+    },
+    "strategy": "bear_call",
+    "ticker": "QBIT",
+    "low": 105,
+    "high": 110,
+    "days": 7,
+    "qty": 5,
+    "credit": 435,
+    "maxLoss": 2065,
+    "collateral": 2500,
+    "quotePrice": 100.46
+  },
+  {
+    "day": 17,
+    "action": "CLOSE",
+    "result": {
+      "ok": true,
+      "msg": "策略已整組平倉，期權損益（連開平倉費）$405.00"
+    },
+    "ticker": "SOLR",
+    "qty": 5,
+    "reason": "80% credit captured",
+    "pnlEstimate": 405
+  },
+  {
+    "day": 17,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-101",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "BIOV",
+    "budget": 1632
+  },
+  {
+    "day": 17,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-102",
+      "msg": "熊市認購價差 · Bear Call 已整組開倉；淨收入 $368.00"
+    },
+    "strategy": "bear_call",
+    "ticker": "BIOV",
+    "low": 35,
+    "high": 40,
+    "days": 7,
+    "qty": 4,
+    "credit": 368,
+    "maxLoss": 1632,
+    "collateral": 2000,
+    "quotePrice": 34.38
+  },
+  {
+    "day": 17,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-107",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "SOLR",
+    "budget": 1860
+  },
+  {
+    "day": 17,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-108",
+      "msg": "熊市認購價差 · Bear Call 已整組開倉；淨收入 $640.00"
+    },
+    "strategy": "bear_call",
+    "ticker": "SOLR",
+    "low": 50,
+    "high": 55,
+    "days": 7,
+    "qty": 5,
+    "credit": 640,
+    "maxLoss": 1860,
+    "collateral": 2500,
+    "quotePrice": 49.71
+  },
+  {
+    "day": 18,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-115",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "NVXT",
+    "budget": 1645
+  },
+  {
+    "day": 18,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-116",
+      "msg": "熊市認購價差 · Bear Call 已整組開倉；淨收入 $855.00"
+    },
+    "strategy": "bear_call",
+    "ticker": "NVXT",
+    "low": 145,
+    "high": 150,
+    "days": 7,
+    "qty": 5,
+    "credit": 855,
+    "maxLoss": 1645,
+    "collateral": 2500,
+    "quotePrice": 144.14
+  },
+  {
+    "day": 21,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-123",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "QBIT",
+    "budget": 1810
+  },
+  {
+    "day": 21,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-124",
+      "msg": "熊市認購價差 · Bear Call 已整組開倉；淨收入 $690.00"
+    },
+    "strategy": "bear_call",
+    "ticker": "QBIT",
+    "low": 100,
+    "high": 105,
+    "days": 7,
+    "qty": 5,
+    "credit": 690,
+    "maxLoss": 1810,
+    "collateral": 2500,
+    "quotePrice": 97.96
+  },
+  {
+    "day": 24,
+    "action": "CLOSE",
+    "result": {
+      "ok": true,
+      "msg": "策略已整組平倉，期權損益（連開平倉費）$825.00"
+    },
+    "ticker": "NVXT",
+    "qty": 5,
+    "reason": "80% credit captured",
+    "pnlEstimate": 825
+  },
+  {
+    "day": 24,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-135",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "BIOV",
+    "budget": 1920
+  },
+  {
+    "day": 24,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-136",
+      "msg": "熊市認購價差 · Bear Call 已整組開倉；淨收入 $580.00"
+    },
+    "strategy": "bear_call",
+    "ticker": "BIOV",
+    "low": 35,
+    "high": 40,
+    "days": 7,
+    "qty": 5,
+    "credit": 580,
+    "maxLoss": 1920,
+    "collateral": 2500,
+    "quotePrice": 34.98
+  },
+  {
+    "day": 24,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-141",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "SOLR",
+    "budget": 1896
+  },
+  {
+    "day": 24,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-142",
+      "msg": "熊市認購價差 · Bear Call 已整組開倉；淨收入 $104.00"
+    },
+    "strategy": "bear_call",
+    "ticker": "SOLR",
+    "low": 55,
+    "high": 60,
+    "days": 7,
+    "qty": 4,
+    "credit": 104,
+    "maxLoss": 1896,
+    "collateral": 2000,
+    "quotePrice": 50.04
+  },
+  {
+    "day": 24,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-147",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "NVXT",
+    "budget": 1986
+  },
+  {
+    "day": 24,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-148",
+      "msg": "熊市認購價差 · Bear Call 已整組開倉；淨收入 $1,014.00"
+    },
+    "strategy": "bear_call",
+    "ticker": "NVXT",
+    "low": 135,
+    "high": 140,
+    "days": 7,
+    "qty": 6,
+    "credit": 1014,
+    "maxLoss": 1986,
+    "collateral": 3000,
+    "quotePrice": 134.27
+  },
+  {
+    "day": 27,
+    "action": "CLOSE",
+    "result": {
+      "ok": true,
+      "msg": "策略已整組平倉，期權損益（連開平倉費）$84.00"
+    },
+    "ticker": "SOLR",
+    "qty": 4,
+    "reason": "80% credit captured",
+    "pnlEstimate": 84
+  },
+  {
+    "day": 27,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-155",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "SOLR",
+    "budget": 2190
+  },
+  {
+    "day": 27,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-156",
+      "msg": "熊市認購價差 · Bear Call 已整組開倉；淨收入 $310.00"
+    },
+    "strategy": "bear_call",
+    "ticker": "SOLR",
+    "low": 50,
+    "high": 55,
+    "days": 7,
+    "qty": 5,
+    "credit": 310,
+    "maxLoss": 2190,
+    "collateral": 2500,
+    "quotePrice": 47.43
+  },
+  {
+    "day": 28,
+    "action": "CLOSE",
+    "result": {
+      "ok": true,
+      "msg": "策略已整組平倉，期權損益（連開平倉費）$515.00"
+    },
+    "ticker": "BIOV",
+    "qty": 5,
+    "reason": "80% credit captured",
+    "pnlEstimate": 515
+  },
+  {
+    "day": 28,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-165",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "BIOV",
+    "budget": 1812
+  },
+  {
+    "day": 28,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-166",
+      "msg": "牛市認沽價差 · Bull Put 已整組開倉；淨收入 $188.00"
+    },
+    "strategy": "bull_put",
+    "ticker": "BIOV",
+    "low": 25,
+    "high": 30,
+    "days": 7,
+    "qty": 4,
+    "credit": 188,
+    "maxLoss": 1812,
+    "collateral": 2000,
+    "quotePrice": 32.02
+  },
+  {
+    "day": 28,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-171",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "QBIT",
+    "budget": 1735
+  },
+  {
+    "day": 28,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-172",
+      "msg": "熊市認購價差 · Bear Call 已整組開倉；淨收入 $765.00"
+    },
+    "strategy": "bear_call",
+    "ticker": "QBIT",
+    "low": 110,
+    "high": 115,
+    "days": 7,
+    "qty": 5,
+    "credit": 765,
+    "maxLoss": 1735,
+    "collateral": 2500,
+    "quotePrice": 108.48
+  },
+  {
+    "day": 31,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-179",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "NVXT",
+    "budget": 1805
+  },
+  {
+    "day": 31,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-180",
+      "msg": "熊市認購價差 · Bear Call 已整組開倉；淨收入 $695.00"
+    },
+    "strategy": "bear_call",
+    "ticker": "NVXT",
+    "low": 140,
+    "high": 145,
+    "days": 7,
+    "qty": 5,
+    "credit": 695,
+    "maxLoss": 1805,
+    "collateral": 2500,
+    "quotePrice": 137.26
+  },
+  {
+    "day": 32,
+    "action": "CLOSE",
+    "result": {
+      "ok": true,
+      "msg": "策略已整組平倉，期權損益（連開平倉費）$275.00"
+    },
+    "ticker": "SOLR",
+    "qty": 5,
+    "reason": "80% credit captured",
+    "pnlEstimate": 275
+  },
+  {
+    "day": 32,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-187",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "SOLR",
+    "budget": 1995
+  },
+  {
+    "day": 32,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-188",
+      "msg": "牛市認沽價差 · Bull Put 已整組開倉；淨收入 $505.00"
+    },
+    "strategy": "bull_put",
+    "ticker": "SOLR",
+    "low": 40,
+    "high": 45,
+    "days": 7,
+    "qty": 5,
+    "credit": 505,
+    "maxLoss": 1995,
+    "collateral": 2500,
+    "quotePrice": 45.97
+  },
+  {
+    "day": 35,
+    "action": "CLOSE",
+    "result": {
+      "ok": true,
+      "msg": "策略已整組平倉，期權損益（連開平倉費）$565.00"
+    },
+    "ticker": "NVXT",
+    "qty": 5,
+    "reason": "80% credit captured",
+    "pnlEstimate": 565
+  },
+  {
+    "day": 35,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-199",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "BIOV",
+    "budget": 2100
+  },
+  {
+    "day": 35,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-200",
+      "msg": "牛市認沽價差 · Bull Put 已整組開倉；淨收入 $400.00"
+    },
+    "strategy": "bull_put",
+    "ticker": "BIOV",
+    "low": 25,
+    "high": 30,
+    "days": 7,
+    "qty": 5,
+    "credit": 400,
+    "maxLoss": 2100,
+    "collateral": 2500,
+    "quotePrice": 30.8
+  },
+  {
+    "day": 35,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-205",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "QBIT",
+    "budget": 2261
+  },
+  {
+    "day": 35,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-206",
+      "msg": "熊市認購價差 · Bear Call 已整組開倉；淨收入 $1,239.00"
+    },
+    "strategy": "bear_call",
+    "ticker": "QBIT",
+    "low": 110,
+    "high": 115,
+    "days": 7,
+    "qty": 7,
+    "credit": 1239,
+    "maxLoss": 2261,
+    "collateral": 3500,
+    "quotePrice": 110
+  },
+  {
+    "day": 35,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-211",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "NVXT",
+    "budget": 2282
+  },
+  {
+    "day": 35,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-212",
+      "msg": "熊市認購價差 · Bear Call 已整組開倉；淨收入 $1,218.00"
+    },
+    "strategy": "bear_call",
+    "ticker": "NVXT",
+    "low": 130,
+    "high": 135,
+    "days": 7,
+    "qty": 7,
+    "credit": 1218,
+    "maxLoss": 2282,
+    "collateral": 3500,
+    "quotePrice": 129.65
+  },
+  {
+    "day": 37,
+    "action": "CLOSE",
+    "result": {
+      "ok": true,
+      "msg": "策略已整組平倉，期權損益（連開平倉費）$450.00"
+    },
+    "ticker": "SOLR",
+    "qty": 5,
+    "reason": "80% credit captured",
+    "pnlEstimate": 450
+  },
+  {
+    "day": 37,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-219",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "SOLR",
+    "budget": 2120
+  },
+  {
+    "day": 37,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-220",
+      "msg": "熊市認購價差 · Bear Call 已整組開倉；淨收入 $380.00"
+    },
+    "strategy": "bear_call",
+    "ticker": "SOLR",
+    "low": 50,
+    "high": 55,
+    "days": 7,
+    "qty": 5,
+    "credit": 380,
+    "maxLoss": 2120,
+    "collateral": 2500,
+    "quotePrice": 48.15
+  },
+  {
+    "day": 42,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-231",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "BIOV",
+    "budget": 2884
+  },
+  {
+    "day": 42,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-232",
+      "msg": "牛市認沽價差 · Bull Put 已整組開倉；淨收入 $616.00"
+    },
+    "strategy": "bull_put",
+    "ticker": "BIOV",
+    "low": 25,
+    "high": 30,
+    "days": 7,
+    "qty": 7,
+    "credit": 616,
+    "maxLoss": 2884,
+    "collateral": 3500,
+    "quotePrice": 30.46
+  },
+  {
+    "day": 42,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-237",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "QBIT",
+    "budget": 3040
+  },
+  {
+    "day": 42,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-238",
+      "msg": "熊市認購價差 · Bear Call 已整組開倉；淨收入 $960.00"
+    },
+    "strategy": "bear_call",
+    "ticker": "QBIT",
+    "low": 110,
+    "high": 115,
+    "days": 7,
+    "qty": 8,
+    "credit": 960,
+    "maxLoss": 3040,
+    "collateral": 4000,
+    "quotePrice": 106.61
+  },
+  {
+    "day": 42,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-243",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "NVXT",
+    "budget": 2864
+  },
+  {
+    "day": 42,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-244",
+      "msg": "牛市認沽價差 · Bull Put 已整組開倉；淨收入 $1,136.00"
+    },
+    "strategy": "bull_put",
+    "ticker": "NVXT",
+    "low": 120,
+    "high": 125,
+    "days": 7,
+    "qty": 8,
+    "credit": 1136,
+    "maxLoss": 2864,
+    "collateral": 4000,
+    "quotePrice": 127.48
+  },
+  {
+    "day": 44,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-251",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "SOLR",
+    "budget": 2544
+  },
+  {
+    "day": 44,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-252",
+      "msg": "熊市認購價差 · Bear Call 已整組開倉；淨收入 $456.00"
+    },
+    "strategy": "bear_call",
+    "ticker": "SOLR",
+    "low": 50,
+    "high": 55,
+    "days": 7,
+    "qty": 6,
+    "credit": 456,
+    "maxLoss": 2544,
+    "collateral": 3000,
+    "quotePrice": 48.16
+  },
+  {
+    "day": 46,
+    "action": "CLOSE",
+    "result": {
+      "ok": true,
+      "msg": "策略已整組平倉，期權損益（連開平倉費）$-2,880.00"
+    },
+    "ticker": "QBIT",
+    "qty": 8,
+    "reason": "80% planned max loss reached",
+    "pnlEstimate": -2880
+  },
+  {
+    "day": 46,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-259",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "QBIT",
+    "budget": 1488
+  },
+  {
+    "day": 46,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-260",
+      "msg": "熊市認購價差 · Bear Call 已整組開倉；淨收入 $512.00"
+    },
+    "strategy": "bear_call",
+    "ticker": "QBIT",
+    "low": 125,
+    "high": 130,
+    "days": 7,
+    "qty": 4,
+    "credit": 512,
+    "maxLoss": 1488,
+    "collateral": 2000,
+    "quotePrice": 121.26
+  },
+  {
+    "day": 47,
+    "action": "CLOSE",
+    "result": {
+      "ok": true,
+      "msg": "策略已整組平倉，期權損益（連開平倉費）$539.00"
+    },
+    "ticker": "BIOV",
+    "qty": 7,
+    "reason": "80% credit captured",
+    "pnlEstimate": 539
+  },
+  {
+    "day": 47,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-267",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "BIOV",
+    "budget": 2295
+  },
+  {
+    "day": 47,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-268",
+      "msg": "牛市認沽價差 · Bull Put 已整組開倉；淨收入 $205.00"
+    },
+    "strategy": "bull_put",
+    "ticker": "BIOV",
+    "low": 25,
+    "high": 30,
+    "days": 7,
+    "qty": 5,
+    "credit": 205,
+    "maxLoss": 2295,
+    "collateral": 2500,
+    "quotePrice": 32.16
+  },
+  {
+    "day": 49,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-275",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "NVXT",
+    "budget": 2648
+  },
+  {
+    "day": 49,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-276",
+      "msg": "熊市認購價差 · Bear Call 已整組開倉；淨收入 $1,352.00"
+    },
+    "strategy": "bear_call",
+    "ticker": "NVXT",
+    "low": 130,
+    "high": 135,
+    "days": 7,
+    "qty": 8,
+    "credit": 1352,
+    "maxLoss": 2648,
+    "collateral": 4000,
+    "quotePrice": 129.19
+  },
+  {
+    "day": 51,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-283",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "SOLR",
+    "budget": 2968
+  },
+  {
+    "day": 51,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-284",
+      "msg": "熊市認購價差 · Bear Call 已整組開倉；淨收入 $532.00"
+    },
+    "strategy": "bear_call",
+    "ticker": "SOLR",
+    "low": 50,
+    "high": 55,
+    "days": 7,
+    "qty": 7,
+    "credit": 532,
+    "maxLoss": 2968,
+    "collateral": 3500,
+    "quotePrice": 48.47
+  },
+  {
+    "day": 52,
+    "action": "CLOSE",
+    "result": {
+      "ok": true,
+      "msg": "策略已整組平倉，期權損益（連開平倉費）$180.00"
+    },
+    "ticker": "BIOV",
+    "qty": 5,
+    "reason": "80% credit captured",
+    "pnlEstimate": 180
+  },
+  {
+    "day": 52,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-291",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "BIOV",
+    "budget": 2898
+  },
+  {
+    "day": 52,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-292",
+      "msg": "牛市認沽價差 · Bull Put 已整組開倉；淨收入 $102.00"
+    },
+    "strategy": "bull_put",
+    "ticker": "BIOV",
+    "low": 25,
+    "high": 30,
+    "days": 7,
+    "qty": 6,
+    "credit": 102,
+    "maxLoss": 2898,
+    "collateral": 3000,
+    "quotePrice": 33.22
+  },
+  {
+    "day": 53,
+    "action": "PLAN",
+    "result": {
+      "ok": true,
+      "id": "PLAN-299",
+      "msg": "交易計劃已建立；下一筆相符開倉會連結計劃"
+    },
+    "ticker": "QBIT",
+    "budget": 2928
+  },
+  {
+    "day": 53,
+    "action": "OPEN",
+    "result": {
+      "ok": true,
+      "id": "GRP-300",
+      "msg": "熊市認購價差 · Bear Call 已整組開倉；淨收入 $1,072.00"
+    },
+    "strategy": "bear_call",
+    "ticker": "QBIT",
+    "low": 125,
+    "high": 130,
+    "days": 7,
+    "qty": 8,
+    "credit": 1072,
+    "maxLoss": 2928,
+    "collateral": 4000,
+    "quotePrice": 122.15
+  },
+  {
+    "day": 57,
+    "action": "CLOSE",
+    "result": {
+      "ok": true,
+      "msg": "策略已整組平倉，期權損益（連開平倉費）$1,008.00"
+    },
+    "ticker": "QBIT",
+    "qty": 8,
+    "reason": "80% credit captured",
+    "pnlEstimate": 1008
+  }
+]

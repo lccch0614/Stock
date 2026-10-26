@@ -1,13 +1,14 @@
 // Deterministic simulated implied volatility and bid/ask quotes.
-function optionIV(st,k,days){
- const m=Math.log(k/st.price),term=days<=14?.055:days<=30?.025:0,regime=state.market==='熊市'?.085:state.market==='牛市'?-.012:0;
+function optionIV(st,k,days,market=state.market,day=state.day){
+ const m=Math.log(k/st.price),term=days<=14?.055:days<=30?.025:0,regime=market==='熊市'?.085:market==='牛市'?-.012:0;
  const shock=Math.min(.11,Math.abs(st.momentum||0)*2.5),skew=Math.max(0,-m)*.22+Math.abs(m)*.08;
- const earnings=state.day%60>=48&&state.day%60<=60?.035:0;
+ const earnings=day%60>=48&&day%60<=60?.035:0;
  return clamp(st.vol+term+regime+shock+skew+earnings,.06,1.8);
 }
-function optionQuote(t,kind,strike,expiry,overrideDays=null){
- const st=state.stocks[t];if(!st)throw Error('Unknown ticker');const days=Math.max(0,overrideDays??(expiry-state.day));
- const iv=optionIV(st,strike,days),m=optionMetrics(st.price,strike,days,kind,iv);
+function optionQuote(t,kind,strike,expiry,overrideDays=null){return optionQuoteAt(state,t,kind,strike,expiry,overrideDays)}
+function optionQuoteAt(account,t,kind,strike,expiry,overrideDays=null){
+ const st=account.stocks[t];if(!st)throw Error('Unknown ticker');const days=Math.max(0,overrideDays??(expiry-account.day));
+ const iv=optionIV(st,strike,days,account.market,account.day),m=optionMetrics(st.price,strike,days,kind,iv);
  const width=Math.max(.02,m.price*.035,st.price*.00035)* (days<8?1.2:1);
  // At expiry the payoff is settled; do not allow new trades on an expired contract.
  const bid=round(Math.max(0,m.price-width/2)),ask=round(Math.max(bid+.01,m.price+width/2));

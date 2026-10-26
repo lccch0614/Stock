@@ -1,0 +1,1 @@
+Technical abort in first run: a closed option group retained an open plan until the next closing review. Immediate re-entry was rejected by createPlan. No alternate market seed or financial-policy change. The full attempt is replayed from the identical initial save after fixing plan lifecycle. No completed score from this aborted process.

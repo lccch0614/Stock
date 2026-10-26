@@ -1,0 +1,5 @@
+PASS challenge final exported save loads with exact cash, deadline and empty portfolio
+PASS challenge entire ledger contains only genuine option cashflows and reconciles to ending cash
+PASS challenge first manifest matches shipped production engine and unchanged public policy
+PASS exact deterministic replay reproduces every option fill, cash ledger and daily equity
+4/4 playthrough checks passed

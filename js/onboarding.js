@@ -15,6 +15,7 @@ async function startTutorial(){
  if(tutorialSession){view='tutorial';render();return}
  setSpeed(0);await saveQueue;
  state.tutorial={status:'active',step:0};await persist();
+ selectedReportDay=null;briefPage=0;holdingsPanelOpen=false;
  tutorialSession={career:state,view,ticker,derivativeTicker,optionKind,optionDte,optionStrike,selectedStrategy,strategyLow,strategyHigh,strategyQty};
  state=migrate(initial(2300));state.tutorial={status:'active',step:0};
  ticker='NVXT';derivativeTicker='AURB';optionKind='call';optionDte=30;optionStrike=55;selectedStrategy='bull_call';strategyLow=50;strategyHigh=60;strategyQty=1;
@@ -23,7 +24,7 @@ async function startTutorial(){
 async function exitTutorial(){
  if(!tutorialSession)return;
  setSpeed(0);const step=state.tutorial.step,finished=step>=LESSONS.length,session=tutorialSession;
- state=session.career;state.tutorial={status:finished?'completed':'skipped',step};tutorialSession=null;
+ selectedReportDay=null;briefPage=0;holdingsPanelOpen=false;state=session.career;state.tutorial={status:finished?'completed':'skipped',step};tutorialSession=null;
  for(const key of ['view','ticker','derivativeTicker','optionKind','optionDte','optionStrike','selectedStrategy','strategyLow','strategyHigh','strategyQty']){
   if(key==='view')view=session[key];if(key==='ticker')ticker=session[key];if(key==='derivativeTicker')derivativeTicker=session[key];if(key==='optionKind')optionKind=session[key];if(key==='optionDte')optionDte=session[key];if(key==='optionStrike')optionStrike=session[key];if(key==='selectedStrategy')selectedStrategy=session[key];if(key==='strategyLow')strategyLow=session[key];if(key==='strategyHigh')strategyHigh=session[key];if(key==='strategyQty')strategyQty=session[key];
  }

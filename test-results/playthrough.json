@@ -1,0 +1,23 @@
+{
+  "suite": "Audited 60-day options-only playthrough",
+  "passed": 4,
+  "failed": 0,
+  "results": [
+    {
+      "name": "challenge final exported save loads with exact cash, deadline and empty portfolio",
+      "passed": true
+    },
+    {
+      "name": "challenge entire ledger contains only genuine option cashflows and reconciles to ending cash",
+      "passed": true
+    },
+    {
+      "name": "challenge first manifest matches shipped production engine and unchanged public policy",
+      "passed": true
+    },
+    {
+      "name": "exact deterministic replay reproduces every option fill, cash ledger and daily equity",
+      "passed": true
+    }
+  ]
+}

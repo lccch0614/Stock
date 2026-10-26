@@ -1,0 +1,6063 @@
+[
+  {
+    "day": 0,
+    "equity": 9802,
+    "cash": 11402,
+    "available": 2402,
+    "lockedCash": 9000,
+    "liquidationEquity": 9766,
+    "openGroups": [
+      {
+        "id": "GRP-2",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 4,
+        "pnl": -28
+      },
+      {
+        "id": "GRP-8",
+        "ticker": "QBIT",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": -80
+      },
+      {
+        "id": "GRP-14",
+        "ticker": "SOLR",
+        "strategy": "bull_put",
+        "qty": 4,
+        "pnl": -36
+      },
+      {
+        "id": "GRP-20",
+        "ticker": "NVXT",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": -90
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 128
+      },
+      {
+        "ticker": "QBIT",
+        "price": 92
+      },
+      {
+        "ticker": "CLDD",
+        "price": 78
+      },
+      {
+        "ticker": "AURB",
+        "price": 55
+      },
+      {
+        "ticker": "VFIN",
+        "price": 71
+      },
+      {
+        "ticker": "PETR",
+        "price": 82
+      },
+      {
+        "ticker": "SOLR",
+        "price": 47
+      },
+      {
+        "ticker": "MEDX",
+        "price": 113
+      },
+      {
+        "ticker": "BIOV",
+        "price": 34
+      },
+      {
+        "ticker": "RTHB",
+        "price": 63
+      },
+      {
+        "ticker": "FDSN",
+        "price": 52
+      },
+      {
+        "ticker": "INDM",
+        "price": 88
+      },
+      {
+        "ticker": "LOGX",
+        "price": 59
+      },
+      {
+        "ticker": "UTIL",
+        "price": 44
+      },
+      {
+        "ticker": "WTRS",
+        "price": 39
+      }
+    ],
+    "riskScore": 83
+  },
+  {
+    "day": 1,
+    "equity": 9817,
+    "cash": 11402,
+    "available": 2402,
+    "lockedCash": 9000,
+    "liquidationEquity": 9781,
+    "openGroups": [
+      {
+        "id": "GRP-2",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 4,
+        "pnl": -4
+      },
+      {
+        "id": "GRP-8",
+        "ticker": "QBIT",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": -220
+      },
+      {
+        "id": "GRP-14",
+        "ticker": "SOLR",
+        "strategy": "bull_put",
+        "qty": 4,
+        "pnl": 80
+      },
+      {
+        "id": "GRP-20",
+        "ticker": "NVXT",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": -75
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 127.74
+      },
+      {
+        "ticker": "QBIT",
+        "price": 90.57
+      },
+      {
+        "ticker": "CLDD",
+        "price": 77.54
+      },
+      {
+        "ticker": "AURB",
+        "price": 54.99
+      },
+      {
+        "ticker": "VFIN",
+        "price": 70.52
+      },
+      {
+        "ticker": "PETR",
+        "price": 81.7
+      },
+      {
+        "ticker": "SOLR",
+        "price": 48.19
+      },
+      {
+        "ticker": "MEDX",
+        "price": 112.01
+      },
+      {
+        "ticker": "BIOV",
+        "price": 34.8
+      },
+      {
+        "ticker": "RTHB",
+        "price": 63.39
+      },
+      {
+        "ticker": "FDSN",
+        "price": 52.46
+      },
+      {
+        "ticker": "INDM",
+        "price": 87.33
+      },
+      {
+        "ticker": "LOGX",
+        "price": 59.8
+      },
+      {
+        "ticker": "UTIL",
+        "price": 44.18
+      },
+      {
+        "ticker": "WTRS",
+        "price": 38.99
+      }
+    ],
+    "riskScore": 83
+  },
+  {
+    "day": 2,
+    "equity": 9525,
+    "cash": 11402,
+    "available": 2402,
+    "lockedCash": 9000,
+    "liquidationEquity": 9489,
+    "openGroups": [
+      {
+        "id": "GRP-2",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 4,
+        "pnl": 12
+      },
+      {
+        "id": "GRP-8",
+        "ticker": "QBIT",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": -695
+      },
+      {
+        "id": "GRP-14",
+        "ticker": "SOLR",
+        "strategy": "bull_put",
+        "qty": 4,
+        "pnl": 112
+      },
+      {
+        "id": "GRP-20",
+        "ticker": "NVXT",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": 60
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 128.66
+      },
+      {
+        "ticker": "QBIT",
+        "price": 87.64
+      },
+      {
+        "ticker": "CLDD",
+        "price": 77.84
+      },
+      {
+        "ticker": "AURB",
+        "price": 54.53
+      },
+      {
+        "ticker": "VFIN",
+        "price": 71.49
+      },
+      {
+        "ticker": "PETR",
+        "price": 82.57
+      },
+      {
+        "ticker": "SOLR",
+        "price": 48.31
+      },
+      {
+        "ticker": "MEDX",
+        "price": 111.43
+      },
+      {
+        "ticker": "BIOV",
+        "price": 35.8
+      },
+      {
+        "ticker": "RTHB",
+        "price": 64.49
+      },
+      {
+        "ticker": "FDSN",
+        "price": 53.3
+      },
+      {
+        "ticker": "INDM",
+        "price": 89.85
+      },
+      {
+        "ticker": "LOGX",
+        "price": 60
+      },
+      {
+        "ticker": "UTIL",
+        "price": 43.94
+      },
+      {
+        "ticker": "WTRS",
+        "price": 38.97
+      }
+    ],
+    "riskScore": 81
+  },
+  {
+    "day": 3,
+    "equity": 9400,
+    "cash": 11402,
+    "available": 2402,
+    "lockedCash": 9000,
+    "liquidationEquity": 9364,
+    "openGroups": [
+      {
+        "id": "GRP-2",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 4,
+        "pnl": 12
+      },
+      {
+        "id": "GRP-8",
+        "ticker": "QBIT",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": -1010
+      },
+      {
+        "id": "GRP-14",
+        "ticker": "SOLR",
+        "strategy": "bull_put",
+        "qty": 4,
+        "pnl": 132
+      },
+      {
+        "id": "GRP-20",
+        "ticker": "NVXT",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": 230
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 129.94
+      },
+      {
+        "ticker": "QBIT",
+        "price": 86.1
+      },
+      {
+        "ticker": "CLDD",
+        "price": 77.83
+      },
+      {
+        "ticker": "AURB",
+        "price": 54.31
+      },
+      {
+        "ticker": "VFIN",
+        "price": 70.4
+      },
+      {
+        "ticker": "PETR",
+        "price": 82.28
+      },
+      {
+        "ticker": "SOLR",
+        "price": 48.2
+      },
+      {
+        "ticker": "MEDX",
+        "price": 111.84
+      },
+      {
+        "ticker": "BIOV",
+        "price": 35.02
+      },
+      {
+        "ticker": "RTHB",
+        "price": 63.95
+      },
+      {
+        "ticker": "FDSN",
+        "price": 53.46
+      },
+      {
+        "ticker": "INDM",
+        "price": 88.38
+      },
+      {
+        "ticker": "LOGX",
+        "price": 61.24
+      },
+      {
+        "ticker": "UTIL",
+        "price": 43.56
+      },
+      {
+        "ticker": "WTRS",
+        "price": 39.16
+      }
+    ],
+    "riskScore": 79
+  },
+  {
+    "day": 4,
+    "equity": 10160,
+    "cash": 12300,
+    "available": 3300,
+    "lockedCash": 9000,
+    "liquidationEquity": 10124,
+    "openGroups": [
+      {
+        "id": "GRP-2",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 4,
+        "pnl": 16
+      },
+      {
+        "id": "GRP-8",
+        "ticker": "QBIT",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": -380
+      },
+      {
+        "id": "GRP-30",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 4,
+        "pnl": -40
+      },
+      {
+        "id": "GRP-36",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -110
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 133.55
+      },
+      {
+        "ticker": "QBIT",
+        "price": 88.95
+      },
+      {
+        "ticker": "CLDD",
+        "price": 80.56
+      },
+      {
+        "ticker": "AURB",
+        "price": 54.44
+      },
+      {
+        "ticker": "VFIN",
+        "price": 69.72
+      },
+      {
+        "ticker": "PETR",
+        "price": 84.2
+      },
+      {
+        "ticker": "SOLR",
+        "price": 48.7
+      },
+      {
+        "ticker": "MEDX",
+        "price": 110.59
+      },
+      {
+        "ticker": "BIOV",
+        "price": 35.35
+      },
+      {
+        "ticker": "RTHB",
+        "price": 64.93
+      },
+      {
+        "ticker": "FDSN",
+        "price": 53.59
+      },
+      {
+        "ticker": "INDM",
+        "price": 88.4
+      },
+      {
+        "ticker": "LOGX",
+        "price": 61.17
+      },
+      {
+        "ticker": "UTIL",
+        "price": 43.69
+      },
+      {
+        "ticker": "WTRS",
+        "price": 39.17
+      }
+    ],
+    "riskScore": 80
+  },
+  {
+    "day": 5,
+    "equity": 10361,
+    "cash": 12300,
+    "available": 3300,
+    "lockedCash": 9000,
+    "liquidationEquity": 10325,
+    "openGroups": [
+      {
+        "id": "GRP-2",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 4,
+        "pnl": 16
+      },
+      {
+        "id": "GRP-8",
+        "ticker": "QBIT",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": -245
+      },
+      {
+        "id": "GRP-30",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 4,
+        "pnl": 16
+      },
+      {
+        "id": "GRP-36",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -100
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 133.77
+      },
+      {
+        "ticker": "QBIT",
+        "price": 89.27
+      },
+      {
+        "ticker": "CLDD",
+        "price": 81.08
+      },
+      {
+        "ticker": "AURB",
+        "price": 54.38
+      },
+      {
+        "ticker": "VFIN",
+        "price": 69.43
+      },
+      {
+        "ticker": "PETR",
+        "price": 85.21
+      },
+      {
+        "ticker": "SOLR",
+        "price": 48.53
+      },
+      {
+        "ticker": "MEDX",
+        "price": 110.98
+      },
+      {
+        "ticker": "BIOV",
+        "price": 35.64
+      },
+      {
+        "ticker": "RTHB",
+        "price": 62.94
+      },
+      {
+        "ticker": "FDSN",
+        "price": 52.69
+      },
+      {
+        "ticker": "INDM",
+        "price": 88.94
+      },
+      {
+        "ticker": "LOGX",
+        "price": 61.82
+      },
+      {
+        "ticker": "UTIL",
+        "price": 43.88
+      },
+      {
+        "ticker": "WTRS",
+        "price": 39.84
+      }
+    ],
+    "riskScore": 80
+  },
+  {
+    "day": 6,
+    "equity": 10608,
+    "cash": 12300,
+    "available": 3300,
+    "lockedCash": 9000,
+    "liquidationEquity": 10572,
+    "openGroups": [
+      {
+        "id": "GRP-2",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 4,
+        "pnl": 16
+      },
+      {
+        "id": "GRP-8",
+        "ticker": "QBIT",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": -20
+      },
+      {
+        "id": "GRP-30",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 4,
+        "pnl": 88
+      },
+      {
+        "id": "GRP-36",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -150
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 134.46
+      },
+      {
+        "ticker": "QBIT",
+        "price": 89.64
+      },
+      {
+        "ticker": "CLDD",
+        "price": 81.23
+      },
+      {
+        "ticker": "AURB",
+        "price": 54.01
+      },
+      {
+        "ticker": "VFIN",
+        "price": 70.59
+      },
+      {
+        "ticker": "PETR",
+        "price": 87.28
+      },
+      {
+        "ticker": "SOLR",
+        "price": 48.18
+      },
+      {
+        "ticker": "MEDX",
+        "price": 111.93
+      },
+      {
+        "ticker": "BIOV",
+        "price": 37.28
+      },
+      {
+        "ticker": "RTHB",
+        "price": 62.28
+      },
+      {
+        "ticker": "FDSN",
+        "price": 52.32
+      },
+      {
+        "ticker": "INDM",
+        "price": 91.21
+      },
+      {
+        "ticker": "LOGX",
+        "price": 60.49
+      },
+      {
+        "ticker": "UTIL",
+        "price": 44.64
+      },
+      {
+        "ticker": "WTRS",
+        "price": 40
+      }
+    ],
+    "riskScore": 80
+  },
+  {
+    "day": 7,
+    "equity": 11229,
+    "cash": 13120,
+    "available": 3620,
+    "lockedCash": 9500,
+    "liquidationEquity": 11191,
+    "openGroups": [
+      {
+        "id": "GRP-30",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 4,
+        "pnl": 220
+      },
+      {
+        "id": "GRP-36",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -165
+      },
+      {
+        "id": "GRP-46",
+        "ticker": "BIOV",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -45
+      },
+      {
+        "id": "GRP-52",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -80
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 134.85
+      },
+      {
+        "ticker": "QBIT",
+        "price": 92.56
+      },
+      {
+        "ticker": "CLDD",
+        "price": 82.83
+      },
+      {
+        "ticker": "AURB",
+        "price": 54.08
+      },
+      {
+        "ticker": "VFIN",
+        "price": 71.36
+      },
+      {
+        "ticker": "PETR",
+        "price": 88.52
+      },
+      {
+        "ticker": "SOLR",
+        "price": 46.97
+      },
+      {
+        "ticker": "MEDX",
+        "price": 112.63
+      },
+      {
+        "ticker": "BIOV",
+        "price": 38.06
+      },
+      {
+        "ticker": "RTHB",
+        "price": 61.88
+      },
+      {
+        "ticker": "FDSN",
+        "price": 53.09
+      },
+      {
+        "ticker": "INDM",
+        "price": 91.73
+      },
+      {
+        "ticker": "LOGX",
+        "price": 60.53
+      },
+      {
+        "ticker": "UTIL",
+        "price": 44.52
+      },
+      {
+        "ticker": "WTRS",
+        "price": 40.02
+      }
+    ],
+    "riskScore": 80
+  },
+  {
+    "day": 8,
+    "equity": 11207,
+    "cash": 13120,
+    "available": 3620,
+    "lockedCash": 9500,
+    "liquidationEquity": 11169,
+    "openGroups": [
+      {
+        "id": "GRP-30",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 4,
+        "pnl": 148
+      },
+      {
+        "id": "GRP-36",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -350
+      },
+      {
+        "id": "GRP-46",
+        "ticker": "BIOV",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 70
+      },
+      {
+        "id": "GRP-52",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 40
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 136.24
+      },
+      {
+        "ticker": "QBIT",
+        "price": 91.83
+      },
+      {
+        "ticker": "CLDD",
+        "price": 82.06
+      },
+      {
+        "ticker": "AURB",
+        "price": 53.47
+      },
+      {
+        "ticker": "VFIN",
+        "price": 71.38
+      },
+      {
+        "ticker": "PETR",
+        "price": 88.41
+      },
+      {
+        "ticker": "SOLR",
+        "price": 48.45
+      },
+      {
+        "ticker": "MEDX",
+        "price": 113.92
+      },
+      {
+        "ticker": "BIOV",
+        "price": 37.36
+      },
+      {
+        "ticker": "RTHB",
+        "price": 61.54
+      },
+      {
+        "ticker": "FDSN",
+        "price": 53.53
+      },
+      {
+        "ticker": "INDM",
+        "price": 91.18
+      },
+      {
+        "ticker": "LOGX",
+        "price": 61.29
+      },
+      {
+        "ticker": "UTIL",
+        "price": 45.08
+      },
+      {
+        "ticker": "WTRS",
+        "price": 40.04
+      }
+    ],
+    "riskScore": 80
+  },
+  {
+    "day": 9,
+    "equity": 11659,
+    "cash": 13304,
+    "available": 3304,
+    "lockedCash": 10000,
+    "liquidationEquity": 11619,
+    "openGroups": [
+      {
+        "id": "GRP-36",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -110
+      },
+      {
+        "id": "GRP-46",
+        "ticker": "BIOV",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 195
+      },
+      {
+        "id": "GRP-52",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 70
+      },
+      {
+        "id": "GRP-60",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -45
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 135.26
+      },
+      {
+        "ticker": "QBIT",
+        "price": 92.05
+      },
+      {
+        "ticker": "CLDD",
+        "price": 81.58
+      },
+      {
+        "ticker": "AURB",
+        "price": 52.19
+      },
+      {
+        "ticker": "VFIN",
+        "price": 71.02
+      },
+      {
+        "ticker": "PETR",
+        "price": 88.91
+      },
+      {
+        "ticker": "SOLR",
+        "price": 47.68
+      },
+      {
+        "ticker": "MEDX",
+        "price": 113.3
+      },
+      {
+        "ticker": "BIOV",
+        "price": 36.3
+      },
+      {
+        "ticker": "RTHB",
+        "price": 60.56
+      },
+      {
+        "ticker": "FDSN",
+        "price": 54.44
+      },
+      {
+        "ticker": "INDM",
+        "price": 92.15
+      },
+      {
+        "ticker": "LOGX",
+        "price": 62.35
+      },
+      {
+        "ticker": "UTIL",
+        "price": 44.98
+      },
+      {
+        "ticker": "WTRS",
+        "price": 39.45
+      }
+    ],
+    "riskScore": 80
+  },
+  {
+    "day": 10,
+    "equity": 11354,
+    "cash": 13299,
+    "available": 3799,
+    "lockedCash": 9500,
+    "liquidationEquity": 11316,
+    "openGroups": [
+      {
+        "id": "GRP-36",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 405
+      },
+      {
+        "id": "GRP-52",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -690
+      },
+      {
+        "id": "GRP-60",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -125
+      },
+      {
+        "id": "GRP-68",
+        "ticker": "BIOV",
+        "strategy": "bear_call",
+        "qty": 4,
+        "pnl": -28
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 133.25
+      },
+      {
+        "ticker": "QBIT",
+        "price": 97.15
+      },
+      {
+        "ticker": "CLDD",
+        "price": 83.97
+      },
+      {
+        "ticker": "AURB",
+        "price": 52.46
+      },
+      {
+        "ticker": "VFIN",
+        "price": 71.12
+      },
+      {
+        "ticker": "PETR",
+        "price": 88.36
+      },
+      {
+        "ticker": "SOLR",
+        "price": 48.55
+      },
+      {
+        "ticker": "MEDX",
+        "price": 115.6
+      },
+      {
+        "ticker": "BIOV",
+        "price": 35.12
+      },
+      {
+        "ticker": "RTHB",
+        "price": 59.34
+      },
+      {
+        "ticker": "FDSN",
+        "price": 54.65
+      },
+      {
+        "ticker": "INDM",
+        "price": 93.22
+      },
+      {
+        "ticker": "LOGX",
+        "price": 61.32
+      },
+      {
+        "ticker": "UTIL",
+        "price": 45.15
+      },
+      {
+        "ticker": "WTRS",
+        "price": 39.77
+      }
+    ],
+    "riskScore": 80
+  },
+  {
+    "day": 11,
+    "equity": 11534,
+    "cash": 13739,
+    "available": 4239,
+    "lockedCash": 9500,
+    "liquidationEquity": 11496,
+    "openGroups": [
+      {
+        "id": "GRP-52",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -1015
+      },
+      {
+        "id": "GRP-60",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 120
+      },
+      {
+        "id": "GRP-68",
+        "ticker": "BIOV",
+        "strategy": "bear_call",
+        "qty": 4,
+        "pnl": -8
+      },
+      {
+        "id": "GRP-76",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -80
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 135.02
+      },
+      {
+        "ticker": "QBIT",
+        "price": 98.79
+      },
+      {
+        "ticker": "CLDD",
+        "price": 81.97
+      },
+      {
+        "ticker": "AURB",
+        "price": 53.04
+      },
+      {
+        "ticker": "VFIN",
+        "price": 70.87
+      },
+      {
+        "ticker": "PETR",
+        "price": 87.02
+      },
+      {
+        "ticker": "SOLR",
+        "price": 46.42
+      },
+      {
+        "ticker": "MEDX",
+        "price": 116.05
+      },
+      {
+        "ticker": "BIOV",
+        "price": 34.41
+      },
+      {
+        "ticker": "RTHB",
+        "price": 59.03
+      },
+      {
+        "ticker": "FDSN",
+        "price": 54.86
+      },
+      {
+        "ticker": "INDM",
+        "price": 92.27
+      },
+      {
+        "ticker": "LOGX",
+        "price": 62.16
+      },
+      {
+        "ticker": "UTIL",
+        "price": 44.89
+      },
+      {
+        "ticker": "WTRS",
+        "price": 39.97
+      }
+    ],
+    "riskScore": 80
+  },
+  {
+    "day": 12,
+    "equity": 11626,
+    "cash": 13739,
+    "available": 4239,
+    "lockedCash": 9500,
+    "liquidationEquity": 11588,
+    "openGroups": [
+      {
+        "id": "GRP-52",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -775
+      },
+      {
+        "id": "GRP-60",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 175
+      },
+      {
+        "id": "GRP-68",
+        "ticker": "BIOV",
+        "strategy": "bear_call",
+        "qty": 4,
+        "pnl": 4
+      },
+      {
+        "id": "GRP-76",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -295
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 137.77
+      },
+      {
+        "ticker": "QBIT",
+        "price": 97.62
+      },
+      {
+        "ticker": "CLDD",
+        "price": 80.26
+      },
+      {
+        "ticker": "AURB",
+        "price": 53.22
+      },
+      {
+        "ticker": "VFIN",
+        "price": 69.34
+      },
+      {
+        "ticker": "PETR",
+        "price": 83.73
+      },
+      {
+        "ticker": "SOLR",
+        "price": 45.96
+      },
+      {
+        "ticker": "MEDX",
+        "price": 117.3
+      },
+      {
+        "ticker": "BIOV",
+        "price": 33.86
+      },
+      {
+        "ticker": "RTHB",
+        "price": 59.02
+      },
+      {
+        "ticker": "FDSN",
+        "price": 53.96
+      },
+      {
+        "ticker": "INDM",
+        "price": 91.15
+      },
+      {
+        "ticker": "LOGX",
+        "price": 62.66
+      },
+      {
+        "ticker": "UTIL",
+        "price": 45.13
+      },
+      {
+        "ticker": "WTRS",
+        "price": 40.16
+      }
+    ],
+    "riskScore": 80
+  },
+  {
+    "day": 13,
+    "equity": 11910,
+    "cash": 14159,
+    "available": 4659,
+    "lockedCash": 9500,
+    "liquidationEquity": 11872,
+    "openGroups": [
+      {
+        "id": "GRP-52",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -855
+      },
+      {
+        "id": "GRP-68",
+        "ticker": "BIOV",
+        "strategy": "bear_call",
+        "qty": 4,
+        "pnl": 8
+      },
+      {
+        "id": "GRP-76",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 85
+      },
+      {
+        "id": "GRP-84",
+        "ticker": "SOLR",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": -50
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 134.02
+      },
+      {
+        "ticker": "QBIT",
+        "price": 97.84
+      },
+      {
+        "ticker": "CLDD",
+        "price": 80.13
+      },
+      {
+        "ticker": "AURB",
+        "price": 52.57
+      },
+      {
+        "ticker": "VFIN",
+        "price": 69.27
+      },
+      {
+        "ticker": "PETR",
+        "price": 83.31
+      },
+      {
+        "ticker": "SOLR",
+        "price": 45.76
+      },
+      {
+        "ticker": "MEDX",
+        "price": 116.37
+      },
+      {
+        "ticker": "BIOV",
+        "price": 33.33
+      },
+      {
+        "ticker": "RTHB",
+        "price": 58.17
+      },
+      {
+        "ticker": "FDSN",
+        "price": 52.82
+      },
+      {
+        "ticker": "INDM",
+        "price": 90.57
+      },
+      {
+        "ticker": "LOGX",
+        "price": 63.66
+      },
+      {
+        "ticker": "UTIL",
+        "price": 45.02
+      },
+      {
+        "ticker": "WTRS",
+        "price": 40.01
+      }
+    ],
+    "riskScore": 80
+  },
+  {
+    "day": 14,
+    "equity": 10745,
+    "cash": 12094,
+    "available": 2594,
+    "lockedCash": 9500,
+    "liquidationEquity": 10707,
+    "openGroups": [
+      {
+        "id": "GRP-68",
+        "ticker": "BIOV",
+        "strategy": "bear_call",
+        "qty": 4,
+        "pnl": 8
+      },
+      {
+        "id": "GRP-76",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 160
+      },
+      {
+        "id": "GRP-84",
+        "ticker": "SOLR",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": -125
+      },
+      {
+        "id": "GRP-92",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -70
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 133.81
+      },
+      {
+        "ticker": "QBIT",
+        "price": 100.46
+      },
+      {
+        "ticker": "CLDD",
+        "price": 81.27
+      },
+      {
+        "ticker": "AURB",
+        "price": 52.93
+      },
+      {
+        "ticker": "VFIN",
+        "price": 69.06
+      },
+      {
+        "ticker": "PETR",
+        "price": 83.24
+      },
+      {
+        "ticker": "SOLR",
+        "price": 45.16
+      },
+      {
+        "ticker": "MEDX",
+        "price": 116.3
+      },
+      {
+        "ticker": "BIOV",
+        "price": 33.71
+      },
+      {
+        "ticker": "RTHB",
+        "price": 59.03
+      },
+      {
+        "ticker": "FDSN",
+        "price": 52.96
+      },
+      {
+        "ticker": "INDM",
+        "price": 90.59
+      },
+      {
+        "ticker": "LOGX",
+        "price": 64.4
+      },
+      {
+        "ticker": "UTIL",
+        "price": 45.79
+      },
+      {
+        "ticker": "WTRS",
+        "price": 39.98
+      }
+    ],
+    "riskScore": 77
+  },
+  {
+    "day": 15,
+    "equity": 11190,
+    "cash": 12094,
+    "available": 2594,
+    "lockedCash": 9500,
+    "liquidationEquity": 11152,
+    "openGroups": [
+      {
+        "id": "GRP-68",
+        "ticker": "BIOV",
+        "strategy": "bear_call",
+        "qty": 4,
+        "pnl": 8
+      },
+      {
+        "id": "GRP-76",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 45
+      },
+      {
+        "id": "GRP-84",
+        "ticker": "SOLR",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": 245
+      },
+      {
+        "id": "GRP-92",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 120
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 136.24
+      },
+      {
+        "ticker": "QBIT",
+        "price": 98.51
+      },
+      {
+        "ticker": "CLDD",
+        "price": 82.3
+      },
+      {
+        "ticker": "AURB",
+        "price": 54.81
+      },
+      {
+        "ticker": "VFIN",
+        "price": 72
+      },
+      {
+        "ticker": "PETR",
+        "price": 86.46
+      },
+      {
+        "ticker": "SOLR",
+        "price": 47.13
+      },
+      {
+        "ticker": "MEDX",
+        "price": 120.67
+      },
+      {
+        "ticker": "BIOV",
+        "price": 34.98
+      },
+      {
+        "ticker": "RTHB",
+        "price": 59.99
+      },
+      {
+        "ticker": "FDSN",
+        "price": 54.12
+      },
+      {
+        "ticker": "INDM",
+        "price": 91.94
+      },
+      {
+        "ticker": "LOGX",
+        "price": 64.65
+      },
+      {
+        "ticker": "UTIL",
+        "price": 46.61
+      },
+      {
+        "ticker": "WTRS",
+        "price": 40.21
+      }
+    ],
+    "riskScore": 77
+  },
+  {
+    "day": 16,
+    "equity": 11395,
+    "cash": 12094,
+    "available": 2594,
+    "lockedCash": 9500,
+    "liquidationEquity": 11357,
+    "openGroups": [
+      {
+        "id": "GRP-68",
+        "ticker": "BIOV",
+        "strategy": "bear_call",
+        "qty": 4,
+        "pnl": 8
+      },
+      {
+        "id": "GRP-76",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -60
+      },
+      {
+        "id": "GRP-84",
+        "ticker": "SOLR",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": 340
+      },
+      {
+        "id": "GRP-92",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 335
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 138.12
+      },
+      {
+        "ticker": "QBIT",
+        "price": 95.12
+      },
+      {
+        "ticker": "CLDD",
+        "price": 82.06
+      },
+      {
+        "ticker": "AURB",
+        "price": 54.52
+      },
+      {
+        "ticker": "VFIN",
+        "price": 71.34
+      },
+      {
+        "ticker": "PETR",
+        "price": 87.3
+      },
+      {
+        "ticker": "SOLR",
+        "price": 47.81
+      },
+      {
+        "ticker": "MEDX",
+        "price": 122.5
+      },
+      {
+        "ticker": "BIOV",
+        "price": 33.65
+      },
+      {
+        "ticker": "RTHB",
+        "price": 58.68
+      },
+      {
+        "ticker": "FDSN",
+        "price": 53.13
+      },
+      {
+        "ticker": "INDM",
+        "price": 89.34
+      },
+      {
+        "ticker": "LOGX",
+        "price": 65.22
+      },
+      {
+        "ticker": "UTIL",
+        "price": 46.49
+      },
+      {
+        "ticker": "WTRS",
+        "price": 40.01
+      }
+    ],
+    "riskScore": 77
+  },
+  {
+    "day": 17,
+    "equity": 10088,
+    "cash": 13052,
+    "available": 3552,
+    "lockedCash": 9500,
+    "liquidationEquity": 10050,
+    "openGroups": [
+      {
+        "id": "GRP-76",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -1050
+      },
+      {
+        "id": "GRP-92",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 50
+      },
+      {
+        "id": "GRP-102",
+        "ticker": "BIOV",
+        "strategy": "bear_call",
+        "qty": 4,
+        "pnl": -44
+      },
+      {
+        "id": "GRP-108",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -65
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 143.38
+      },
+      {
+        "ticker": "QBIT",
+        "price": 99.77
+      },
+      {
+        "ticker": "CLDD",
+        "price": 83.96
+      },
+      {
+        "ticker": "AURB",
+        "price": 55.03
+      },
+      {
+        "ticker": "VFIN",
+        "price": 72.49
+      },
+      {
+        "ticker": "PETR",
+        "price": 84.78
+      },
+      {
+        "ticker": "SOLR",
+        "price": 49.71
+      },
+      {
+        "ticker": "MEDX",
+        "price": 120.93
+      },
+      {
+        "ticker": "BIOV",
+        "price": 34.38
+      },
+      {
+        "ticker": "RTHB",
+        "price": 59.23
+      },
+      {
+        "ticker": "FDSN",
+        "price": 53.95
+      },
+      {
+        "ticker": "INDM",
+        "price": 90.13
+      },
+      {
+        "ticker": "LOGX",
+        "price": 66.92
+      },
+      {
+        "ticker": "UTIL",
+        "price": 47.18
+      },
+      {
+        "ticker": "WTRS",
+        "price": 40.55
+      }
+    ],
+    "riskScore": 72
+  },
+  {
+    "day": 18,
+    "equity": 8724,
+    "cash": 11837,
+    "available": 2337,
+    "lockedCash": 9500,
+    "liquidationEquity": 8686,
+    "openGroups": [
+      {
+        "id": "GRP-92",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -15
+      },
+      {
+        "id": "GRP-102",
+        "ticker": "BIOV",
+        "strategy": "bear_call",
+        "qty": 4,
+        "pnl": -368
+      },
+      {
+        "id": "GRP-108",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -310
+      },
+      {
+        "id": "GRP-116",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -160
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 144.14
+      },
+      {
+        "ticker": "QBIT",
+        "price": 101.42
+      },
+      {
+        "ticker": "CLDD",
+        "price": 83.12
+      },
+      {
+        "ticker": "AURB",
+        "price": 55.67
+      },
+      {
+        "ticker": "VFIN",
+        "price": 74.38
+      },
+      {
+        "ticker": "PETR",
+        "price": 85.9
+      },
+      {
+        "ticker": "SOLR",
+        "price": 51.02
+      },
+      {
+        "ticker": "MEDX",
+        "price": 120.72
+      },
+      {
+        "ticker": "BIOV",
+        "price": 36.17
+      },
+      {
+        "ticker": "RTHB",
+        "price": 59.63
+      },
+      {
+        "ticker": "FDSN",
+        "price": 54.27
+      },
+      {
+        "ticker": "INDM",
+        "price": 88.43
+      },
+      {
+        "ticker": "LOGX",
+        "price": 66.55
+      },
+      {
+        "ticker": "UTIL",
+        "price": 46.72
+      },
+      {
+        "ticker": "WTRS",
+        "price": 40.92
+      }
+    ],
+    "riskScore": 61
+  },
+  {
+    "day": 19,
+    "equity": 9139,
+    "cash": 11837,
+    "available": 2337,
+    "lockedCash": 9500,
+    "liquidationEquity": 9101,
+    "openGroups": [
+      {
+        "id": "GRP-92",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 210
+      },
+      {
+        "id": "GRP-102",
+        "ticker": "BIOV",
+        "strategy": "bear_call",
+        "qty": 4,
+        "pnl": -28
+      },
+      {
+        "id": "GRP-108",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -335
+      },
+      {
+        "id": "GRP-116",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -285
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 145.6
+      },
+      {
+        "ticker": "QBIT",
+        "price": 100.05
+      },
+      {
+        "ticker": "CLDD",
+        "price": 82.49
+      },
+      {
+        "ticker": "AURB",
+        "price": 55.42
+      },
+      {
+        "ticker": "VFIN",
+        "price": 75.14
+      },
+      {
+        "ticker": "PETR",
+        "price": 86.78
+      },
+      {
+        "ticker": "SOLR",
+        "price": 51.23
+      },
+      {
+        "ticker": "MEDX",
+        "price": 121.12
+      },
+      {
+        "ticker": "BIOV",
+        "price": 34.66
+      },
+      {
+        "ticker": "RTHB",
+        "price": 60.56
+      },
+      {
+        "ticker": "FDSN",
+        "price": 54.47
+      },
+      {
+        "ticker": "INDM",
+        "price": 88.62
+      },
+      {
+        "ticker": "LOGX",
+        "price": 66.53
+      },
+      {
+        "ticker": "UTIL",
+        "price": 46.95
+      },
+      {
+        "ticker": "WTRS",
+        "price": 41.07
+      }
+    ],
+    "riskScore": 62
+  },
+  {
+    "day": 20,
+    "equity": 9768,
+    "cash": 11837,
+    "available": 2337,
+    "lockedCash": 9500,
+    "liquidationEquity": 9730,
+    "openGroups": [
+      {
+        "id": "GRP-92",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 345
+      },
+      {
+        "id": "GRP-102",
+        "ticker": "BIOV",
+        "strategy": "bear_call",
+        "qty": 4,
+        "pnl": -44
+      },
+      {
+        "id": "GRP-108",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 155
+      },
+      {
+        "id": "GRP-116",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -265
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 145.63
+      },
+      {
+        "ticker": "QBIT",
+        "price": 100.03
+      },
+      {
+        "ticker": "CLDD",
+        "price": 81.91
+      },
+      {
+        "ticker": "AURB",
+        "price": 54.83
+      },
+      {
+        "ticker": "VFIN",
+        "price": 74.44
+      },
+      {
+        "ticker": "PETR",
+        "price": 86.1
+      },
+      {
+        "ticker": "SOLR",
+        "price": 49.3
+      },
+      {
+        "ticker": "MEDX",
+        "price": 118.73
+      },
+      {
+        "ticker": "BIOV",
+        "price": 34.95
+      },
+      {
+        "ticker": "RTHB",
+        "price": 60.61
+      },
+      {
+        "ticker": "FDSN",
+        "price": 54.46
+      },
+      {
+        "ticker": "INDM",
+        "price": 87.44
+      },
+      {
+        "ticker": "LOGX",
+        "price": 65.19
+      },
+      {
+        "ticker": "UTIL",
+        "price": 46.9
+      },
+      {
+        "ticker": "WTRS",
+        "price": 41.13
+      }
+    ],
+    "riskScore": 62
+  },
+  {
+    "day": 21,
+    "equity": 10355,
+    "cash": 12527,
+    "available": 3027,
+    "lockedCash": 9500,
+    "liquidationEquity": 10317,
+    "openGroups": [
+      {
+        "id": "GRP-102",
+        "ticker": "BIOV",
+        "strategy": "bear_call",
+        "qty": 4,
+        "pnl": 88
+      },
+      {
+        "id": "GRP-108",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 260
+      },
+      {
+        "id": "GRP-116",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 100
+      },
+      {
+        "id": "GRP-124",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -105
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 142.51
+      },
+      {
+        "ticker": "QBIT",
+        "price": 97.96
+      },
+      {
+        "ticker": "CLDD",
+        "price": 82.67
+      },
+      {
+        "ticker": "AURB",
+        "price": 54.65
+      },
+      {
+        "ticker": "VFIN",
+        "price": 74.68
+      },
+      {
+        "ticker": "PETR",
+        "price": 86.02
+      },
+      {
+        "ticker": "SOLR",
+        "price": 49.12
+      },
+      {
+        "ticker": "MEDX",
+        "price": 118.33
+      },
+      {
+        "ticker": "BIOV",
+        "price": 34.5
+      },
+      {
+        "ticker": "RTHB",
+        "price": 61.76
+      },
+      {
+        "ticker": "FDSN",
+        "price": 53.7
+      },
+      {
+        "ticker": "INDM",
+        "price": 86.53
+      },
+      {
+        "ticker": "LOGX",
+        "price": 65.62
+      },
+      {
+        "ticker": "UTIL",
+        "price": 46.29
+      },
+      {
+        "ticker": "WTRS",
+        "price": 40.78
+      }
+    ],
+    "riskScore": 64
+  },
+  {
+    "day": 22,
+    "equity": 9713,
+    "cash": 12527,
+    "available": 3027,
+    "lockedCash": 9500,
+    "liquidationEquity": 9675,
+    "openGroups": [
+      {
+        "id": "GRP-102",
+        "ticker": "BIOV",
+        "strategy": "bear_call",
+        "qty": 4,
+        "pnl": 76
+      },
+      {
+        "id": "GRP-108",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -90
+      },
+      {
+        "id": "GRP-116",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 160
+      },
+      {
+        "id": "GRP-124",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -445
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 142.6
+      },
+      {
+        "ticker": "QBIT",
+        "price": 101.1
+      },
+      {
+        "ticker": "CLDD",
+        "price": 82.86
+      },
+      {
+        "ticker": "AURB",
+        "price": 55.56
+      },
+      {
+        "ticker": "VFIN",
+        "price": 74.57
+      },
+      {
+        "ticker": "PETR",
+        "price": 86.03
+      },
+      {
+        "ticker": "SOLR",
+        "price": 50.83
+      },
+      {
+        "ticker": "MEDX",
+        "price": 123.5
+      },
+      {
+        "ticker": "BIOV",
+        "price": 34.91
+      },
+      {
+        "ticker": "RTHB",
+        "price": 62.14
+      },
+      {
+        "ticker": "FDSN",
+        "price": 53.43
+      },
+      {
+        "ticker": "INDM",
+        "price": 87.36
+      },
+      {
+        "ticker": "LOGX",
+        "price": 66.7
+      },
+      {
+        "ticker": "UTIL",
+        "price": 46.44
+      },
+      {
+        "ticker": "WTRS",
+        "price": 41.13
+      }
+    ],
+    "riskScore": 64
+  },
+  {
+    "day": 23,
+    "equity": 9573,
+    "cash": 12527,
+    "available": 3027,
+    "lockedCash": 9500,
+    "liquidationEquity": 9535,
+    "openGroups": [
+      {
+        "id": "GRP-102",
+        "ticker": "BIOV",
+        "strategy": "bear_call",
+        "qty": 4,
+        "pnl": 216
+      },
+      {
+        "id": "GRP-108",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -245
+      },
+      {
+        "id": "GRP-116",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 660
+      },
+      {
+        "id": "GRP-124",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -1070
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 138.13
+      },
+      {
+        "ticker": "QBIT",
+        "price": 105.9
+      },
+      {
+        "ticker": "CLDD",
+        "price": 81.87
+      },
+      {
+        "ticker": "AURB",
+        "price": 55.8
+      },
+      {
+        "ticker": "VFIN",
+        "price": 73.4
+      },
+      {
+        "ticker": "PETR",
+        "price": 85.57
+      },
+      {
+        "ticker": "SOLR",
+        "price": 51.53
+      },
+      {
+        "ticker": "MEDX",
+        "price": 122.19
+      },
+      {
+        "ticker": "BIOV",
+        "price": 34.62
+      },
+      {
+        "ticker": "RTHB",
+        "price": 62.78
+      },
+      {
+        "ticker": "FDSN",
+        "price": 54.41
+      },
+      {
+        "ticker": "INDM",
+        "price": 85.51
+      },
+      {
+        "ticker": "LOGX",
+        "price": 66.73
+      },
+      {
+        "ticker": "UTIL",
+        "price": 47.12
+      },
+      {
+        "ticker": "WTRS",
+        "price": 41.26
+      }
+    ],
+    "riskScore": 62
+  },
+  {
+    "day": 24,
+    "equity": 10477,
+    "cash": 14175,
+    "available": 4175,
+    "lockedCash": 10000,
+    "liquidationEquity": 10437,
+    "openGroups": [
+      {
+        "id": "GRP-124",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -1095
+      },
+      {
+        "id": "GRP-136",
+        "ticker": "BIOV",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -55
+      },
+      {
+        "id": "GRP-142",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 4,
+        "pnl": -32
+      },
+      {
+        "id": "GRP-148",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 6,
+        "pnl": -168
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 134.27
+      },
+      {
+        "ticker": "QBIT",
+        "price": 105.84
+      },
+      {
+        "ticker": "CLDD",
+        "price": 82.33
+      },
+      {
+        "ticker": "AURB",
+        "price": 55.68
+      },
+      {
+        "ticker": "VFIN",
+        "price": 73.58
+      },
+      {
+        "ticker": "PETR",
+        "price": 84.67
+      },
+      {
+        "ticker": "SOLR",
+        "price": 50.04
+      },
+      {
+        "ticker": "MEDX",
+        "price": 122.61
+      },
+      {
+        "ticker": "BIOV",
+        "price": 34.98
+      },
+      {
+        "ticker": "RTHB",
+        "price": 63.1
+      },
+      {
+        "ticker": "FDSN",
+        "price": 54.52
+      },
+      {
+        "ticker": "INDM",
+        "price": 85.14
+      },
+      {
+        "ticker": "LOGX",
+        "price": 66.72
+      },
+      {
+        "ticker": "UTIL",
+        "price": 46.62
+      },
+      {
+        "ticker": "WTRS",
+        "price": 40.37
+      }
+    ],
+    "riskScore": 64
+  },
+  {
+    "day": 25,
+    "equity": 11358,
+    "cash": 14175,
+    "available": 4175,
+    "lockedCash": 10000,
+    "liquidationEquity": 11318,
+    "openGroups": [
+      {
+        "id": "GRP-124",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -525
+      },
+      {
+        "id": "GRP-136",
+        "ticker": "BIOV",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 200
+      },
+      {
+        "id": "GRP-142",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 4,
+        "pnl": 48
+      },
+      {
+        "id": "GRP-148",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 6,
+        "pnl": -192
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 134.65
+      },
+      {
+        "ticker": "QBIT",
+        "price": 101.97
+      },
+      {
+        "ticker": "CLDD",
+        "price": 81.88
+      },
+      {
+        "ticker": "AURB",
+        "price": 55.65
+      },
+      {
+        "ticker": "VFIN",
+        "price": 72.76
+      },
+      {
+        "ticker": "PETR",
+        "price": 82.95
+      },
+      {
+        "ticker": "SOLR",
+        "price": 48.07
+      },
+      {
+        "ticker": "MEDX",
+        "price": 121.58
+      },
+      {
+        "ticker": "BIOV",
+        "price": 33.71
+      },
+      {
+        "ticker": "RTHB",
+        "price": 62.59
+      },
+      {
+        "ticker": "FDSN",
+        "price": 54.33
+      },
+      {
+        "ticker": "INDM",
+        "price": 83.23
+      },
+      {
+        "ticker": "LOGX",
+        "price": 65.92
+      },
+      {
+        "ticker": "UTIL",
+        "price": 46.13
+      },
+      {
+        "ticker": "WTRS",
+        "price": 40.33
+      }
+    ],
+    "riskScore": 64
+  },
+  {
+    "day": 26,
+    "equity": 11710,
+    "cash": 14175,
+    "available": 4175,
+    "lockedCash": 10000,
+    "liquidationEquity": 11670,
+    "openGroups": [
+      {
+        "id": "GRP-124",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -530
+      },
+      {
+        "id": "GRP-136",
+        "ticker": "BIOV",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 315
+      },
+      {
+        "id": "GRP-142",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 4,
+        "pnl": 68
+      },
+      {
+        "id": "GRP-148",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 6,
+        "pnl": 30
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 133.2
+      },
+      {
+        "ticker": "QBIT",
+        "price": 102.1
+      },
+      {
+        "ticker": "CLDD",
+        "price": 80.71
+      },
+      {
+        "ticker": "AURB",
+        "price": 55.55
+      },
+      {
+        "ticker": "VFIN",
+        "price": 73.79
+      },
+      {
+        "ticker": "PETR",
+        "price": 82.3
+      },
+      {
+        "ticker": "SOLR",
+        "price": 47.78
+      },
+      {
+        "ticker": "MEDX",
+        "price": 120.99
+      },
+      {
+        "ticker": "BIOV",
+        "price": 33.22
+      },
+      {
+        "ticker": "RTHB",
+        "price": 62.78
+      },
+      {
+        "ticker": "FDSN",
+        "price": 54.25
+      },
+      {
+        "ticker": "INDM",
+        "price": 82.89
+      },
+      {
+        "ticker": "LOGX",
+        "price": 66.19
+      },
+      {
+        "ticker": "UTIL",
+        "price": 46.25
+      },
+      {
+        "ticker": "WTRS",
+        "price": 40.36
+      }
+    ],
+    "riskScore": 64
+  },
+  {
+    "day": 27,
+    "equity": 11273,
+    "cash": 14465,
+    "available": 3965,
+    "lockedCash": 10500,
+    "liquidationEquity": 11231,
+    "openGroups": [
+      {
+        "id": "GRP-124",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -1255
+      },
+      {
+        "id": "GRP-136",
+        "ticker": "BIOV",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 430
+      },
+      {
+        "id": "GRP-148",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 6,
+        "pnl": 240
+      },
+      {
+        "id": "GRP-156",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -55
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 131.97
+      },
+      {
+        "ticker": "QBIT",
+        "price": 105.1
+      },
+      {
+        "ticker": "CLDD",
+        "price": 81.88
+      },
+      {
+        "ticker": "AURB",
+        "price": 56.56
+      },
+      {
+        "ticker": "VFIN",
+        "price": 73.68
+      },
+      {
+        "ticker": "PETR",
+        "price": 81.75
+      },
+      {
+        "ticker": "SOLR",
+        "price": 47.43
+      },
+      {
+        "ticker": "MEDX",
+        "price": 123.37
+      },
+      {
+        "ticker": "BIOV",
+        "price": 32.64
+      },
+      {
+        "ticker": "RTHB",
+        "price": 62.08
+      },
+      {
+        "ticker": "FDSN",
+        "price": 54.03
+      },
+      {
+        "ticker": "INDM",
+        "price": 84.2
+      },
+      {
+        "ticker": "LOGX",
+        "price": 64.46
+      },
+      {
+        "ticker": "UTIL",
+        "price": 46.54
+      },
+      {
+        "ticker": "WTRS",
+        "price": 40.37
+      }
+    ],
+    "riskScore": 64
+  },
+  {
+    "day": 28,
+    "equity": 10211,
+    "cash": 12853,
+    "available": 2853,
+    "lockedCash": 10000,
+    "liquidationEquity": 10171,
+    "openGroups": [
+      {
+        "id": "GRP-148",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 6,
+        "pnl": -318
+      },
+      {
+        "id": "GRP-156",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 70
+      },
+      {
+        "id": "GRP-166",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 4,
+        "pnl": -32
+      },
+      {
+        "id": "GRP-172",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -125
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 136.16
+      },
+      {
+        "ticker": "QBIT",
+        "price": 108.48
+      },
+      {
+        "ticker": "CLDD",
+        "price": 82.88
+      },
+      {
+        "ticker": "AURB",
+        "price": 55.2
+      },
+      {
+        "ticker": "VFIN",
+        "price": 73.54
+      },
+      {
+        "ticker": "PETR",
+        "price": 81.58
+      },
+      {
+        "ticker": "SOLR",
+        "price": 46.62
+      },
+      {
+        "ticker": "MEDX",
+        "price": 121.62
+      },
+      {
+        "ticker": "BIOV",
+        "price": 32.02
+      },
+      {
+        "ticker": "RTHB",
+        "price": 63.19
+      },
+      {
+        "ticker": "FDSN",
+        "price": 55.21
+      },
+      {
+        "ticker": "INDM",
+        "price": 83.6
+      },
+      {
+        "ticker": "LOGX",
+        "price": 64.73
+      },
+      {
+        "ticker": "UTIL",
+        "price": 46.45
+      },
+      {
+        "ticker": "WTRS",
+        "price": 39.88
+      }
+    ],
+    "riskScore": 63
+  },
+  {
+    "day": 29,
+    "equity": 9854,
+    "cash": 12853,
+    "available": 2853,
+    "lockedCash": 10000,
+    "liquidationEquity": 9814,
+    "openGroups": [
+      {
+        "id": "GRP-148",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 6,
+        "pnl": -594
+      },
+      {
+        "id": "GRP-156",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 45
+      },
+      {
+        "id": "GRP-166",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 4,
+        "pnl": -128
+      },
+      {
+        "id": "GRP-172",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -85
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 137.68
+      },
+      {
+        "ticker": "QBIT",
+        "price": 108.39
+      },
+      {
+        "ticker": "CLDD",
+        "price": 83.11
+      },
+      {
+        "ticker": "AURB",
+        "price": 55.02
+      },
+      {
+        "ticker": "VFIN",
+        "price": 73.6
+      },
+      {
+        "ticker": "PETR",
+        "price": 82.64
+      },
+      {
+        "ticker": "SOLR",
+        "price": 47.31
+      },
+      {
+        "ticker": "MEDX",
+        "price": 120.91
+      },
+      {
+        "ticker": "BIOV",
+        "price": 30.91
+      },
+      {
+        "ticker": "RTHB",
+        "price": 62.45
+      },
+      {
+        "ticker": "FDSN",
+        "price": 55.52
+      },
+      {
+        "ticker": "INDM",
+        "price": 85.58
+      },
+      {
+        "ticker": "LOGX",
+        "price": 64.41
+      },
+      {
+        "ticker": "UTIL",
+        "price": 46.03
+      },
+      {
+        "ticker": "WTRS",
+        "price": 39.38
+      }
+    ],
+    "riskScore": 63
+  },
+  {
+    "day": 30,
+    "equity": 9973,
+    "cash": 12853,
+    "available": 2853,
+    "lockedCash": 10000,
+    "liquidationEquity": 9933,
+    "openGroups": [
+      {
+        "id": "GRP-148",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 6,
+        "pnl": -468
+      },
+      {
+        "id": "GRP-156",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 205
+      },
+      {
+        "id": "GRP-166",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 4,
+        "pnl": -80
+      },
+      {
+        "id": "GRP-172",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -300
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 137.22
+      },
+      {
+        "ticker": "QBIT",
+        "price": 110.56
+      },
+      {
+        "ticker": "CLDD",
+        "price": 81.51
+      },
+      {
+        "ticker": "AURB",
+        "price": 53.83
+      },
+      {
+        "ticker": "VFIN",
+        "price": 73.83
+      },
+      {
+        "ticker": "PETR",
+        "price": 82.84
+      },
+      {
+        "ticker": "SOLR",
+        "price": 45.94
+      },
+      {
+        "ticker": "MEDX",
+        "price": 119.52
+      },
+      {
+        "ticker": "BIOV",
+        "price": 31
+      },
+      {
+        "ticker": "RTHB",
+        "price": 61.5
+      },
+      {
+        "ticker": "FDSN",
+        "price": 55.2
+      },
+      {
+        "ticker": "INDM",
+        "price": 85.3
+      },
+      {
+        "ticker": "LOGX",
+        "price": 63.73
+      },
+      {
+        "ticker": "UTIL",
+        "price": 45.72
+      },
+      {
+        "ticker": "WTRS",
+        "price": 39.4
+      }
+    ],
+    "riskScore": 62
+  },
+  {
+    "day": 31,
+    "equity": 10287,
+    "cash": 12192,
+    "available": 2692,
+    "lockedCash": 9500,
+    "liquidationEquity": 10249,
+    "openGroups": [
+      {
+        "id": "GRP-156",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 240
+      },
+      {
+        "id": "GRP-166",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 4,
+        "pnl": -20
+      },
+      {
+        "id": "GRP-172",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -80
+      },
+      {
+        "id": "GRP-180",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -125
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 137.26
+      },
+      {
+        "ticker": "QBIT",
+        "price": 109.05
+      },
+      {
+        "ticker": "CLDD",
+        "price": 81.27
+      },
+      {
+        "ticker": "AURB",
+        "price": 54.03
+      },
+      {
+        "ticker": "VFIN",
+        "price": 74.8
+      },
+      {
+        "ticker": "PETR",
+        "price": 80.42
+      },
+      {
+        "ticker": "SOLR",
+        "price": 45.95
+      },
+      {
+        "ticker": "MEDX",
+        "price": 119.11
+      },
+      {
+        "ticker": "BIOV",
+        "price": 31.15
+      },
+      {
+        "ticker": "RTHB",
+        "price": 60.29
+      },
+      {
+        "ticker": "FDSN",
+        "price": 54.91
+      },
+      {
+        "ticker": "INDM",
+        "price": 86.12
+      },
+      {
+        "ticker": "LOGX",
+        "price": 65.26
+      },
+      {
+        "ticker": "UTIL",
+        "price": 45.69
+      },
+      {
+        "ticker": "WTRS",
+        "price": 38.85
+      }
+    ],
+    "riskScore": 62
+  },
+  {
+    "day": 32,
+    "equity": 10661,
+    "cash": 12662,
+    "available": 3162,
+    "lockedCash": 9500,
+    "liquidationEquity": 10623,
+    "openGroups": [
+      {
+        "id": "GRP-166",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 4,
+        "pnl": 24
+      },
+      {
+        "id": "GRP-172",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 10
+      },
+      {
+        "id": "GRP-180",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 140
+      },
+      {
+        "id": "GRP-188",
+        "ticker": "SOLR",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": -60
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 134.48
+      },
+      {
+        "ticker": "QBIT",
+        "price": 108.81
+      },
+      {
+        "ticker": "CLDD",
+        "price": 81.53
+      },
+      {
+        "ticker": "AURB",
+        "price": 54.53
+      },
+      {
+        "ticker": "VFIN",
+        "price": 73.97
+      },
+      {
+        "ticker": "PETR",
+        "price": 79.79
+      },
+      {
+        "ticker": "SOLR",
+        "price": 45.97
+      },
+      {
+        "ticker": "MEDX",
+        "price": 117.66
+      },
+      {
+        "ticker": "BIOV",
+        "price": 31.16
+      },
+      {
+        "ticker": "RTHB",
+        "price": 59.67
+      },
+      {
+        "ticker": "FDSN",
+        "price": 55.27
+      },
+      {
+        "ticker": "INDM",
+        "price": 85.22
+      },
+      {
+        "ticker": "LOGX",
+        "price": 65.32
+      },
+      {
+        "ticker": "UTIL",
+        "price": 45.34
+      },
+      {
+        "ticker": "WTRS",
+        "price": 39.66
+      }
+    ],
+    "riskScore": 64
+  },
+  {
+    "day": 33,
+    "equity": 11451,
+    "cash": 12662,
+    "available": 3162,
+    "lockedCash": 9500,
+    "liquidationEquity": 11413,
+    "openGroups": [
+      {
+        "id": "GRP-166",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 4,
+        "pnl": 84
+      },
+      {
+        "id": "GRP-172",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 475
+      },
+      {
+        "id": "GRP-180",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 280
+      },
+      {
+        "id": "GRP-188",
+        "ticker": "SOLR",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": 65
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 133.17
+      },
+      {
+        "ticker": "QBIT",
+        "price": 105.79
+      },
+      {
+        "ticker": "CLDD",
+        "price": 81.28
+      },
+      {
+        "ticker": "AURB",
+        "price": 54.55
+      },
+      {
+        "ticker": "VFIN",
+        "price": 72.34
+      },
+      {
+        "ticker": "PETR",
+        "price": 78.44
+      },
+      {
+        "ticker": "SOLR",
+        "price": 46.56
+      },
+      {
+        "ticker": "MEDX",
+        "price": 115.55
+      },
+      {
+        "ticker": "BIOV",
+        "price": 31.25
+      },
+      {
+        "ticker": "RTHB",
+        "price": 59.01
+      },
+      {
+        "ticker": "FDSN",
+        "price": 55.53
+      },
+      {
+        "ticker": "INDM",
+        "price": 83.98
+      },
+      {
+        "ticker": "LOGX",
+        "price": 64.55
+      },
+      {
+        "ticker": "UTIL",
+        "price": 45.16
+      },
+      {
+        "ticker": "WTRS",
+        "price": 39.09
+      }
+    ],
+    "riskScore": 64
+  },
+  {
+    "day": 34,
+    "equity": 11615,
+    "cash": 12662,
+    "available": 3162,
+    "lockedCash": 9500,
+    "liquidationEquity": 11577,
+    "openGroups": [
+      {
+        "id": "GRP-166",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 4,
+        "pnl": 148
+      },
+      {
+        "id": "GRP-172",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 235
+      },
+      {
+        "id": "GRP-180",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 340
+      },
+      {
+        "id": "GRP-188",
+        "ticker": "SOLR",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": 345
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 133.18
+      },
+      {
+        "ticker": "QBIT",
+        "price": 109.19
+      },
+      {
+        "ticker": "CLDD",
+        "price": 79.72
+      },
+      {
+        "ticker": "AURB",
+        "price": 53.53
+      },
+      {
+        "ticker": "VFIN",
+        "price": 72.03
+      },
+      {
+        "ticker": "PETR",
+        "price": 76.26
+      },
+      {
+        "ticker": "SOLR",
+        "price": 48.63
+      },
+      {
+        "ticker": "MEDX",
+        "price": 114.55
+      },
+      {
+        "ticker": "BIOV",
+        "price": 31.42
+      },
+      {
+        "ticker": "RTHB",
+        "price": 58.77
+      },
+      {
+        "ticker": "FDSN",
+        "price": 55.92
+      },
+      {
+        "ticker": "INDM",
+        "price": 86.19
+      },
+      {
+        "ticker": "LOGX",
+        "price": 64.94
+      },
+      {
+        "ticker": "UTIL",
+        "price": 45.02
+      },
+      {
+        "ticker": "WTRS",
+        "price": 39.42
+      }
+    ],
+    "riskScore": 64
+  },
+  {
+    "day": 35,
+    "equity": 11998,
+    "cash": 15389,
+    "available": 3389,
+    "lockedCash": 12000,
+    "liquidationEquity": 11950,
+    "openGroups": [
+      {
+        "id": "GRP-188",
+        "ticker": "SOLR",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": 365
+      },
+      {
+        "id": "GRP-200",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": -50
+      },
+      {
+        "id": "GRP-206",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 7,
+        "pnl": -196
+      },
+      {
+        "id": "GRP-212",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 7,
+        "pnl": -196
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 129.65
+      },
+      {
+        "ticker": "QBIT",
+        "price": 110
+      },
+      {
+        "ticker": "CLDD",
+        "price": 79.76
+      },
+      {
+        "ticker": "AURB",
+        "price": 52.89
+      },
+      {
+        "ticker": "VFIN",
+        "price": 71.18
+      },
+      {
+        "ticker": "PETR",
+        "price": 74.8
+      },
+      {
+        "ticker": "SOLR",
+        "price": 48.26
+      },
+      {
+        "ticker": "MEDX",
+        "price": 114.93
+      },
+      {
+        "ticker": "BIOV",
+        "price": 30.8
+      },
+      {
+        "ticker": "RTHB",
+        "price": 58.94
+      },
+      {
+        "ticker": "FDSN",
+        "price": 55.85
+      },
+      {
+        "ticker": "INDM",
+        "price": 86.15
+      },
+      {
+        "ticker": "LOGX",
+        "price": 64.85
+      },
+      {
+        "ticker": "UTIL",
+        "price": 45.02
+      },
+      {
+        "ticker": "WTRS",
+        "price": 38.82
+      }
+    ],
+    "riskScore": 64
+  },
+  {
+    "day": 36,
+    "equity": 12464,
+    "cash": 15389,
+    "available": 3389,
+    "lockedCash": 12000,
+    "liquidationEquity": 12416,
+    "openGroups": [
+      {
+        "id": "GRP-188",
+        "ticker": "SOLR",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": 370
+      },
+      {
+        "id": "GRP-200",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": -65
+      },
+      {
+        "id": "GRP-206",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 7,
+        "pnl": -147
+      },
+      {
+        "id": "GRP-212",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 7,
+        "pnl": 231
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 126.81
+      },
+      {
+        "ticker": "QBIT",
+        "price": 109.85
+      },
+      {
+        "ticker": "CLDD",
+        "price": 77.12
+      },
+      {
+        "ticker": "AURB",
+        "price": 51.91
+      },
+      {
+        "ticker": "VFIN",
+        "price": 69.71
+      },
+      {
+        "ticker": "PETR",
+        "price": 71.9
+      },
+      {
+        "ticker": "SOLR",
+        "price": 47.63
+      },
+      {
+        "ticker": "MEDX",
+        "price": 115.61
+      },
+      {
+        "ticker": "BIOV",
+        "price": 30.51
+      },
+      {
+        "ticker": "RTHB",
+        "price": 59.1
+      },
+      {
+        "ticker": "FDSN",
+        "price": 55.38
+      },
+      {
+        "ticker": "INDM",
+        "price": 85.74
+      },
+      {
+        "ticker": "LOGX",
+        "price": 64.1
+      },
+      {
+        "ticker": "UTIL",
+        "price": 44.62
+      },
+      {
+        "ticker": "WTRS",
+        "price": 38.28
+      }
+    ],
+    "riskScore": 64
+  },
+  {
+    "day": 37,
+    "equity": 11648,
+    "cash": 15714,
+    "available": 3714,
+    "lockedCash": 12000,
+    "liquidationEquity": 11600,
+    "openGroups": [
+      {
+        "id": "GRP-200",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": 95
+      },
+      {
+        "id": "GRP-206",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 7,
+        "pnl": -553
+      },
+      {
+        "id": "GRP-212",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 7,
+        "pnl": -364
+      },
+      {
+        "id": "GRP-220",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -55
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 131.03
+      },
+      {
+        "ticker": "QBIT",
+        "price": 112.24
+      },
+      {
+        "ticker": "CLDD",
+        "price": 77.61
+      },
+      {
+        "ticker": "AURB",
+        "price": 52.87
+      },
+      {
+        "ticker": "VFIN",
+        "price": 70.9
+      },
+      {
+        "ticker": "PETR",
+        "price": 74.05
+      },
+      {
+        "ticker": "SOLR",
+        "price": 48.15
+      },
+      {
+        "ticker": "MEDX",
+        "price": 115.43
+      },
+      {
+        "ticker": "BIOV",
+        "price": 31.21
+      },
+      {
+        "ticker": "RTHB",
+        "price": 59.99
+      },
+      {
+        "ticker": "FDSN",
+        "price": 55.82
+      },
+      {
+        "ticker": "INDM",
+        "price": 86.9
+      },
+      {
+        "ticker": "LOGX",
+        "price": 64.02
+      },
+      {
+        "ticker": "UTIL",
+        "price": 44.8
+      },
+      {
+        "ticker": "WTRS",
+        "price": 37.9
+      }
+    ],
+    "riskScore": 64
+  },
+  {
+    "day": 38,
+    "equity": 10962,
+    "cash": 15714,
+    "available": 3714,
+    "lockedCash": 12000,
+    "liquidationEquity": 10914,
+    "openGroups": [
+      {
+        "id": "GRP-200",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": 155
+      },
+      {
+        "id": "GRP-206",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 7,
+        "pnl": -1015
+      },
+      {
+        "id": "GRP-212",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 7,
+        "pnl": -658
+      },
+      {
+        "id": "GRP-220",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": -45
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 132.61
+      },
+      {
+        "ticker": "QBIT",
+        "price": 114.49
+      },
+      {
+        "ticker": "CLDD",
+        "price": 77.76
+      },
+      {
+        "ticker": "AURB",
+        "price": 52.65
+      },
+      {
+        "ticker": "VFIN",
+        "price": 70.85
+      },
+      {
+        "ticker": "PETR",
+        "price": 73.65
+      },
+      {
+        "ticker": "SOLR",
+        "price": 48.36
+      },
+      {
+        "ticker": "MEDX",
+        "price": 116.91
+      },
+      {
+        "ticker": "BIOV",
+        "price": 31.25
+      },
+      {
+        "ticker": "RTHB",
+        "price": 60.25
+      },
+      {
+        "ticker": "FDSN",
+        "price": 55.74
+      },
+      {
+        "ticker": "INDM",
+        "price": 86.03
+      },
+      {
+        "ticker": "LOGX",
+        "price": 65.35
+      },
+      {
+        "ticker": "UTIL",
+        "price": 44.85
+      },
+      {
+        "ticker": "WTRS",
+        "price": 38.28
+      }
+    ],
+    "riskScore": 64
+  },
+  {
+    "day": 39,
+    "equity": 11951,
+    "cash": 15714,
+    "available": 3714,
+    "lockedCash": 12000,
+    "liquidationEquity": 11903,
+    "openGroups": [
+      {
+        "id": "GRP-200",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": 105
+      },
+      {
+        "id": "GRP-206",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 7,
+        "pnl": -742
+      },
+      {
+        "id": "GRP-212",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 7,
+        "pnl": 28
+      },
+      {
+        "id": "GRP-220",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 35
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 129.47
+      },
+      {
+        "ticker": "QBIT",
+        "price": 113.15
+      },
+      {
+        "ticker": "CLDD",
+        "price": 78.97
+      },
+      {
+        "ticker": "AURB",
+        "price": 52.41
+      },
+      {
+        "ticker": "VFIN",
+        "price": 71.46
+      },
+      {
+        "ticker": "PETR",
+        "price": 71.41
+      },
+      {
+        "ticker": "SOLR",
+        "price": 48.15
+      },
+      {
+        "ticker": "MEDX",
+        "price": 117.2
+      },
+      {
+        "ticker": "BIOV",
+        "price": 30.59
+      },
+      {
+        "ticker": "RTHB",
+        "price": 59.95
+      },
+      {
+        "ticker": "FDSN",
+        "price": 56.14
+      },
+      {
+        "ticker": "INDM",
+        "price": 86.59
+      },
+      {
+        "ticker": "LOGX",
+        "price": 65.95
+      },
+      {
+        "ticker": "UTIL",
+        "price": 44.97
+      },
+      {
+        "ticker": "WTRS",
+        "price": 38.78
+      }
+    ],
+    "riskScore": 64
+  },
+  {
+    "day": 40,
+    "equity": 13152,
+    "cash": 15714,
+    "available": 3714,
+    "lockedCash": 12000,
+    "liquidationEquity": 13104,
+    "openGroups": [
+      {
+        "id": "GRP-200",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": -15
+      },
+      {
+        "id": "GRP-206",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 7,
+        "pnl": -49
+      },
+      {
+        "id": "GRP-212",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 7,
+        "pnl": 616
+      },
+      {
+        "id": "GRP-220",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 75
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 126.92
+      },
+      {
+        "ticker": "QBIT",
+        "price": 110.47
+      },
+      {
+        "ticker": "CLDD",
+        "price": 77.47
+      },
+      {
+        "ticker": "AURB",
+        "price": 51.43
+      },
+      {
+        "ticker": "VFIN",
+        "price": 68.5
+      },
+      {
+        "ticker": "PETR",
+        "price": 71.54
+      },
+      {
+        "ticker": "SOLR",
+        "price": 48.23
+      },
+      {
+        "ticker": "MEDX",
+        "price": 116.19
+      },
+      {
+        "ticker": "BIOV",
+        "price": 29.73
+      },
+      {
+        "ticker": "RTHB",
+        "price": 58.2
+      },
+      {
+        "ticker": "FDSN",
+        "price": 55
+      },
+      {
+        "ticker": "INDM",
+        "price": 84.99
+      },
+      {
+        "ticker": "LOGX",
+        "price": 65.87
+      },
+      {
+        "ticker": "UTIL",
+        "price": 44.52
+      },
+      {
+        "ticker": "WTRS",
+        "price": 38.29
+      }
+    ],
+    "riskScore": 63
+  },
+  {
+    "day": 41,
+    "equity": 13739,
+    "cash": 15714,
+    "available": 3714,
+    "lockedCash": 12000,
+    "liquidationEquity": 13691,
+    "openGroups": [
+      {
+        "id": "GRP-200",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": 75
+      },
+      {
+        "id": "GRP-206",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 7,
+        "pnl": 350
+      },
+      {
+        "id": "GRP-212",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 7,
+        "pnl": 679
+      },
+      {
+        "id": "GRP-220",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 110
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 128.07
+      },
+      {
+        "ticker": "QBIT",
+        "price": 109.73
+      },
+      {
+        "ticker": "CLDD",
+        "price": 77.64
+      },
+      {
+        "ticker": "AURB",
+        "price": 51.78
+      },
+      {
+        "ticker": "VFIN",
+        "price": 67.66
+      },
+      {
+        "ticker": "PETR",
+        "price": 72.71
+      },
+      {
+        "ticker": "SOLR",
+        "price": 48.44
+      },
+      {
+        "ticker": "MEDX",
+        "price": 114.79
+      },
+      {
+        "ticker": "BIOV",
+        "price": 29.71
+      },
+      {
+        "ticker": "RTHB",
+        "price": 58.51
+      },
+      {
+        "ticker": "FDSN",
+        "price": 54.54
+      },
+      {
+        "ticker": "INDM",
+        "price": 85.19
+      },
+      {
+        "ticker": "LOGX",
+        "price": 65.21
+      },
+      {
+        "ticker": "UTIL",
+        "price": 44.1
+      },
+      {
+        "ticker": "WTRS",
+        "price": 38.82
+      }
+    ],
+    "riskScore": 63
+  },
+  {
+    "day": 42,
+    "equity": 15235,
+    "cash": 18426,
+    "available": 4426,
+    "lockedCash": 14000,
+    "liquidationEquity": 15179,
+    "openGroups": [
+      {
+        "id": "GRP-220",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 235
+      },
+      {
+        "id": "GRP-232",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 7,
+        "pnl": -70
+      },
+      {
+        "id": "GRP-238",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 8,
+        "pnl": -152
+      },
+      {
+        "id": "GRP-244",
+        "ticker": "NVXT",
+        "strategy": "bull_put",
+        "qty": 8,
+        "pnl": -168
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 127.48
+      },
+      {
+        "ticker": "QBIT",
+        "price": 106.61
+      },
+      {
+        "ticker": "CLDD",
+        "price": 76.93
+      },
+      {
+        "ticker": "AURB",
+        "price": 51.41
+      },
+      {
+        "ticker": "VFIN",
+        "price": 66.9
+      },
+      {
+        "ticker": "PETR",
+        "price": 73.83
+      },
+      {
+        "ticker": "SOLR",
+        "price": 48.09
+      },
+      {
+        "ticker": "MEDX",
+        "price": 113.65
+      },
+      {
+        "ticker": "BIOV",
+        "price": 30.46
+      },
+      {
+        "ticker": "RTHB",
+        "price": 57.89
+      },
+      {
+        "ticker": "FDSN",
+        "price": 55.05
+      },
+      {
+        "ticker": "INDM",
+        "price": 85.61
+      },
+      {
+        "ticker": "LOGX",
+        "price": 64.34
+      },
+      {
+        "ticker": "UTIL",
+        "price": 43.81
+      },
+      {
+        "ticker": "WTRS",
+        "price": 38.97
+      }
+    ],
+    "riskScore": 64
+  },
+  {
+    "day": 43,
+    "equity": 14859,
+    "cash": 18426,
+    "available": 4426,
+    "lockedCash": 14000,
+    "liquidationEquity": 14803,
+    "openGroups": [
+      {
+        "id": "GRP-220",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 5,
+        "pnl": 300
+      },
+      {
+        "id": "GRP-232",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 7,
+        "pnl": 273
+      },
+      {
+        "id": "GRP-238",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 8,
+        "pnl": -560
+      },
+      {
+        "id": "GRP-244",
+        "ticker": "NVXT",
+        "strategy": "bull_put",
+        "qty": 8,
+        "pnl": -544
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 124.85
+      },
+      {
+        "ticker": "QBIT",
+        "price": 109.51
+      },
+      {
+        "ticker": "CLDD",
+        "price": 76.44
+      },
+      {
+        "ticker": "AURB",
+        "price": 51.69
+      },
+      {
+        "ticker": "VFIN",
+        "price": 66.53
+      },
+      {
+        "ticker": "PETR",
+        "price": 73.46
+      },
+      {
+        "ticker": "SOLR",
+        "price": 48.3
+      },
+      {
+        "ticker": "MEDX",
+        "price": 112.2
+      },
+      {
+        "ticker": "BIOV",
+        "price": 32.01
+      },
+      {
+        "ticker": "RTHB",
+        "price": 58.65
+      },
+      {
+        "ticker": "FDSN",
+        "price": 55.11
+      },
+      {
+        "ticker": "INDM",
+        "price": 85.42
+      },
+      {
+        "ticker": "LOGX",
+        "price": 63.33
+      },
+      {
+        "ticker": "UTIL",
+        "price": 43.52
+      },
+      {
+        "ticker": "WTRS",
+        "price": 39.39
+      }
+    ],
+    "riskScore": 64
+  },
+  {
+    "day": 44,
+    "equity": 13811,
+    "cash": 18882,
+    "available": 4382,
+    "lockedCash": 14500,
+    "liquidationEquity": 13753,
+    "openGroups": [
+      {
+        "id": "GRP-232",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 7,
+        "pnl": 217
+      },
+      {
+        "id": "GRP-238",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 8,
+        "pnl": -1400
+      },
+      {
+        "id": "GRP-244",
+        "ticker": "NVXT",
+        "strategy": "bull_put",
+        "qty": 8,
+        "pnl": -712
+      },
+      {
+        "id": "GRP-252",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 6,
+        "pnl": -66
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 123.84
+      },
+      {
+        "ticker": "QBIT",
+        "price": 113.66
+      },
+      {
+        "ticker": "CLDD",
+        "price": 78.25
+      },
+      {
+        "ticker": "AURB",
+        "price": 52
+      },
+      {
+        "ticker": "VFIN",
+        "price": 67.82
+      },
+      {
+        "ticker": "PETR",
+        "price": 73.19
+      },
+      {
+        "ticker": "SOLR",
+        "price": 48.16
+      },
+      {
+        "ticker": "MEDX",
+        "price": 113.08
+      },
+      {
+        "ticker": "BIOV",
+        "price": 31.35
+      },
+      {
+        "ticker": "RTHB",
+        "price": 58.62
+      },
+      {
+        "ticker": "FDSN",
+        "price": 54
+      },
+      {
+        "ticker": "INDM",
+        "price": 85.23
+      },
+      {
+        "ticker": "LOGX",
+        "price": 62.21
+      },
+      {
+        "ticker": "UTIL",
+        "price": 43.89
+      },
+      {
+        "ticker": "WTRS",
+        "price": 39.83
+      }
+    ],
+    "riskScore": 63
+  },
+  {
+    "day": 45,
+    "equity": 13501,
+    "cash": 18882,
+    "available": 4382,
+    "lockedCash": 14500,
+    "liquidationEquity": 13443,
+    "openGroups": [
+      {
+        "id": "GRP-232",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 7,
+        "pnl": 91
+      },
+      {
+        "id": "GRP-238",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 8,
+        "pnl": -1936
+      },
+      {
+        "id": "GRP-244",
+        "ticker": "NVXT",
+        "strategy": "bull_put",
+        "qty": 8,
+        "pnl": -552
+      },
+      {
+        "id": "GRP-252",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 6,
+        "pnl": 126
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 124.38
+      },
+      {
+        "ticker": "QBIT",
+        "price": 116.16
+      },
+      {
+        "ticker": "CLDD",
+        "price": 78.67
+      },
+      {
+        "ticker": "AURB",
+        "price": 51.72
+      },
+      {
+        "ticker": "VFIN",
+        "price": 66.79
+      },
+      {
+        "ticker": "PETR",
+        "price": 71.16
+      },
+      {
+        "ticker": "SOLR",
+        "price": 47.19
+      },
+      {
+        "ticker": "MEDX",
+        "price": 111.46
+      },
+      {
+        "ticker": "BIOV",
+        "price": 30.39
+      },
+      {
+        "ticker": "RTHB",
+        "price": 57.86
+      },
+      {
+        "ticker": "FDSN",
+        "price": 54.21
+      },
+      {
+        "ticker": "INDM",
+        "price": 84.58
+      },
+      {
+        "ticker": "LOGX",
+        "price": 62.73
+      },
+      {
+        "ticker": "UTIL",
+        "price": 43.63
+      },
+      {
+        "ticker": "WTRS",
+        "price": 39.82
+      }
+    ],
+    "riskScore": 63
+  },
+  {
+    "day": 46,
+    "equity": 13629,
+    "cash": 15554,
+    "available": 3054,
+    "lockedCash": 12500,
+    "liquidationEquity": 13579,
+    "openGroups": [
+      {
+        "id": "GRP-232",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 7,
+        "pnl": 371
+      },
+      {
+        "id": "GRP-244",
+        "ticker": "NVXT",
+        "strategy": "bull_put",
+        "qty": 8,
+        "pnl": 328
+      },
+      {
+        "id": "GRP-252",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 6,
+        "pnl": 138
+      },
+      {
+        "id": "GRP-260",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 4,
+        "pnl": -92
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 128.72
+      },
+      {
+        "ticker": "QBIT",
+        "price": 121.26
+      },
+      {
+        "ticker": "CLDD",
+        "price": 79.33
+      },
+      {
+        "ticker": "AURB",
+        "price": 52.79
+      },
+      {
+        "ticker": "VFIN",
+        "price": 70.66
+      },
+      {
+        "ticker": "PETR",
+        "price": 72.08
+      },
+      {
+        "ticker": "SOLR",
+        "price": 47.51
+      },
+      {
+        "ticker": "MEDX",
+        "price": 113.05
+      },
+      {
+        "ticker": "BIOV",
+        "price": 31.27
+      },
+      {
+        "ticker": "RTHB",
+        "price": 58.61
+      },
+      {
+        "ticker": "FDSN",
+        "price": 55.06
+      },
+      {
+        "ticker": "INDM",
+        "price": 88.96
+      },
+      {
+        "ticker": "LOGX",
+        "price": 63.89
+      },
+      {
+        "ticker": "UTIL",
+        "price": 43.67
+      },
+      {
+        "ticker": "WTRS",
+        "price": 40.1
+      }
+    ],
+    "riskScore": 62
+  },
+  {
+    "day": 47,
+    "equity": 13501,
+    "cash": 15682,
+    "available": 4182,
+    "lockedCash": 11500,
+    "liquidationEquity": 13455,
+    "openGroups": [
+      {
+        "id": "GRP-244",
+        "ticker": "NVXT",
+        "strategy": "bull_put",
+        "qty": 8,
+        "pnl": 264
+      },
+      {
+        "id": "GRP-252",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 6,
+        "pnl": 114
+      },
+      {
+        "id": "GRP-260",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 4,
+        "pnl": -256
+      },
+      {
+        "id": "GRP-268",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": -40
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 127.25
+      },
+      {
+        "ticker": "QBIT",
+        "price": 123.99
+      },
+      {
+        "ticker": "CLDD",
+        "price": 78.49
+      },
+      {
+        "ticker": "AURB",
+        "price": 52.04
+      },
+      {
+        "ticker": "VFIN",
+        "price": 70.4
+      },
+      {
+        "ticker": "PETR",
+        "price": 72.17
+      },
+      {
+        "ticker": "SOLR",
+        "price": 48.1
+      },
+      {
+        "ticker": "MEDX",
+        "price": 113.85
+      },
+      {
+        "ticker": "BIOV",
+        "price": 32.16
+      },
+      {
+        "ticker": "RTHB",
+        "price": 59.71
+      },
+      {
+        "ticker": "FDSN",
+        "price": 54.59
+      },
+      {
+        "ticker": "INDM",
+        "price": 88.63
+      },
+      {
+        "ticker": "LOGX",
+        "price": 64.88
+      },
+      {
+        "ticker": "UTIL",
+        "price": 43.7
+      },
+      {
+        "ticker": "WTRS",
+        "price": 39.62
+      }
+    ],
+    "riskScore": 63
+  },
+  {
+    "day": 48,
+    "equity": 13026,
+    "cash": 15682,
+    "available": 4182,
+    "lockedCash": 11500,
+    "liquidationEquity": 12980,
+    "openGroups": [
+      {
+        "id": "GRP-244",
+        "ticker": "NVXT",
+        "strategy": "bull_put",
+        "qty": 8,
+        "pnl": 808
+      },
+      {
+        "id": "GRP-252",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 6,
+        "pnl": -582
+      },
+      {
+        "id": "GRP-260",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 4,
+        "pnl": -644
+      },
+      {
+        "id": "GRP-268",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": 25
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 129.32
+      },
+      {
+        "ticker": "QBIT",
+        "price": 128.47
+      },
+      {
+        "ticker": "CLDD",
+        "price": 78.54
+      },
+      {
+        "ticker": "AURB",
+        "price": 52.75
+      },
+      {
+        "ticker": "VFIN",
+        "price": 71.28
+      },
+      {
+        "ticker": "PETR",
+        "price": 73.49
+      },
+      {
+        "ticker": "SOLR",
+        "price": 51
+      },
+      {
+        "ticker": "MEDX",
+        "price": 115.31
+      },
+      {
+        "ticker": "BIOV",
+        "price": 32.74
+      },
+      {
+        "ticker": "RTHB",
+        "price": 60.7
+      },
+      {
+        "ticker": "FDSN",
+        "price": 55.98
+      },
+      {
+        "ticker": "INDM",
+        "price": 90.36
+      },
+      {
+        "ticker": "LOGX",
+        "price": 62.6
+      },
+      {
+        "ticker": "UTIL",
+        "price": 43.59
+      },
+      {
+        "ticker": "WTRS",
+        "price": 39.76
+      }
+    ],
+    "riskScore": 60
+  },
+  {
+    "day": 49,
+    "equity": 13917,
+    "cash": 17034,
+    "available": 5534,
+    "lockedCash": 11500,
+    "liquidationEquity": 13871,
+    "openGroups": [
+      {
+        "id": "GRP-252",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 6,
+        "pnl": 42
+      },
+      {
+        "id": "GRP-260",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 4,
+        "pnl": -504
+      },
+      {
+        "id": "GRP-268",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": 80
+      },
+      {
+        "id": "GRP-276",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 8,
+        "pnl": -256
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 129.19
+      },
+      {
+        "ticker": "QBIT",
+        "price": 127.06
+      },
+      {
+        "ticker": "CLDD",
+        "price": 78.25
+      },
+      {
+        "ticker": "AURB",
+        "price": 51.2
+      },
+      {
+        "ticker": "VFIN",
+        "price": 71.3
+      },
+      {
+        "ticker": "PETR",
+        "price": 72.71
+      },
+      {
+        "ticker": "SOLR",
+        "price": 49.26
+      },
+      {
+        "ticker": "MEDX",
+        "price": 114.34
+      },
+      {
+        "ticker": "BIOV",
+        "price": 33.04
+      },
+      {
+        "ticker": "RTHB",
+        "price": 61.14
+      },
+      {
+        "ticker": "FDSN",
+        "price": 55.71
+      },
+      {
+        "ticker": "INDM",
+        "price": 90.16
+      },
+      {
+        "ticker": "LOGX",
+        "price": 61.4
+      },
+      {
+        "ticker": "UTIL",
+        "price": 43.88
+      },
+      {
+        "ticker": "WTRS",
+        "price": 39.57
+      }
+    ],
+    "riskScore": 64
+  },
+  {
+    "day": 50,
+    "equity": 14899,
+    "cash": 17034,
+    "available": 5534,
+    "lockedCash": 11500,
+    "liquidationEquity": 14853,
+    "openGroups": [
+      {
+        "id": "GRP-252",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 6,
+        "pnl": 306
+      },
+      {
+        "id": "GRP-260",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 4,
+        "pnl": -172
+      },
+      {
+        "id": "GRP-268",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": 130
+      },
+      {
+        "id": "GRP-276",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 8,
+        "pnl": 80
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 127.21
+      },
+      {
+        "ticker": "QBIT",
+        "price": 124.1
+      },
+      {
+        "ticker": "CLDD",
+        "price": 78.87
+      },
+      {
+        "ticker": "AURB",
+        "price": 52.13
+      },
+      {
+        "ticker": "VFIN",
+        "price": 70.37
+      },
+      {
+        "ticker": "PETR",
+        "price": 71.52
+      },
+      {
+        "ticker": "SOLR",
+        "price": 48.66
+      },
+      {
+        "ticker": "MEDX",
+        "price": 116.4
+      },
+      {
+        "ticker": "BIOV",
+        "price": 33.39
+      },
+      {
+        "ticker": "RTHB",
+        "price": 62.68
+      },
+      {
+        "ticker": "FDSN",
+        "price": 57.21
+      },
+      {
+        "ticker": "INDM",
+        "price": 87.73
+      },
+      {
+        "ticker": "LOGX",
+        "price": 60.71
+      },
+      {
+        "ticker": "UTIL",
+        "price": 44.83
+      },
+      {
+        "ticker": "WTRS",
+        "price": 39.86
+      }
+    ],
+    "riskScore": 64
+  },
+  {
+    "day": 51,
+    "equity": 16054,
+    "cash": 17566,
+    "available": 5566,
+    "lockedCash": 12000,
+    "liquidationEquity": 16006,
+    "openGroups": [
+      {
+        "id": "GRP-260",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 4,
+        "pnl": 348
+      },
+      {
+        "id": "GRP-268",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 5,
+        "pnl": 155
+      },
+      {
+        "id": "GRP-276",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 8,
+        "pnl": 608
+      },
+      {
+        "id": "GRP-284",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 7,
+        "pnl": -70
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 124.92
+      },
+      {
+        "ticker": "QBIT",
+        "price": 119.1
+      },
+      {
+        "ticker": "CLDD",
+        "price": 78.56
+      },
+      {
+        "ticker": "AURB",
+        "price": 51.44
+      },
+      {
+        "ticker": "VFIN",
+        "price": 70.27
+      },
+      {
+        "ticker": "PETR",
+        "price": 70.7
+      },
+      {
+        "ticker": "SOLR",
+        "price": 48.47
+      },
+      {
+        "ticker": "MEDX",
+        "price": 117.4
+      },
+      {
+        "ticker": "BIOV",
+        "price": 32.67
+      },
+      {
+        "ticker": "RTHB",
+        "price": 60.67
+      },
+      {
+        "ticker": "FDSN",
+        "price": 55.02
+      },
+      {
+        "ticker": "INDM",
+        "price": 86.24
+      },
+      {
+        "ticker": "LOGX",
+        "price": 59.82
+      },
+      {
+        "ticker": "UTIL",
+        "price": 43.81
+      },
+      {
+        "ticker": "WTRS",
+        "price": 39.92
+      }
+    ],
+    "riskScore": 64
+  },
+  {
+    "day": 52,
+    "equity": 15576,
+    "cash": 17643,
+    "available": 5143,
+    "lockedCash": 12500,
+    "liquidationEquity": 15526,
+    "openGroups": [
+      {
+        "id": "GRP-260",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 4,
+        "pnl": 356
+      },
+      {
+        "id": "GRP-276",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 8,
+        "pnl": 80
+      },
+      {
+        "id": "GRP-284",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 7,
+        "pnl": -7
+      },
+      {
+        "id": "GRP-292",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 6,
+        "pnl": -48
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 128.75
+      },
+      {
+        "ticker": "QBIT",
+        "price": 121.14
+      },
+      {
+        "ticker": "CLDD",
+        "price": 78.48
+      },
+      {
+        "ticker": "AURB",
+        "price": 51.63
+      },
+      {
+        "ticker": "VFIN",
+        "price": 70.6
+      },
+      {
+        "ticker": "PETR",
+        "price": 70.52
+      },
+      {
+        "ticker": "SOLR",
+        "price": 48.43
+      },
+      {
+        "ticker": "MEDX",
+        "price": 118.32
+      },
+      {
+        "ticker": "BIOV",
+        "price": 33.22
+      },
+      {
+        "ticker": "RTHB",
+        "price": 60.46
+      },
+      {
+        "ticker": "FDSN",
+        "price": 54.18
+      },
+      {
+        "ticker": "INDM",
+        "price": 87.31
+      },
+      {
+        "ticker": "LOGX",
+        "price": 59.09
+      },
+      {
+        "ticker": "UTIL",
+        "price": 44.08
+      },
+      {
+        "ticker": "WTRS",
+        "price": 39.65
+      }
+    ],
+    "riskScore": 64
+  },
+  {
+    "day": 53,
+    "equity": 15700,
+    "cash": 18715,
+    "available": 4215,
+    "lockedCash": 14500,
+    "liquidationEquity": 15642,
+    "openGroups": [
+      {
+        "id": "GRP-276",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 8,
+        "pnl": 320
+      },
+      {
+        "id": "GRP-284",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 7,
+        "pnl": -49
+      },
+      {
+        "id": "GRP-292",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 6,
+        "pnl": -102
+      },
+      {
+        "id": "GRP-300",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 8,
+        "pnl": -184
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 128.09
+      },
+      {
+        "ticker": "QBIT",
+        "price": 122.15
+      },
+      {
+        "ticker": "CLDD",
+        "price": 79.96
+      },
+      {
+        "ticker": "AURB",
+        "price": 51.1
+      },
+      {
+        "ticker": "VFIN",
+        "price": 70.61
+      },
+      {
+        "ticker": "PETR",
+        "price": 69.93
+      },
+      {
+        "ticker": "SOLR",
+        "price": 48.91
+      },
+      {
+        "ticker": "MEDX",
+        "price": 117.11
+      },
+      {
+        "ticker": "BIOV",
+        "price": 32.21
+      },
+      {
+        "ticker": "RTHB",
+        "price": 60.71
+      },
+      {
+        "ticker": "FDSN",
+        "price": 54.72
+      },
+      {
+        "ticker": "INDM",
+        "price": 85.53
+      },
+      {
+        "ticker": "LOGX",
+        "price": 59.08
+      },
+      {
+        "ticker": "UTIL",
+        "price": 43.91
+      },
+      {
+        "ticker": "WTRS",
+        "price": 39.5
+      }
+    ],
+    "riskScore": 64
+  },
+  {
+    "day": 54,
+    "equity": 15454,
+    "cash": 18715,
+    "available": 4215,
+    "lockedCash": 14500,
+    "liquidationEquity": 15396,
+    "openGroups": [
+      {
+        "id": "GRP-276",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 8,
+        "pnl": 184
+      },
+      {
+        "id": "GRP-284",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 7,
+        "pnl": -231
+      },
+      {
+        "id": "GRP-292",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 6,
+        "pnl": -54
+      },
+      {
+        "id": "GRP-300",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 8,
+        "pnl": -160
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 129.37
+      },
+      {
+        "ticker": "QBIT",
+        "price": 122.4
+      },
+      {
+        "ticker": "CLDD",
+        "price": 81.75
+      },
+      {
+        "ticker": "AURB",
+        "price": 50.81
+      },
+      {
+        "ticker": "VFIN",
+        "price": 71.44
+      },
+      {
+        "ticker": "PETR",
+        "price": 71.78
+      },
+      {
+        "ticker": "SOLR",
+        "price": 49.84
+      },
+      {
+        "ticker": "MEDX",
+        "price": 115.28
+      },
+      {
+        "ticker": "BIOV",
+        "price": 32.3
+      },
+      {
+        "ticker": "RTHB",
+        "price": 61.08
+      },
+      {
+        "ticker": "FDSN",
+        "price": 54.64
+      },
+      {
+        "ticker": "INDM",
+        "price": 86.74
+      },
+      {
+        "ticker": "LOGX",
+        "price": 58.12
+      },
+      {
+        "ticker": "UTIL",
+        "price": 43.71
+      },
+      {
+        "ticker": "WTRS",
+        "price": 39.36
+      }
+    ],
+    "riskScore": 64
+  },
+  {
+    "day": 55,
+    "equity": 15067,
+    "cash": 18715,
+    "available": 4215,
+    "lockedCash": 14500,
+    "liquidationEquity": 15009,
+    "openGroups": [
+      {
+        "id": "GRP-276",
+        "ticker": "NVXT",
+        "strategy": "bear_call",
+        "qty": 8,
+        "pnl": -128
+      },
+      {
+        "id": "GRP-284",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 7,
+        "pnl": -742
+      },
+      {
+        "id": "GRP-292",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 6,
+        "pnl": -42
+      },
+      {
+        "id": "GRP-300",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 8,
+        "pnl": 264
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 131.01
+      },
+      {
+        "ticker": "QBIT",
+        "price": 119.85
+      },
+      {
+        "ticker": "CLDD",
+        "price": 82.26
+      },
+      {
+        "ticker": "AURB",
+        "price": 50.15
+      },
+      {
+        "ticker": "VFIN",
+        "price": 70.6
+      },
+      {
+        "ticker": "PETR",
+        "price": 71.86
+      },
+      {
+        "ticker": "SOLR",
+        "price": 51.34
+      },
+      {
+        "ticker": "MEDX",
+        "price": 114.32
+      },
+      {
+        "ticker": "BIOV",
+        "price": 31.99
+      },
+      {
+        "ticker": "RTHB",
+        "price": 62.24
+      },
+      {
+        "ticker": "FDSN",
+        "price": 54.29
+      },
+      {
+        "ticker": "INDM",
+        "price": 90.6
+      },
+      {
+        "ticker": "LOGX",
+        "price": 56.9
+      },
+      {
+        "ticker": "UTIL",
+        "price": 44.26
+      },
+      {
+        "ticker": "WTRS",
+        "price": 39.97
+      }
+    ],
+    "riskScore": 64
+  },
+  {
+    "day": 56,
+    "equity": 15182,
+    "cash": 16995,
+    "available": 6495,
+    "lockedCash": 10500,
+    "liquidationEquity": 15140,
+    "openGroups": [
+      {
+        "id": "GRP-284",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 7,
+        "pnl": -693
+      },
+      {
+        "id": "GRP-292",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 6,
+        "pnl": -72
+      },
+      {
+        "id": "GRP-300",
+        "ticker": "QBIT",
+        "strategy": "bear_call",
+        "qty": 8,
+        "pnl": 616
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 132.15
+      },
+      {
+        "ticker": "QBIT",
+        "price": 117.53
+      },
+      {
+        "ticker": "CLDD",
+        "price": 80.48
+      },
+      {
+        "ticker": "AURB",
+        "price": 49.98
+      },
+      {
+        "ticker": "VFIN",
+        "price": 70.8
+      },
+      {
+        "ticker": "PETR",
+        "price": 71.44
+      },
+      {
+        "ticker": "SOLR",
+        "price": 51.38
+      },
+      {
+        "ticker": "MEDX",
+        "price": 113.66
+      },
+      {
+        "ticker": "BIOV",
+        "price": 31.33
+      },
+      {
+        "ticker": "RTHB",
+        "price": 62.94
+      },
+      {
+        "ticker": "FDSN",
+        "price": 54.2
+      },
+      {
+        "ticker": "INDM",
+        "price": 90.89
+      },
+      {
+        "ticker": "LOGX",
+        "price": 56.42
+      },
+      {
+        "ticker": "UTIL",
+        "price": 44.05
+      },
+      {
+        "ticker": "WTRS",
+        "price": 40.38
+      }
+    ],
+    "riskScore": 62
+  },
+  {
+    "day": 57,
+    "equity": 16231,
+    "cash": 16931,
+    "available": 10431,
+    "lockedCash": 6500,
+    "liquidationEquity": 16205,
+    "openGroups": [
+      {
+        "id": "GRP-284",
+        "ticker": "SOLR",
+        "strategy": "bear_call",
+        "qty": 7,
+        "pnl": -14
+      },
+      {
+        "id": "GRP-292",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 6,
+        "pnl": -78
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 129.73
+      },
+      {
+        "ticker": "QBIT",
+        "price": 109.68
+      },
+      {
+        "ticker": "CLDD",
+        "price": 78.27
+      },
+      {
+        "ticker": "AURB",
+        "price": 50.95
+      },
+      {
+        "ticker": "VFIN",
+        "price": 70.31
+      },
+      {
+        "ticker": "PETR",
+        "price": 70.69
+      },
+      {
+        "ticker": "SOLR",
+        "price": 50.27
+      },
+      {
+        "ticker": "MEDX",
+        "price": 113.73
+      },
+      {
+        "ticker": "BIOV",
+        "price": 30.83
+      },
+      {
+        "ticker": "RTHB",
+        "price": 61.35
+      },
+      {
+        "ticker": "FDSN",
+        "price": 53.61
+      },
+      {
+        "ticker": "INDM",
+        "price": 89.84
+      },
+      {
+        "ticker": "LOGX",
+        "price": 55.9
+      },
+      {
+        "ticker": "UTIL",
+        "price": 44.12
+      },
+      {
+        "ticker": "WTRS",
+        "price": 39.95
+      }
+    ],
+    "riskScore": 64
+  },
+  {
+    "day": 58,
+    "equity": 16541,
+    "cash": 16931,
+    "available": 13931,
+    "lockedCash": 3000,
+    "liquidationEquity": 16529,
+    "openGroups": [
+      {
+        "id": "GRP-292",
+        "ticker": "BIOV",
+        "strategy": "bull_put",
+        "qty": 6,
+        "pnl": -300
+      }
+    ],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 125.78
+      },
+      {
+        "ticker": "QBIT",
+        "price": 107.75
+      },
+      {
+        "ticker": "CLDD",
+        "price": 78.07
+      },
+      {
+        "ticker": "AURB",
+        "price": 49.48
+      },
+      {
+        "ticker": "VFIN",
+        "price": 68.06
+      },
+      {
+        "ticker": "PETR",
+        "price": 68.98
+      },
+      {
+        "ticker": "SOLR",
+        "price": 48.6
+      },
+      {
+        "ticker": "MEDX",
+        "price": 109.61
+      },
+      {
+        "ticker": "BIOV",
+        "price": 29.62
+      },
+      {
+        "ticker": "RTHB",
+        "price": 58.96
+      },
+      {
+        "ticker": "FDSN",
+        "price": 52.65
+      },
+      {
+        "ticker": "INDM",
+        "price": 86.97
+      },
+      {
+        "ticker": "LOGX",
+        "price": 53.33
+      },
+      {
+        "ticker": "UTIL",
+        "price": 43.79
+      },
+      {
+        "ticker": "WTRS",
+        "price": 39.04
+      }
+    ],
+    "riskScore": 64
+  },
+  {
+    "day": 59,
+    "equity": 15479,
+    "cash": 15479,
+    "available": 15479,
+    "lockedCash": 0,
+    "liquidationEquity": 15479,
+    "openGroups": [],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 127.35
+      },
+      {
+        "ticker": "QBIT",
+        "price": 105.2
+      },
+      {
+        "ticker": "CLDD",
+        "price": 77.9
+      },
+      {
+        "ticker": "AURB",
+        "price": 48.8
+      },
+      {
+        "ticker": "VFIN",
+        "price": 67.47
+      },
+      {
+        "ticker": "PETR",
+        "price": 69.01
+      },
+      {
+        "ticker": "SOLR",
+        "price": 48.69
+      },
+      {
+        "ticker": "MEDX",
+        "price": 108.84
+      },
+      {
+        "ticker": "BIOV",
+        "price": 27.58
+      },
+      {
+        "ticker": "RTHB",
+        "price": 58.41
+      },
+      {
+        "ticker": "FDSN",
+        "price": 53.06
+      },
+      {
+        "ticker": "INDM",
+        "price": 86.8
+      },
+      {
+        "ticker": "LOGX",
+        "price": 51.99
+      },
+      {
+        "ticker": "UTIL",
+        "price": 43.51
+      },
+      {
+        "ticker": "WTRS",
+        "price": 39.08
+      }
+    ],
+    "riskScore": 64
+  },
+  {
+    "day": 60,
+    "equity": 15479,
+    "cash": 15479,
+    "available": 15479,
+    "lockedCash": 0,
+    "liquidationEquity": 15479,
+    "openGroups": [],
+    "prices": [
+      {
+        "ticker": "NVXT",
+        "price": 129.46
+      },
+      {
+        "ticker": "QBIT",
+        "price": 105.36
+      },
+      {
+        "ticker": "CLDD",
+        "price": 77.5
+      },
+      {
+        "ticker": "AURB",
+        "price": 47.87
+      },
+      {
+        "ticker": "VFIN",
+        "price": 68.46
+      },
+      {
+        "ticker": "PETR",
+        "price": 71.87
+      },
+      {
+        "ticker": "SOLR",
+        "price": 50.03
+      },
+      {
+        "ticker": "MEDX",
+        "price": 109.17
+      },
+      {
+        "ticker": "BIOV",
+        "price": 28.27
+      },
+      {
+        "ticker": "RTHB",
+        "price": 57.89
+      },
+      {
+        "ticker": "FDSN",
+        "price": 53.06
+      },
+      {
+        "ticker": "INDM",
+        "price": 87.97
+      },
+      {
+        "ticker": "LOGX",
+        "price": 52.7
+      },
+      {
+        "ticker": "UTIL",
+        "price": 43.57
+      },
+      {
+        "ticker": "WTRS",
+        "price": 38.97
+      }
+    ],
+    "riskScore": 64
+  }
+]

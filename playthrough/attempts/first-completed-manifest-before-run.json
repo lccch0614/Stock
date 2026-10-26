@@ -1,0 +1,44 @@
+{
+  "recordedAt": "2026-10-26T02:44:57.193Z",
+  "engineVersion": "2.5.0",
+  "seed": 20271025,
+  "initialCash": 10000,
+  "policy": {
+    "version": 1,
+    "limit": 60,
+    "target": 20000,
+    "symbols": [
+      "BIOV",
+      "QBIT",
+      "SOLR",
+      "NVXT"
+    ],
+    "riskPerSymbol": 0.2,
+    "cashBuffer": 0.2,
+    "dte": 7,
+    "width": 5,
+    "profitCapture": 0.8,
+    "lossFraction": 0.8
+  },
+  "policySHA256": "0ef67b5d3ae1a01c84994c96b610e687bb3f2ac420bfa54a732e8fcf6265c8d4",
+  "runnerSHA256": "a42e9f37bf90c63e9d608e1d293c296886e759b01e821afad3ccc5d6fa0df4d7",
+  "engineSHA256": {
+    "bootstrap.js": "c3c5f4d4cab985c7d8ae559796a1e91ded1ea16054dbff8ec9ef0fb8043e0e40",
+    "career-system.js": "74d515d02239601e2a94b23b46596f3f5d1f3d6ad3afbf0372c937e57232c471",
+    "career-ui.js": "040c996d4dfc68c050b66cdadd6b9e456693686bf0b078a8ca6a6b767426534b",
+    "core.js": "73ff8d81974f44193d90b8539e5d5b30852aee1465ed2abf3c98dcba8c461cf0",
+    "derivatives-ui.js": "5c59fa3f3df896ec46c4eaf3ea172c1d7887415389541f8069568791cd76a781",
+    "derivatives.js": "821603169f02b0701128e04138365633e169810c1e720aca5896e33cfdbfe07c",
+    "market.js": "805602d9b524e9938e1a2c0faafbc47d9ff186bcdf1f9760d8caebca6dea4821",
+    "onboarding.js": "d86d2e8393cd6bbc13137866e6fea5d54a598a047a491748495d36a26a67b991",
+    "options-market.js": "da82fe5da24f9226fa0b745b8cd308a48a8223cb30db7c4f03912a0aaff62778",
+    "options-pricing.js": "28eb98f030e5e3d7c054605e28e3d65b0353d7babb5d2098b0b8f51d40e02e27",
+    "options-strategies.js": "baca00cf0c9b24002d1c6e4fb4e3f3c5cc8ad102b23afa80dd3bd1cf3402c8f0",
+    "secretary-ui.js": "7d6569a5090c2b2323d10afff23a90f0db693d25abe4f643d97410455eaa1f8c",
+    "secretary.js": "a98792a6a57a05eeb93c3d0f56da6e09f0c953d2e8101c44f0e75803741c106d",
+    "storage.js": "844c5a9c80046234ee69cd4491adf1e29e167851b0c982003fb2bfdefcf091b0",
+    "trading.js": "1b1129a0de67fb10bf9345087ea80f0b43c7b5b83994bf6a9341aeb00b558ac3",
+    "ui.js": "a34af2747c9a8988e49ea8a41f047aca41f8a3dd5634dd9abbd85c01911aee46"
+  },
+  "method": "Single forward-only programmatic playthrough of the actual game engine. Not 60 manually clicked browser days. Fixed default seed; no market re-rolls or future data in policy. Replay only for audit."
+}

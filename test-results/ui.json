@@ -1,6 +1,6 @@
 {
   "suite": "DOM interactions (jsdom, not a real rendering engine)",
-  "passed": 11,
+  "passed": 31,
   "failed": 0,
   "results": [
     {
@@ -45,6 +45,86 @@
     },
     {
       "name": "all production assets resolve relatively inside a Pages subdirectory",
+      "passed": true
+    },
+    {
+      "name": "secretary empty state starts first real trading day and renders all five pages",
+      "passed": true
+    },
+    {
+      "name": "holdings drawer follows navigation, live prices and keyboard close",
+      "passed": true
+    },
+    {
+      "name": "monitor stock, short and option routes inspect only, without new trades",
+      "passed": true
+    },
+    {
+      "name": "continuous setting keeps current page and shows unread reports",
+      "passed": true
+    },
+    {
+      "name": "advice becomes pending task, manual completion is reviewed next day",
+      "passed": true
+    },
+    {
+      "name": "advisor navigation never submits an order or consumes market randomness",
+      "passed": true
+    },
+    {
+      "name": "past brief remains unchanged and cannot add stale advice",
+      "passed": true
+    },
+    {
+      "name": "saving and startup reload retain reports, tasks, settings and money",
+      "passed": true
+    },
+    {
+      "name": "legacy V2.3.0 startup uses current account as baseline with no invented briefs",
+      "passed": true
+    },
+    {
+      "name": "secretary report data is escaped when imported, not rendered as HTML",
+      "passed": true
+    },
+    {
+      "name": "capital detail links identify individual order and strategy locks",
+      "passed": true
+    },
+    {
+      "name": "mark all read clears each unread brief without altering positions or prices",
+      "passed": true
+    },
+    {
+      "name": "career missions UI accepts two, rejects third, abandons and shows XP after closes",
+      "passed": true
+    },
+    {
+      "name": "plan form saves intent and budget, selects next opening, and cancels draft",
+      "passed": true
+    },
+    {
+      "name": "planned option open, loss reminder and navigated close require explicit confirmation",
+      "passed": true
+    },
+    {
+      "name": "risk panel and Lv4 career use strategy-aware score and finite displayed scenarios",
+      "passed": true
+    },
+    {
+      "name": "mission and plan persistence reloads without duplicate rewards",
+      "passed": true
+    },
+    {
+      "name": "imported intent is escaped in both plan cards and daily secretary review",
+      "passed": true
+    },
+    {
+      "name": "invalid plan inputs show a message and no trade or plan is created",
+      "passed": true
+    },
+    {
+      "name": "legacy report without decision fields still renders all five pages",
       "passed": true
     }
   ]

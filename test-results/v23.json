@@ -136,7 +136,7 @@
       "passed": true
     },
     {
-      "name": "schema 3 round-trip retains groups, collateral and Greeks",
+      "name": "current schema round-trip retains groups, collateral and Greeks",
       "passed": true
     },
     {

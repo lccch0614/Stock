@@ -1,0 +1,26 @@
+PASS snapshot agrees with existing equity, locks and signed option Greeks
+PASS pure contextual quotes exactly match existing terminal for all symbols and sides
+PASS first daily report includes manual day-zero trade and separates fees once
+PASS subsequent report covers all between-close trades without recounting old fees
+PASS mixed portfolio daily P&L reconciles through spreads, expiry and borrow charges
+PASS hanging buy fill and forced-cover event are included after risk settlement
+PASS same-day report generation is idempotent and consumes no IDs or RNG
+PASS historical snapshots and advice remain frozen after trades and later prices
+PASS reporting preserves seeded market replay and financial results
+PASS advisor sees only closing public snapshot and never future or RNG fields
+PASS high-priority funding and expiry risks precede career opportunities
+PASS concentration rule handles stocks and insolvent ratios without NaN
+PASS tasks add once, reject pending duplicates and never place orders
+PASS old archived advice cannot create a new task
+PASS manual completion and skipped tasks are reviewed on the next close only
+PASS closed or settled expiry task resolves automatically
+PASS pause mode stops clock and opens newly saved five-page report
+PASS continuous mode retains view and accumulates unread reports
+PASS V2.3.0 actual-engine fixture migrates with no fabricated historical reports
+PASS current save with reports and pending tasks round-trips exactly
+PASS corrupt imported report structures, advice target or money are rejected
+PASS report retention bounds storage while preserving baseline and unread semantics
+PASS tutorial reports and tasks are isolated and do not overwrite the career archive
+PASS reset clears reports, tasks and old baseline, failed reset keeps them
+PASS long legacy group IDs produce valid compact advice and task IDs
+25/25 V2.4 tests passed

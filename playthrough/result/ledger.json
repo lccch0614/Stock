@@ -1,0 +1,626 @@
+[
+  {
+    "id": "L-6",
+    "day": 0,
+    "type": "STRATEGY_OPEN",
+    "amount": 28,
+    "description": "牛市認沽價差 · Bull Put 4 組 BIOV",
+    "afterCash": 10028
+  },
+  {
+    "id": "L-12",
+    "day": 0,
+    "type": "STRATEGY_OPEN",
+    "amount": 595,
+    "description": "牛市認沽價差 · Bull Put 5 組 QBIT",
+    "afterCash": 10623
+  },
+  {
+    "id": "L-18",
+    "day": 0,
+    "type": "STRATEGY_OPEN",
+    "amount": 204,
+    "description": "牛市認沽價差 · Bull Put 4 組 SOLR",
+    "afterCash": 10827
+  },
+  {
+    "id": "L-24",
+    "day": 0,
+    "type": "STRATEGY_OPEN",
+    "amount": 575,
+    "description": "牛市認沽價差 · Bull Put 5 組 NVXT",
+    "afterCash": 11402
+  },
+  {
+    "id": "L-26",
+    "day": 4,
+    "type": "STRATEGY_CLOSE",
+    "amount": -36,
+    "description": "牛市認沽價差 · Bull Put 4 組整組平倉",
+    "afterCash": 11366
+  },
+  {
+    "id": "L-28",
+    "day": 4,
+    "type": "STRATEGY_CLOSE",
+    "amount": -105,
+    "description": "牛市認沽價差 · Bull Put 5 組整組平倉",
+    "afterCash": 11261
+  },
+  {
+    "id": "L-34",
+    "day": 4,
+    "type": "STRATEGY_OPEN",
+    "amount": 304,
+    "description": "熊市認購價差 · Bear Call 4 組 SOLR",
+    "afterCash": 11565
+  },
+  {
+    "id": "L-40",
+    "day": 4,
+    "type": "STRATEGY_OPEN",
+    "amount": 735,
+    "description": "熊市認購價差 · Bear Call 5 組 NVXT",
+    "afterCash": 12300
+  },
+  {
+    "id": "L-42",
+    "day": 7,
+    "type": "OPTION_EXPIRY",
+    "amount": 0,
+    "description": "牛市認沽價差 · Bull Put 整組現金結算",
+    "afterCash": 12300
+  },
+  {
+    "id": "L-44",
+    "day": 7,
+    "type": "OPTION_EXPIRY",
+    "amount": 0,
+    "description": "牛市認沽價差 · Bull Put 整組現金結算",
+    "afterCash": 12300
+  },
+  {
+    "id": "L-50",
+    "day": 7,
+    "type": "STRATEGY_OPEN",
+    "amount": 270,
+    "description": "熊市認購價差 · Bear Call 5 組 BIOV",
+    "afterCash": 12570
+  },
+  {
+    "id": "L-56",
+    "day": 7,
+    "type": "STRATEGY_OPEN",
+    "amount": 550,
+    "description": "熊市認購價差 · Bear Call 5 組 QBIT",
+    "afterCash": 13120
+  },
+  {
+    "id": "L-58",
+    "day": 9,
+    "type": "STRATEGY_CLOSE",
+    "amount": -56,
+    "description": "熊市認購價差 · Bear Call 4 組整組平倉",
+    "afterCash": 13064
+  },
+  {
+    "id": "L-64",
+    "day": 9,
+    "type": "STRATEGY_OPEN",
+    "amount": 240,
+    "description": "熊市認購價差 · Bear Call 5 組 SOLR",
+    "afterCash": 13304
+  },
+  {
+    "id": "L-66",
+    "day": 10,
+    "type": "STRATEGY_CLOSE",
+    "amount": -25,
+    "description": "熊市認購價差 · Bear Call 5 組整組平倉",
+    "afterCash": 13279
+  },
+  {
+    "id": "L-72",
+    "day": 10,
+    "type": "STRATEGY_OPEN",
+    "amount": 20,
+    "description": "熊市認購價差 · Bear Call 4 組 BIOV",
+    "afterCash": 13299
+  },
+  {
+    "id": "L-74",
+    "day": 11,
+    "type": "OPTION_EXPIRY",
+    "amount": -10,
+    "description": "熊市認購價差 · Bear Call 整組現金結算",
+    "afterCash": 13289
+  },
+  {
+    "id": "L-80",
+    "day": 11,
+    "type": "STRATEGY_OPEN",
+    "amount": 450,
+    "description": "熊市認購價差 · Bear Call 5 組 NVXT",
+    "afterCash": 13739
+  },
+  {
+    "id": "L-82",
+    "day": 13,
+    "type": "STRATEGY_CLOSE",
+    "amount": -35,
+    "description": "熊市認購價差 · Bear Call 5 組整組平倉",
+    "afterCash": 13704
+  },
+  {
+    "id": "L-88",
+    "day": 13,
+    "type": "STRATEGY_OPEN",
+    "amount": 455,
+    "description": "牛市認沽價差 · Bull Put 5 組 SOLR",
+    "afterCash": 14159
+  },
+  {
+    "id": "L-90",
+    "day": 14,
+    "type": "OPTION_EXPIRY",
+    "amount": -2500,
+    "description": "熊市認購價差 · Bear Call 整組現金結算",
+    "afterCash": 11659
+  },
+  {
+    "id": "L-96",
+    "day": 14,
+    "type": "STRATEGY_OPEN",
+    "amount": 435,
+    "description": "熊市認購價差 · Bear Call 5 組 QBIT",
+    "afterCash": 12094
+  },
+  {
+    "id": "L-98",
+    "day": 17,
+    "type": "OPTION_EXPIRY",
+    "amount": 0,
+    "description": "熊市認購價差 · Bear Call 整組現金結算",
+    "afterCash": 12094
+  },
+  {
+    "id": "L-100",
+    "day": 17,
+    "type": "STRATEGY_CLOSE",
+    "amount": -50,
+    "description": "牛市認沽價差 · Bull Put 5 組整組平倉",
+    "afterCash": 12044
+  },
+  {
+    "id": "L-106",
+    "day": 17,
+    "type": "STRATEGY_OPEN",
+    "amount": 368,
+    "description": "熊市認購價差 · Bear Call 4 組 BIOV",
+    "afterCash": 12412
+  },
+  {
+    "id": "L-112",
+    "day": 17,
+    "type": "STRATEGY_OPEN",
+    "amount": 640,
+    "description": "熊市認購價差 · Bear Call 5 組 SOLR",
+    "afterCash": 13052
+  },
+  {
+    "id": "L-114",
+    "day": 18,
+    "type": "OPTION_EXPIRY",
+    "amount": -2070,
+    "description": "熊市認購價差 · Bear Call 整組現金結算",
+    "afterCash": 10982
+  },
+  {
+    "id": "L-120",
+    "day": 18,
+    "type": "STRATEGY_OPEN",
+    "amount": 855,
+    "description": "熊市認購價差 · Bear Call 5 組 NVXT",
+    "afterCash": 11837
+  },
+  {
+    "id": "L-122",
+    "day": 21,
+    "type": "OPTION_EXPIRY",
+    "amount": 0,
+    "description": "熊市認購價差 · Bear Call 整組現金結算",
+    "afterCash": 11837
+  },
+  {
+    "id": "L-128",
+    "day": 21,
+    "type": "STRATEGY_OPEN",
+    "amount": 690,
+    "description": "熊市認購價差 · Bear Call 5 組 QBIT",
+    "afterCash": 12527
+  },
+  {
+    "id": "L-130",
+    "day": 24,
+    "type": "OPTION_EXPIRY",
+    "amount": 0,
+    "description": "熊市認購價差 · Bear Call 整組現金結算",
+    "afterCash": 12527
+  },
+  {
+    "id": "L-132",
+    "day": 24,
+    "type": "OPTION_EXPIRY",
+    "amount": -20,
+    "description": "熊市認購價差 · Bear Call 整組現金結算",
+    "afterCash": 12507
+  },
+  {
+    "id": "L-134",
+    "day": 24,
+    "type": "STRATEGY_CLOSE",
+    "amount": -30,
+    "description": "熊市認購價差 · Bear Call 5 組整組平倉",
+    "afterCash": 12477
+  },
+  {
+    "id": "L-140",
+    "day": 24,
+    "type": "STRATEGY_OPEN",
+    "amount": 580,
+    "description": "熊市認購價差 · Bear Call 5 組 BIOV",
+    "afterCash": 13057
+  },
+  {
+    "id": "L-146",
+    "day": 24,
+    "type": "STRATEGY_OPEN",
+    "amount": 104,
+    "description": "熊市認購價差 · Bear Call 4 組 SOLR",
+    "afterCash": 13161
+  },
+  {
+    "id": "L-152",
+    "day": 24,
+    "type": "STRATEGY_OPEN",
+    "amount": 1014,
+    "description": "熊市認購價差 · Bear Call 6 組 NVXT",
+    "afterCash": 14175
+  },
+  {
+    "id": "L-154",
+    "day": 27,
+    "type": "STRATEGY_CLOSE",
+    "amount": -20,
+    "description": "熊市認購價差 · Bear Call 4 組整組平倉",
+    "afterCash": 14155
+  },
+  {
+    "id": "L-160",
+    "day": 27,
+    "type": "STRATEGY_OPEN",
+    "amount": 310,
+    "description": "熊市認購價差 · Bear Call 5 組 SOLR",
+    "afterCash": 14465
+  },
+  {
+    "id": "L-162",
+    "day": 28,
+    "type": "OPTION_EXPIRY",
+    "amount": -2500,
+    "description": "熊市認購價差 · Bear Call 整組現金結算",
+    "afterCash": 11965
+  },
+  {
+    "id": "L-164",
+    "day": 28,
+    "type": "STRATEGY_CLOSE",
+    "amount": -65,
+    "description": "熊市認購價差 · Bear Call 5 組整組平倉",
+    "afterCash": 11900
+  },
+  {
+    "id": "L-170",
+    "day": 28,
+    "type": "STRATEGY_OPEN",
+    "amount": 188,
+    "description": "牛市認沽價差 · Bull Put 4 組 BIOV",
+    "afterCash": 12088
+  },
+  {
+    "id": "L-176",
+    "day": 28,
+    "type": "STRATEGY_OPEN",
+    "amount": 765,
+    "description": "熊市認購價差 · Bear Call 5 組 QBIT",
+    "afterCash": 12853
+  },
+  {
+    "id": "L-178",
+    "day": 31,
+    "type": "OPTION_EXPIRY",
+    "amount": -1356,
+    "description": "熊市認購價差 · Bear Call 整組現金結算",
+    "afterCash": 11497
+  },
+  {
+    "id": "L-184",
+    "day": 31,
+    "type": "STRATEGY_OPEN",
+    "amount": 695,
+    "description": "熊市認購價差 · Bear Call 5 組 NVXT",
+    "afterCash": 12192
+  },
+  {
+    "id": "L-186",
+    "day": 32,
+    "type": "STRATEGY_CLOSE",
+    "amount": -35,
+    "description": "熊市認購價差 · Bear Call 5 組整組平倉",
+    "afterCash": 12157
+  },
+  {
+    "id": "L-192",
+    "day": 32,
+    "type": "STRATEGY_OPEN",
+    "amount": 505,
+    "description": "牛市認沽價差 · Bull Put 5 組 SOLR",
+    "afterCash": 12662
+  },
+  {
+    "id": "L-194",
+    "day": 35,
+    "type": "OPTION_EXPIRY",
+    "amount": 0,
+    "description": "牛市認沽價差 · Bull Put 整組現金結算",
+    "afterCash": 12662
+  },
+  {
+    "id": "L-196",
+    "day": 35,
+    "type": "OPTION_EXPIRY",
+    "amount": 0,
+    "description": "熊市認購價差 · Bear Call 整組現金結算",
+    "afterCash": 12662
+  },
+  {
+    "id": "L-198",
+    "day": 35,
+    "type": "STRATEGY_CLOSE",
+    "amount": -130,
+    "description": "熊市認購價差 · Bear Call 5 組整組平倉",
+    "afterCash": 12532
+  },
+  {
+    "id": "L-204",
+    "day": 35,
+    "type": "STRATEGY_OPEN",
+    "amount": 400,
+    "description": "牛市認沽價差 · Bull Put 5 組 BIOV",
+    "afterCash": 12932
+  },
+  {
+    "id": "L-210",
+    "day": 35,
+    "type": "STRATEGY_OPEN",
+    "amount": 1239,
+    "description": "熊市認購價差 · Bear Call 7 組 QBIT",
+    "afterCash": 14171
+  },
+  {
+    "id": "L-216",
+    "day": 35,
+    "type": "STRATEGY_OPEN",
+    "amount": 1218,
+    "description": "熊市認購價差 · Bear Call 7 組 NVXT",
+    "afterCash": 15389
+  },
+  {
+    "id": "L-218",
+    "day": 37,
+    "type": "STRATEGY_CLOSE",
+    "amount": -55,
+    "description": "牛市認沽價差 · Bull Put 5 組整組平倉",
+    "afterCash": 15334
+  },
+  {
+    "id": "L-224",
+    "day": 37,
+    "type": "STRATEGY_OPEN",
+    "amount": 380,
+    "description": "熊市認購價差 · Bear Call 5 組 SOLR",
+    "afterCash": 15714
+  },
+  {
+    "id": "L-226",
+    "day": 42,
+    "type": "OPTION_EXPIRY",
+    "amount": 0,
+    "description": "牛市認沽價差 · Bull Put 整組現金結算",
+    "afterCash": 15714
+  },
+  {
+    "id": "L-228",
+    "day": 42,
+    "type": "OPTION_EXPIRY",
+    "amount": 0,
+    "description": "熊市認購價差 · Bear Call 整組現金結算",
+    "afterCash": 15714
+  },
+  {
+    "id": "L-230",
+    "day": 42,
+    "type": "OPTION_EXPIRY",
+    "amount": 0,
+    "description": "熊市認購價差 · Bear Call 整組現金結算",
+    "afterCash": 15714
+  },
+  {
+    "id": "L-236",
+    "day": 42,
+    "type": "STRATEGY_OPEN",
+    "amount": 616,
+    "description": "牛市認沽價差 · Bull Put 7 組 BIOV",
+    "afterCash": 16330
+  },
+  {
+    "id": "L-242",
+    "day": 42,
+    "type": "STRATEGY_OPEN",
+    "amount": 960,
+    "description": "熊市認購價差 · Bear Call 8 組 QBIT",
+    "afterCash": 17290
+  },
+  {
+    "id": "L-248",
+    "day": 42,
+    "type": "STRATEGY_OPEN",
+    "amount": 1136,
+    "description": "牛市認沽價差 · Bull Put 8 組 NVXT",
+    "afterCash": 18426
+  },
+  {
+    "id": "L-250",
+    "day": 44,
+    "type": "OPTION_EXPIRY",
+    "amount": 0,
+    "description": "熊市認購價差 · Bear Call 整組現金結算",
+    "afterCash": 18426
+  },
+  {
+    "id": "L-256",
+    "day": 44,
+    "type": "STRATEGY_OPEN",
+    "amount": 456,
+    "description": "熊市認購價差 · Bear Call 6 組 SOLR",
+    "afterCash": 18882
+  },
+  {
+    "id": "L-258",
+    "day": 46,
+    "type": "STRATEGY_CLOSE",
+    "amount": -3840,
+    "description": "熊市認購價差 · Bear Call 8 組整組平倉",
+    "afterCash": 15042
+  },
+  {
+    "id": "L-264",
+    "day": 46,
+    "type": "STRATEGY_OPEN",
+    "amount": 512,
+    "description": "熊市認購價差 · Bear Call 4 組 QBIT",
+    "afterCash": 15554
+  },
+  {
+    "id": "L-266",
+    "day": 47,
+    "type": "STRATEGY_CLOSE",
+    "amount": -77,
+    "description": "牛市認沽價差 · Bull Put 7 組整組平倉",
+    "afterCash": 15477
+  },
+  {
+    "id": "L-272",
+    "day": 47,
+    "type": "STRATEGY_OPEN",
+    "amount": 205,
+    "description": "牛市認沽價差 · Bull Put 5 組 BIOV",
+    "afterCash": 15682
+  },
+  {
+    "id": "L-274",
+    "day": 49,
+    "type": "OPTION_EXPIRY",
+    "amount": 0,
+    "description": "牛市認沽價差 · Bull Put 整組現金結算",
+    "afterCash": 15682
+  },
+  {
+    "id": "L-280",
+    "day": 49,
+    "type": "STRATEGY_OPEN",
+    "amount": 1352,
+    "description": "熊市認購價差 · Bear Call 8 組 NVXT",
+    "afterCash": 17034
+  },
+  {
+    "id": "L-282",
+    "day": 51,
+    "type": "OPTION_EXPIRY",
+    "amount": 0,
+    "description": "熊市認購價差 · Bear Call 整組現金結算",
+    "afterCash": 17034
+  },
+  {
+    "id": "L-288",
+    "day": 51,
+    "type": "STRATEGY_OPEN",
+    "amount": 532,
+    "description": "熊市認購價差 · Bear Call 7 組 SOLR",
+    "afterCash": 17566
+  },
+  {
+    "id": "L-290",
+    "day": 52,
+    "type": "STRATEGY_CLOSE",
+    "amount": -25,
+    "description": "牛市認沽價差 · Bull Put 5 組整組平倉",
+    "afterCash": 17541
+  },
+  {
+    "id": "L-296",
+    "day": 52,
+    "type": "STRATEGY_OPEN",
+    "amount": 102,
+    "description": "牛市認沽價差 · Bull Put 6 組 BIOV",
+    "afterCash": 17643
+  },
+  {
+    "id": "L-298",
+    "day": 53,
+    "type": "OPTION_EXPIRY",
+    "amount": 0,
+    "description": "熊市認購價差 · Bear Call 整組現金結算",
+    "afterCash": 17643
+  },
+  {
+    "id": "L-304",
+    "day": 53,
+    "type": "STRATEGY_OPEN",
+    "amount": 1072,
+    "description": "熊市認購價差 · Bear Call 8 組 QBIT",
+    "afterCash": 18715
+  },
+  {
+    "id": "L-306",
+    "day": 56,
+    "type": "OPTION_EXPIRY",
+    "amount": -1720,
+    "description": "熊市認購價差 · Bear Call 整組現金結算",
+    "afterCash": 16995
+  },
+  {
+    "id": "L-308",
+    "day": 57,
+    "type": "STRATEGY_CLOSE",
+    "amount": -64,
+    "description": "熊市認購價差 · Bear Call 8 組整組平倉",
+    "afterCash": 16931
+  },
+  {
+    "id": "L-310",
+    "day": 58,
+    "type": "OPTION_EXPIRY",
+    "amount": 0,
+    "description": "熊市認購價差 · Bear Call 整組現金結算",
+    "afterCash": 16931
+  },
+  {
+    "id": "L-312",
+    "day": 59,
+    "type": "OPTION_EXPIRY",
+    "amount": -1452,
+    "description": "牛市認沽價差 · Bull Put 整組現金結算",
+    "afterCash": 15479
+  }
+]

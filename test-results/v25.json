@@ -1,0 +1,123 @@
+{
+  "suite": "V2.5 missions, execution plans, risk, career and save validation",
+  "passed": 29,
+  "failed": 0,
+  "results": [
+    {
+      "name": "mission accepts at most two, locks follow-ups and rejects duplicates",
+      "passed": true
+    },
+    {
+      "name": "five closes grant XP once, no cash, and unlock follow-up",
+      "passed": true
+    },
+    {
+      "name": "cash-buffer violation resets consecutive progress",
+      "passed": true
+    },
+    {
+      "name": "mission expires after deadline and may restart with a fresh cursor",
+      "passed": true
+    },
+    {
+      "name": "invalid plans do not consume IDs and existing stock prevents ambiguous attribution",
+      "passed": true
+    },
+    {
+      "name": "plan binds successful same-tool trade only, rejected open leaves draft untouched",
+      "passed": true
+    },
+    {
+      "name": "budget overrun is latched and reported without secretly blocking a valid trade",
+      "passed": true
+    },
+    {
+      "name": "limit fill stays attached to original plan even if selection changes",
+      "passed": true
+    },
+    {
+      "name": "a pre-acceptance plan cannot complete a newly accepted mission",
+      "passed": true
+    },
+    {
+      "name": "vertical mission requires planned atomic opening and a completed close review",
+      "passed": true
+    },
+    {
+      "name": "single-leg or oversized-risk plans do not satisfy vertical mission",
+      "passed": true
+    },
+    {
+      "name": "stop/target reminder latches, never trades, and keeps financial and execution assessment separate",
+      "passed": true
+    },
+    {
+      "name": "holding time uses opened day, not draft creation date",
+      "passed": true
+    },
+    {
+      "name": "partial option close plan combines realized and remaining liquidation P&L with fees once",
+      "passed": true
+    },
+    {
+      "name": "expiry closes plan naturally and preserves exact terminal financial P&L",
+      "passed": true
+    },
+    {
+      "name": "short plan includes initial margin, closing fees and ticker borrow costs",
+      "passed": true
+    },
+    {
+      "name": "stock plan includes entry, partial exits, final exit and all fees",
+      "passed": true
+    },
+    {
+      "name": "strategy risk uses width rather than two gross option notionals",
+      "passed": true
+    },
+    {
+      "name": "covered call combines locked stock once; shorts remain marked unbounded",
+      "passed": true
+    },
+    {
+      "name": "scenario stock shocks are exact, cash is stable and risk analysis is read-only",
+      "passed": true
+    },
+    {
+      "name": "option scenario exactly reprices all signed legs at fixed IV and time",
+      "passed": true
+    },
+    {
+      "name": "trailing drawdown excludes old collapse, includes current mark and requires 20 dates",
+      "passed": true
+    },
+    {
+      "name": "Lv4 requires all mission categories, cash and 20-day discipline as well as equity",
+      "passed": true
+    },
+    {
+      "name": "Lv4 rejects collateral deficit and excessive recent drawdown",
+      "passed": true
+    },
+    {
+      "name": "reports freeze mission/plan reviews and migration does not backfill accomplishments",
+      "passed": true
+    },
+    {
+      "name": "current save roundtrips plans/XP exactly; malformed risk and plans reject import",
+      "passed": true
+    },
+    {
+      "name": "tutorial sandbox and reset isolate plans and mission progress",
+      "passed": true
+    },
+    {
+      "name": "closing and reopening the same ticker before close preserves both plans and next-day mission review",
+      "passed": true
+    },
+    {
+      "name": "actual V2.4-engine archive migrates without losing frozen reports, tasks or financial marks",
+      "passed": true
+    }
+  ]
+}

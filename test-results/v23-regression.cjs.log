@@ -31,7 +31,7 @@ PASS borrow fee charged once per simulated day
 PASS maintenance call closes covered put before forced stock cover
 PASS actual V2.2 fixture migrates without cash/RNG/price/transaction changes
 PASS V1 save migrates and migration is pure/idempotent
-PASS schema 3 round-trip retains groups, collateral and Greeks
+PASS current schema round-trip retains groups, collateral and Greeks
 PASS malformed saves rejected (NaN, unknown stock, mismatched legs, naked, HTML id)
 PASS corrupt local save blocks automatic overwrite
 PASS reset cancellation changes no state
@@ -48,17 +48,17 @@ PASS 500 mixed-portfolio simulation days retain valid finite accounting
 47/47 V2.3 tests passed
 load error SyntaxError: Unexpected token 'b', "bad json" is not valid JSON
     at JSON.parse (<anonymous>)
-    at loadSave (storage:70:29)
+    at loadSave (storage:75:29)
     at evalmachine.<anonymous>:1:1
     at Script.runInContext (node:vm:149:12)
     at Object.runInContext (node:vm:301:6)
-    at g (/Users/tom/Documents/Codex/2026-10-25/referenced-chatgpt-conversation-this-is-an/work/Stock-Market-Tycoon-V2.3.0/tests/v23-regression.cjs:6:15)
-    at /Users/tom/Documents/Codex/2026-10-25/referenced-chatgpt-conversation-this-is-an/work/Stock-Market-Tycoon-V2.3.0/tests/v23-regression.cjs:44:136
-    at test (/Users/tom/Documents/Codex/2026-10-25/referenced-chatgpt-conversation-this-is-an/work/Stock-Market-Tycoon-V2.3.0/tests/v23-regression.cjs:7:218)
-    at /Users/tom/Documents/Codex/2026-10-25/referenced-chatgpt-conversation-this-is-an/work/Stock-Market-Tycoon-V2.3.0/tests/v23-regression.cjs:44:7
+    at g (/Users/tom/Documents/Codex/2026-10-25/referenced-chatgpt-conversation-this-is-an/work/Stock-Market-Tycoon-V2.5.0/tests/v23-regression.cjs:6:15)
+    at /Users/tom/Documents/Codex/2026-10-25/referenced-chatgpt-conversation-this-is-an/work/Stock-Market-Tycoon-V2.5.0/tests/v23-regression.cjs:44:136
+    at test (/Users/tom/Documents/Codex/2026-10-25/referenced-chatgpt-conversation-this-is-an/work/Stock-Market-Tycoon-V2.5.0/tests/v23-regression.cjs:7:218)
+    at /Users/tom/Documents/Codex/2026-10-25/referenced-chatgpt-conversation-this-is-an/work/Stock-Market-Tycoon-V2.5.0/tests/v23-regression.cjs:44:7
 Error: quota-test
     at localStorage.setItem (evalmachine.<anonymous>:1:69)
-    at storage:58:22
+    at storage:63:22
 Error: quota-test
     at localStorage.setItem (evalmachine.<anonymous>:1:69)
-    at storage:58:22
+    at storage:63:22

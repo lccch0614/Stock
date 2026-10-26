@@ -74,6 +74,7 @@ function strategyOpen(strategy,t,low,high,days,qty){
     state.cash=round(state.cash+p.cashFlow);
     state.derivativeTransactions.push({id:unique('D'),groupId:id,day:state.day,action:p.legs.length===2?'STRATEGY_OPEN':p.legs[0].side<0?'SELL_TO_OPEN':'BUY_'+p.legs[0].kind.toUpperCase(),ticker:t,qty,price:round((p.cashFlow+p.fees)/(100*qty)),fee:p.fees,realized:-p.fees,legs:p.legs});
     addLedger('STRATEGY_OPEN',p.cashFlow,`${STRATEGIES[strategy].name} ${qty} 組 ${t}`);
+    recordPlanOpen('option',t,{groupId:id,cost:p.capital,risk:Number.isFinite(p.maxLoss)?p.maxLoss:p.capital});
     return {ok:true,id,msg:`${STRATEGIES[strategy].name} 已整組開倉；${p.cashFlow>=0?'淨收入':'淨支出'} ${money(Math.abs(p.cashFlow))}`};
   });
 }
@@ -114,7 +115,7 @@ function strategyClose(id,qty,forced=false,liquidateShares=false){
     if(!forced&&availableRaw() < -0.001)return fail('平倉後現金不足以維持其餘抵押；備兌認購可選擇連股票整組平倉');
     state.derivativeTransactions.push({id:unique('D'),groupId:id,day:state.day,action:legs.length===2?'STRATEGY_CLOSE':legs[0].side<0?'BUY_TO_CLOSE':'SELL_TO_CLOSE',ticker:g.ticker,qty,price:round((flow+legs.length*qty)/(100*qty)),fee:legs.length*qty,realized,combinedRealized:round(realized-legs.reduce((a,o)=>a+o.entryFee*qty,0))});
     addLedger('STRATEGY_CLOSE',flow,`${STRATEGIES[g.strategy].name} ${qty} 組整組平倉`);
-    return {ok:true,msg:`策略已整組平倉，期權損益（連開平倉費）${money(state.derivativeTransactions.at(-1).combinedRealized)}`};
+    evaluatePlans();return {ok:true,msg:`策略已整組平倉，期權損益（連開平倉費）${money(state.derivativeTransactions.at(-1).combinedRealized)}`};
   });
 }
 function optionClose(id,qty){const o=state.options.find(o=>o.id===id);if(!o)return fail('找不到合約');if(groupLegs(o.groupId).length>1)return fail('價差不可拆腿，請整組平倉');return strategyClose(o.groupId,qty)}
@@ -135,7 +136,7 @@ function settleOptions(){
       const realized=round(flow-legs.reduce((a,o)=>a+o.side*o.entry*100*qty,0));
       state.options=state.options.filter(o=>o.groupId!==group.id);state.optionGroups=state.optionGroups.filter(g=>g.id!==group.id);
       state.derivativeTransactions.push({id:unique('D'),groupId:group.id,day:state.day,action:'OPTION_EXPIRY',ticker:group.ticker,qty,price:flow/(100*qty),fee:0,realized,combinedRealized:round(realized-legs.reduce((a,o)=>a+o.entryFee*qty,0))});
-      addLedger('OPTION_EXPIRY',flow,`${STRATEGIES[group.strategy].name} 整組現金結算`);
+      addLedger('OPTION_EXPIRY',flow,`${STRATEGIES[group.strategy].name} 整組現金結算`);evaluatePlans();
       return {ok:true};
     });
     if(!result.ok)throw Error(result.msg);

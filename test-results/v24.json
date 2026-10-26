@@ -1,0 +1,107 @@
+{
+  "suite": "V2.4 daily accounting, advisor, tasks, snapshots and migration",
+  "passed": 25,
+  "failed": 0,
+  "results": [
+    {
+      "name": "snapshot agrees with existing equity, locks and signed option Greeks",
+      "passed": true
+    },
+    {
+      "name": "pure contextual quotes exactly match existing terminal for all symbols and sides",
+      "passed": true
+    },
+    {
+      "name": "first daily report includes manual day-zero trade and separates fees once",
+      "passed": true
+    },
+    {
+      "name": "subsequent report covers all between-close trades without recounting old fees",
+      "passed": true
+    },
+    {
+      "name": "mixed portfolio daily P&L reconciles through spreads, expiry and borrow charges",
+      "passed": true
+    },
+    {
+      "name": "hanging buy fill and forced-cover event are included after risk settlement",
+      "passed": true
+    },
+    {
+      "name": "same-day report generation is idempotent and consumes no IDs or RNG",
+      "passed": true
+    },
+    {
+      "name": "historical snapshots and advice remain frozen after trades and later prices",
+      "passed": true
+    },
+    {
+      "name": "reporting preserves seeded market replay and financial results",
+      "passed": true
+    },
+    {
+      "name": "advisor sees only closing public snapshot and never future or RNG fields",
+      "passed": true
+    },
+    {
+      "name": "high-priority funding and expiry risks precede career opportunities",
+      "passed": true
+    },
+    {
+      "name": "concentration rule handles stocks and insolvent ratios without NaN",
+      "passed": true
+    },
+    {
+      "name": "tasks add once, reject pending duplicates and never place orders",
+      "passed": true
+    },
+    {
+      "name": "old archived advice cannot create a new task",
+      "passed": true
+    },
+    {
+      "name": "manual completion and skipped tasks are reviewed on the next close only",
+      "passed": true
+    },
+    {
+      "name": "closed or settled expiry task resolves automatically",
+      "passed": true
+    },
+    {
+      "name": "pause mode stops clock and opens newly saved five-page report",
+      "passed": true
+    },
+    {
+      "name": "continuous mode retains view and accumulates unread reports",
+      "passed": true
+    },
+    {
+      "name": "V2.3.0 actual-engine fixture migrates with no fabricated historical reports",
+      "passed": true
+    },
+    {
+      "name": "current save with reports and pending tasks round-trips exactly",
+      "passed": true
+    },
+    {
+      "name": "corrupt imported report structures, advice target or money are rejected",
+      "passed": true
+    },
+    {
+      "name": "report retention bounds storage while preserving baseline and unread semantics",
+      "passed": true
+    },
+    {
+      "name": "tutorial reports and tasks are isolated and do not overwrite the career archive",
+      "passed": true
+    },
+    {
+      "name": "reset clears reports, tasks and old baseline, failed reset keeps them",
+      "passed": true
+    },
+    {
+      "name": "long legacy group IDs produce valid compact advice and task IDs",
+      "passed": true
+    }
+  ]
+}

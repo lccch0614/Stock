@@ -1,6 +1,6 @@
 {
   "name":"stock-market-tycoon",
-  "version":"2.3.0",
+  "version":"2.5.0",
   "private":true,
   "description":"Buildless, GitHub Pages compatible trading career simulator",
   "scripts":{

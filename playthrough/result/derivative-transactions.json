@@ -1,0 +1,1757 @@
+[
+  {
+    "id": "D-5",
+    "groupId": "GRP-2",
+    "day": 0,
+    "action": "STRATEGY_OPEN",
+    "ticker": "BIOV",
+    "qty": 4,
+    "price": 0.09,
+    "fee": 8,
+    "realized": -8,
+    "legs": [
+      {
+        "ticker": "BIOV",
+        "kind": "put",
+        "strike": 25,
+        "expiry": 7,
+        "side": 1,
+        "qty": 4,
+        "entry": 0.01,
+        "entryFee": 1
+      },
+      {
+        "ticker": "BIOV",
+        "kind": "put",
+        "strike": 30,
+        "expiry": 7,
+        "side": -1,
+        "qty": 4,
+        "entry": 0.1,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-11",
+    "groupId": "GRP-8",
+    "day": 0,
+    "action": "STRATEGY_OPEN",
+    "ticker": "QBIT",
+    "qty": 5,
+    "price": 1.21,
+    "fee": 10,
+    "realized": -10,
+    "legs": [
+      {
+        "ticker": "QBIT",
+        "kind": "put",
+        "strike": 85,
+        "expiry": 7,
+        "side": 1,
+        "qty": 5,
+        "entry": 0.57,
+        "entryFee": 1
+      },
+      {
+        "ticker": "QBIT",
+        "kind": "put",
+        "strike": 90,
+        "expiry": 7,
+        "side": -1,
+        "qty": 5,
+        "entry": 1.78,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-17",
+    "groupId": "GRP-14",
+    "day": 0,
+    "action": "STRATEGY_OPEN",
+    "ticker": "SOLR",
+    "qty": 4,
+    "price": 0.53,
+    "fee": 8,
+    "realized": -8,
+    "legs": [
+      {
+        "ticker": "SOLR",
+        "kind": "put",
+        "strike": 40,
+        "expiry": 7,
+        "side": 1,
+        "qty": 4,
+        "entry": 0.04,
+        "entryFee": 1
+      },
+      {
+        "ticker": "SOLR",
+        "kind": "put",
+        "strike": 45,
+        "expiry": 7,
+        "side": -1,
+        "qty": 4,
+        "entry": 0.57,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-23",
+    "groupId": "GRP-20",
+    "day": 0,
+    "action": "STRATEGY_OPEN",
+    "ticker": "NVXT",
+    "qty": 5,
+    "price": 1.17,
+    "fee": 10,
+    "realized": -10,
+    "legs": [
+      {
+        "ticker": "NVXT",
+        "kind": "put",
+        "strike": 120,
+        "expiry": 7,
+        "side": 1,
+        "qty": 5,
+        "entry": 0.77,
+        "entryFee": 1
+      },
+      {
+        "ticker": "NVXT",
+        "kind": "put",
+        "strike": 125,
+        "expiry": 7,
+        "side": -1,
+        "qty": 5,
+        "entry": 1.94,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-25",
+    "groupId": "GRP-14",
+    "day": 4,
+    "action": "STRATEGY_CLOSE",
+    "ticker": "SOLR",
+    "qty": 4,
+    "price": -0.07,
+    "fee": 8,
+    "realized": 176,
+    "combinedRealized": 168
+  },
+  {
+    "id": "D-27",
+    "groupId": "GRP-20",
+    "day": 4,
+    "action": "STRATEGY_CLOSE",
+    "ticker": "NVXT",
+    "qty": 5,
+    "price": -0.19,
+    "fee": 10,
+    "realized": 480,
+    "combinedRealized": 470
+  },
+  {
+    "id": "D-33",
+    "groupId": "GRP-30",
+    "day": 4,
+    "action": "STRATEGY_OPEN",
+    "ticker": "SOLR",
+    "qty": 4,
+    "price": 0.78,
+    "fee": 8,
+    "realized": -8,
+    "legs": [
+      {
+        "ticker": "SOLR",
+        "kind": "call",
+        "strike": 50,
+        "expiry": 11,
+        "side": -1,
+        "qty": 4,
+        "entry": 0.87,
+        "entryFee": 1
+      },
+      {
+        "ticker": "SOLR",
+        "kind": "call",
+        "strike": 55,
+        "expiry": 11,
+        "side": 1,
+        "qty": 4,
+        "entry": 0.09,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-39",
+    "groupId": "GRP-36",
+    "day": 4,
+    "action": "STRATEGY_OPEN",
+    "ticker": "NVXT",
+    "qty": 5,
+    "price": 1.49,
+    "fee": 10,
+    "realized": -10,
+    "legs": [
+      {
+        "ticker": "NVXT",
+        "kind": "call",
+        "strike": 135,
+        "expiry": 11,
+        "side": -1,
+        "qty": 5,
+        "entry": 2.75,
+        "entryFee": 1
+      },
+      {
+        "ticker": "NVXT",
+        "kind": "call",
+        "strike": 140,
+        "expiry": 11,
+        "side": 1,
+        "qty": 5,
+        "entry": 1.26,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-41",
+    "groupId": "GRP-2",
+    "day": 7,
+    "action": "OPTION_EXPIRY",
+    "ticker": "BIOV",
+    "qty": 4,
+    "price": 0,
+    "fee": 0,
+    "realized": 36,
+    "combinedRealized": 28
+  },
+  {
+    "id": "D-43",
+    "groupId": "GRP-8",
+    "day": 7,
+    "action": "OPTION_EXPIRY",
+    "ticker": "QBIT",
+    "qty": 5,
+    "price": 0,
+    "fee": 0,
+    "realized": 605,
+    "combinedRealized": 595
+  },
+  {
+    "id": "D-49",
+    "groupId": "GRP-46",
+    "day": 7,
+    "action": "STRATEGY_OPEN",
+    "ticker": "BIOV",
+    "qty": 5,
+    "price": 0.56,
+    "fee": 10,
+    "realized": -10,
+    "legs": [
+      {
+        "ticker": "BIOV",
+        "kind": "call",
+        "strike": 40,
+        "expiry": 14,
+        "side": -1,
+        "qty": 5,
+        "entry": 0.62,
+        "entryFee": 1
+      },
+      {
+        "ticker": "BIOV",
+        "kind": "call",
+        "strike": 45,
+        "expiry": 14,
+        "side": 1,
+        "qty": 5,
+        "entry": 0.06,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-55",
+    "groupId": "GRP-52",
+    "day": 7,
+    "action": "STRATEGY_OPEN",
+    "ticker": "QBIT",
+    "qty": 5,
+    "price": 1.12,
+    "fee": 10,
+    "realized": -10,
+    "legs": [
+      {
+        "ticker": "QBIT",
+        "kind": "call",
+        "strike": 95,
+        "expiry": 14,
+        "side": -1,
+        "qty": 5,
+        "entry": 1.72,
+        "entryFee": 1
+      },
+      {
+        "ticker": "QBIT",
+        "kind": "call",
+        "strike": 100,
+        "expiry": 14,
+        "side": 1,
+        "qty": 5,
+        "entry": 0.6,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-57",
+    "groupId": "GRP-30",
+    "day": 9,
+    "action": "STRATEGY_CLOSE",
+    "ticker": "SOLR",
+    "qty": 4,
+    "price": -0.12,
+    "fee": 8,
+    "realized": 256,
+    "combinedRealized": 248
+  },
+  {
+    "id": "D-63",
+    "groupId": "GRP-60",
+    "day": 9,
+    "action": "STRATEGY_OPEN",
+    "ticker": "SOLR",
+    "qty": 5,
+    "price": 0.5,
+    "fee": 10,
+    "realized": -10,
+    "legs": [
+      {
+        "ticker": "SOLR",
+        "kind": "call",
+        "strike": 50,
+        "expiry": 16,
+        "side": -1,
+        "qty": 5,
+        "entry": 0.55,
+        "entryFee": 1
+      },
+      {
+        "ticker": "SOLR",
+        "kind": "call",
+        "strike": 55,
+        "expiry": 16,
+        "side": 1,
+        "qty": 5,
+        "entry": 0.05,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-65",
+    "groupId": "GRP-46",
+    "day": 10,
+    "action": "STRATEGY_CLOSE",
+    "ticker": "BIOV",
+    "qty": 5,
+    "price": -0.03,
+    "fee": 10,
+    "realized": 255,
+    "combinedRealized": 245
+  },
+  {
+    "id": "D-71",
+    "groupId": "GRP-68",
+    "day": 10,
+    "action": "STRATEGY_OPEN",
+    "ticker": "BIOV",
+    "qty": 4,
+    "price": 0.07,
+    "fee": 8,
+    "realized": -8,
+    "legs": [
+      {
+        "ticker": "BIOV",
+        "kind": "call",
+        "strike": 40,
+        "expiry": 17,
+        "side": -1,
+        "qty": 4,
+        "entry": 0.08,
+        "entryFee": 1
+      },
+      {
+        "ticker": "BIOV",
+        "kind": "call",
+        "strike": 45,
+        "expiry": 17,
+        "side": 1,
+        "qty": 4,
+        "entry": 0.01,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-73",
+    "groupId": "GRP-36",
+    "day": 11,
+    "action": "OPTION_EXPIRY",
+    "ticker": "NVXT",
+    "qty": 5,
+    "price": -0.02,
+    "fee": 0,
+    "realized": 735,
+    "combinedRealized": 725
+  },
+  {
+    "id": "D-79",
+    "groupId": "GRP-76",
+    "day": 11,
+    "action": "STRATEGY_OPEN",
+    "ticker": "NVXT",
+    "qty": 5,
+    "price": 0.92,
+    "fee": 10,
+    "realized": -10,
+    "legs": [
+      {
+        "ticker": "NVXT",
+        "kind": "call",
+        "strike": 140,
+        "expiry": 18,
+        "side": -1,
+        "qty": 5,
+        "entry": 1.59,
+        "entryFee": 1
+      },
+      {
+        "ticker": "NVXT",
+        "kind": "call",
+        "strike": 145,
+        "expiry": 18,
+        "side": 1,
+        "qty": 5,
+        "entry": 0.67,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-81",
+    "groupId": "GRP-60",
+    "day": 13,
+    "action": "STRATEGY_CLOSE",
+    "ticker": "SOLR",
+    "qty": 5,
+    "price": -0.05,
+    "fee": 10,
+    "realized": 215,
+    "combinedRealized": 205
+  },
+  {
+    "id": "D-87",
+    "groupId": "GRP-84",
+    "day": 13,
+    "action": "STRATEGY_OPEN",
+    "ticker": "SOLR",
+    "qty": 5,
+    "price": 0.93,
+    "fee": 10,
+    "realized": -10,
+    "legs": [
+      {
+        "ticker": "SOLR",
+        "kind": "put",
+        "strike": 40,
+        "expiry": 20,
+        "side": 1,
+        "qty": 5,
+        "entry": 0.09,
+        "entryFee": 1
+      },
+      {
+        "ticker": "SOLR",
+        "kind": "put",
+        "strike": 45,
+        "expiry": 20,
+        "side": -1,
+        "qty": 5,
+        "entry": 1.02,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-89",
+    "groupId": "GRP-52",
+    "day": 14,
+    "action": "OPTION_EXPIRY",
+    "ticker": "QBIT",
+    "qty": 5,
+    "price": -5,
+    "fee": 0,
+    "realized": -1940,
+    "combinedRealized": -1950
+  },
+  {
+    "id": "D-95",
+    "groupId": "GRP-92",
+    "day": 14,
+    "action": "STRATEGY_OPEN",
+    "ticker": "QBIT",
+    "qty": 5,
+    "price": 0.89,
+    "fee": 10,
+    "realized": -10,
+    "legs": [
+      {
+        "ticker": "QBIT",
+        "kind": "call",
+        "strike": 105,
+        "expiry": 21,
+        "side": -1,
+        "qty": 5,
+        "entry": 1.45,
+        "entryFee": 1
+      },
+      {
+        "ticker": "QBIT",
+        "kind": "call",
+        "strike": 110,
+        "expiry": 21,
+        "side": 1,
+        "qty": 5,
+        "entry": 0.56,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-97",
+    "groupId": "GRP-68",
+    "day": 17,
+    "action": "OPTION_EXPIRY",
+    "ticker": "BIOV",
+    "qty": 4,
+    "price": 0,
+    "fee": 0,
+    "realized": 28,
+    "combinedRealized": 20
+  },
+  {
+    "id": "D-99",
+    "groupId": "GRP-84",
+    "day": 17,
+    "action": "STRATEGY_CLOSE",
+    "ticker": "SOLR",
+    "qty": 5,
+    "price": -0.08,
+    "fee": 10,
+    "realized": 415,
+    "combinedRealized": 405
+  },
+  {
+    "id": "D-105",
+    "groupId": "GRP-102",
+    "day": 17,
+    "action": "STRATEGY_OPEN",
+    "ticker": "BIOV",
+    "qty": 4,
+    "price": 0.94,
+    "fee": 8,
+    "realized": -8,
+    "legs": [
+      {
+        "ticker": "BIOV",
+        "kind": "call",
+        "strike": 35,
+        "expiry": 24,
+        "side": -1,
+        "qty": 4,
+        "entry": 1.06,
+        "entryFee": 1
+      },
+      {
+        "ticker": "BIOV",
+        "kind": "call",
+        "strike": 40,
+        "expiry": 24,
+        "side": 1,
+        "qty": 4,
+        "entry": 0.12,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-111",
+    "groupId": "GRP-108",
+    "day": 17,
+    "action": "STRATEGY_OPEN",
+    "ticker": "SOLR",
+    "qty": 5,
+    "price": 1.3,
+    "fee": 10,
+    "realized": -10,
+    "legs": [
+      {
+        "ticker": "SOLR",
+        "kind": "call",
+        "strike": 50,
+        "expiry": 24,
+        "side": -1,
+        "qty": 5,
+        "entry": 1.65,
+        "entryFee": 1
+      },
+      {
+        "ticker": "SOLR",
+        "kind": "call",
+        "strike": 55,
+        "expiry": 24,
+        "side": 1,
+        "qty": 5,
+        "entry": 0.35,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-113",
+    "groupId": "GRP-76",
+    "day": 18,
+    "action": "OPTION_EXPIRY",
+    "ticker": "NVXT",
+    "qty": 5,
+    "price": -4.14,
+    "fee": 0,
+    "realized": -1610,
+    "combinedRealized": -1620
+  },
+  {
+    "id": "D-119",
+    "groupId": "GRP-116",
+    "day": 18,
+    "action": "STRATEGY_OPEN",
+    "ticker": "NVXT",
+    "qty": 5,
+    "price": 1.73,
+    "fee": 10,
+    "realized": -10,
+    "legs": [
+      {
+        "ticker": "NVXT",
+        "kind": "call",
+        "strike": 145,
+        "expiry": 25,
+        "side": -1,
+        "qty": 5,
+        "entry": 4.3,
+        "entryFee": 1
+      },
+      {
+        "ticker": "NVXT",
+        "kind": "call",
+        "strike": 150,
+        "expiry": 25,
+        "side": 1,
+        "qty": 5,
+        "entry": 2.57,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-121",
+    "groupId": "GRP-92",
+    "day": 21,
+    "action": "OPTION_EXPIRY",
+    "ticker": "QBIT",
+    "qty": 5,
+    "price": 0,
+    "fee": 0,
+    "realized": 445,
+    "combinedRealized": 435
+  },
+  {
+    "id": "D-127",
+    "groupId": "GRP-124",
+    "day": 21,
+    "action": "STRATEGY_OPEN",
+    "ticker": "QBIT",
+    "qty": 5,
+    "price": 1.4,
+    "fee": 10,
+    "realized": -10,
+    "legs": [
+      {
+        "ticker": "QBIT",
+        "kind": "call",
+        "strike": 100,
+        "expiry": 28,
+        "side": -1,
+        "qty": 5,
+        "entry": 2.7,
+        "entryFee": 1
+      },
+      {
+        "ticker": "QBIT",
+        "kind": "call",
+        "strike": 105,
+        "expiry": 28,
+        "side": 1,
+        "qty": 5,
+        "entry": 1.3,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-129",
+    "groupId": "GRP-102",
+    "day": 24,
+    "action": "OPTION_EXPIRY",
+    "ticker": "BIOV",
+    "qty": 4,
+    "price": 0,
+    "fee": 0,
+    "realized": 376,
+    "combinedRealized": 368
+  },
+  {
+    "id": "D-131",
+    "groupId": "GRP-108",
+    "day": 24,
+    "action": "OPTION_EXPIRY",
+    "ticker": "SOLR",
+    "qty": 5,
+    "price": -0.04,
+    "fee": 0,
+    "realized": 630,
+    "combinedRealized": 620
+  },
+  {
+    "id": "D-133",
+    "groupId": "GRP-116",
+    "day": 24,
+    "action": "STRATEGY_CLOSE",
+    "ticker": "NVXT",
+    "qty": 5,
+    "price": -0.04,
+    "fee": 10,
+    "realized": 835,
+    "combinedRealized": 825
+  },
+  {
+    "id": "D-139",
+    "groupId": "GRP-136",
+    "day": 24,
+    "action": "STRATEGY_OPEN",
+    "ticker": "BIOV",
+    "qty": 5,
+    "price": 1.18,
+    "fee": 10,
+    "realized": -10,
+    "legs": [
+      {
+        "ticker": "BIOV",
+        "kind": "call",
+        "strike": 35,
+        "expiry": 31,
+        "side": -1,
+        "qty": 5,
+        "entry": 1.35,
+        "entryFee": 1
+      },
+      {
+        "ticker": "BIOV",
+        "kind": "call",
+        "strike": 40,
+        "expiry": 31,
+        "side": 1,
+        "qty": 5,
+        "entry": 0.17,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-145",
+    "groupId": "GRP-142",
+    "day": 24,
+    "action": "STRATEGY_OPEN",
+    "ticker": "SOLR",
+    "qty": 4,
+    "price": 0.28,
+    "fee": 8,
+    "realized": -8,
+    "legs": [
+      {
+        "ticker": "SOLR",
+        "kind": "call",
+        "strike": 55,
+        "expiry": 31,
+        "side": -1,
+        "qty": 4,
+        "entry": 0.33,
+        "entryFee": 1
+      },
+      {
+        "ticker": "SOLR",
+        "kind": "call",
+        "strike": 60,
+        "expiry": 31,
+        "side": 1,
+        "qty": 4,
+        "entry": 0.05,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-151",
+    "groupId": "GRP-148",
+    "day": 24,
+    "action": "STRATEGY_OPEN",
+    "ticker": "NVXT",
+    "qty": 6,
+    "price": 1.71,
+    "fee": 12,
+    "realized": -12,
+    "legs": [
+      {
+        "ticker": "NVXT",
+        "kind": "call",
+        "strike": 135,
+        "expiry": 31,
+        "side": -1,
+        "qty": 6,
+        "entry": 3.82,
+        "entryFee": 1
+      },
+      {
+        "ticker": "NVXT",
+        "kind": "call",
+        "strike": 140,
+        "expiry": 31,
+        "side": 1,
+        "qty": 6,
+        "entry": 2.11,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-153",
+    "groupId": "GRP-142",
+    "day": 27,
+    "action": "STRATEGY_CLOSE",
+    "ticker": "SOLR",
+    "qty": 4,
+    "price": -0.03,
+    "fee": 8,
+    "realized": 92,
+    "combinedRealized": 84
+  },
+  {
+    "id": "D-159",
+    "groupId": "GRP-156",
+    "day": 27,
+    "action": "STRATEGY_OPEN",
+    "ticker": "SOLR",
+    "qty": 5,
+    "price": 0.64,
+    "fee": 10,
+    "realized": -10,
+    "legs": [
+      {
+        "ticker": "SOLR",
+        "kind": "call",
+        "strike": 50,
+        "expiry": 34,
+        "side": -1,
+        "qty": 5,
+        "entry": 0.77,
+        "entryFee": 1
+      },
+      {
+        "ticker": "SOLR",
+        "kind": "call",
+        "strike": 55,
+        "expiry": 34,
+        "side": 1,
+        "qty": 5,
+        "entry": 0.13,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-161",
+    "groupId": "GRP-124",
+    "day": 28,
+    "action": "OPTION_EXPIRY",
+    "ticker": "QBIT",
+    "qty": 5,
+    "price": -5,
+    "fee": 0,
+    "realized": -1800,
+    "combinedRealized": -1810
+  },
+  {
+    "id": "D-163",
+    "groupId": "GRP-136",
+    "day": 28,
+    "action": "STRATEGY_CLOSE",
+    "ticker": "BIOV",
+    "qty": 5,
+    "price": -0.11,
+    "fee": 10,
+    "realized": 525,
+    "combinedRealized": 515
+  },
+  {
+    "id": "D-169",
+    "groupId": "GRP-166",
+    "day": 28,
+    "action": "STRATEGY_OPEN",
+    "ticker": "BIOV",
+    "qty": 4,
+    "price": 0.49,
+    "fee": 8,
+    "realized": -8,
+    "legs": [
+      {
+        "ticker": "BIOV",
+        "kind": "put",
+        "strike": 25,
+        "expiry": 35,
+        "side": 1,
+        "qty": 4,
+        "entry": 0.03,
+        "entryFee": 1
+      },
+      {
+        "ticker": "BIOV",
+        "kind": "put",
+        "strike": 30,
+        "expiry": 35,
+        "side": -1,
+        "qty": 4,
+        "entry": 0.52,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-175",
+    "groupId": "GRP-172",
+    "day": 28,
+    "action": "STRATEGY_OPEN",
+    "ticker": "QBIT",
+    "qty": 5,
+    "price": 1.55,
+    "fee": 10,
+    "realized": -10,
+    "legs": [
+      {
+        "ticker": "QBIT",
+        "kind": "call",
+        "strike": 110,
+        "expiry": 35,
+        "side": -1,
+        "qty": 5,
+        "entry": 3.29,
+        "entryFee": 1
+      },
+      {
+        "ticker": "QBIT",
+        "kind": "call",
+        "strike": 115,
+        "expiry": 35,
+        "side": 1,
+        "qty": 5,
+        "entry": 1.74,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-177",
+    "groupId": "GRP-148",
+    "day": 31,
+    "action": "OPTION_EXPIRY",
+    "ticker": "NVXT",
+    "qty": 6,
+    "price": -2.26,
+    "fee": 0,
+    "realized": -330,
+    "combinedRealized": -342
+  },
+  {
+    "id": "D-183",
+    "groupId": "GRP-180",
+    "day": 31,
+    "action": "STRATEGY_OPEN",
+    "ticker": "NVXT",
+    "qty": 5,
+    "price": 1.41,
+    "fee": 10,
+    "realized": -10,
+    "legs": [
+      {
+        "ticker": "NVXT",
+        "kind": "call",
+        "strike": 140,
+        "expiry": 38,
+        "side": -1,
+        "qty": 5,
+        "entry": 3.08,
+        "entryFee": 1
+      },
+      {
+        "ticker": "NVXT",
+        "kind": "call",
+        "strike": 145,
+        "expiry": 38,
+        "side": 1,
+        "qty": 5,
+        "entry": 1.67,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-185",
+    "groupId": "GRP-156",
+    "day": 32,
+    "action": "STRATEGY_CLOSE",
+    "ticker": "SOLR",
+    "qty": 5,
+    "price": -0.05,
+    "fee": 10,
+    "realized": 285,
+    "combinedRealized": 275
+  },
+  {
+    "id": "D-191",
+    "groupId": "GRP-188",
+    "day": 32,
+    "action": "STRATEGY_OPEN",
+    "ticker": "SOLR",
+    "qty": 5,
+    "price": 1.03,
+    "fee": 10,
+    "realized": -10,
+    "legs": [
+      {
+        "ticker": "SOLR",
+        "kind": "put",
+        "strike": 40,
+        "expiry": 39,
+        "side": 1,
+        "qty": 5,
+        "entry": 0.16,
+        "entryFee": 1
+      },
+      {
+        "ticker": "SOLR",
+        "kind": "put",
+        "strike": 45,
+        "expiry": 39,
+        "side": -1,
+        "qty": 5,
+        "entry": 1.19,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-193",
+    "groupId": "GRP-166",
+    "day": 35,
+    "action": "OPTION_EXPIRY",
+    "ticker": "BIOV",
+    "qty": 4,
+    "price": 0,
+    "fee": 0,
+    "realized": 196,
+    "combinedRealized": 188
+  },
+  {
+    "id": "D-195",
+    "groupId": "GRP-172",
+    "day": 35,
+    "action": "OPTION_EXPIRY",
+    "ticker": "QBIT",
+    "qty": 5,
+    "price": 0,
+    "fee": 0,
+    "realized": 775,
+    "combinedRealized": 765
+  },
+  {
+    "id": "D-197",
+    "groupId": "GRP-180",
+    "day": 35,
+    "action": "STRATEGY_CLOSE",
+    "ticker": "NVXT",
+    "qty": 5,
+    "price": -0.24,
+    "fee": 10,
+    "realized": 575,
+    "combinedRealized": 565
+  },
+  {
+    "id": "D-203",
+    "groupId": "GRP-200",
+    "day": 35,
+    "action": "STRATEGY_OPEN",
+    "ticker": "BIOV",
+    "qty": 5,
+    "price": 0.82,
+    "fee": 10,
+    "realized": -10,
+    "legs": [
+      {
+        "ticker": "BIOV",
+        "kind": "put",
+        "strike": 25,
+        "expiry": 42,
+        "side": 1,
+        "qty": 5,
+        "entry": 0.05,
+        "entryFee": 1
+      },
+      {
+        "ticker": "BIOV",
+        "kind": "put",
+        "strike": 30,
+        "expiry": 42,
+        "side": -1,
+        "qty": 5,
+        "entry": 0.87,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-209",
+    "groupId": "GRP-206",
+    "day": 35,
+    "action": "STRATEGY_OPEN",
+    "ticker": "QBIT",
+    "qty": 7,
+    "price": 1.79,
+    "fee": 14,
+    "realized": -14,
+    "legs": [
+      {
+        "ticker": "QBIT",
+        "kind": "call",
+        "strike": 110,
+        "expiry": 42,
+        "side": -1,
+        "qty": 7,
+        "entry": 3.83,
+        "entryFee": 1
+      },
+      {
+        "ticker": "QBIT",
+        "kind": "call",
+        "strike": 115,
+        "expiry": 42,
+        "side": 1,
+        "qty": 7,
+        "entry": 2.04,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-215",
+    "groupId": "GRP-212",
+    "day": 35,
+    "action": "STRATEGY_OPEN",
+    "ticker": "NVXT",
+    "qty": 7,
+    "price": 1.76,
+    "fee": 14,
+    "realized": -14,
+    "legs": [
+      {
+        "ticker": "NVXT",
+        "kind": "call",
+        "strike": 130,
+        "expiry": 42,
+        "side": -1,
+        "qty": 7,
+        "entry": 3.85,
+        "entryFee": 1
+      },
+      {
+        "ticker": "NVXT",
+        "kind": "call",
+        "strike": 135,
+        "expiry": 42,
+        "side": 1,
+        "qty": 7,
+        "entry": 2.09,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-217",
+    "groupId": "GRP-188",
+    "day": 37,
+    "action": "STRATEGY_CLOSE",
+    "ticker": "SOLR",
+    "qty": 5,
+    "price": -0.09,
+    "fee": 10,
+    "realized": 460,
+    "combinedRealized": 450
+  },
+  {
+    "id": "D-223",
+    "groupId": "GRP-220",
+    "day": 37,
+    "action": "STRATEGY_OPEN",
+    "ticker": "SOLR",
+    "qty": 5,
+    "price": 0.78,
+    "fee": 10,
+    "realized": -10,
+    "legs": [
+      {
+        "ticker": "SOLR",
+        "kind": "call",
+        "strike": 50,
+        "expiry": 44,
+        "side": -1,
+        "qty": 5,
+        "entry": 0.93,
+        "entryFee": 1
+      },
+      {
+        "ticker": "SOLR",
+        "kind": "call",
+        "strike": 55,
+        "expiry": 44,
+        "side": 1,
+        "qty": 5,
+        "entry": 0.15,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-225",
+    "groupId": "GRP-200",
+    "day": 42,
+    "action": "OPTION_EXPIRY",
+    "ticker": "BIOV",
+    "qty": 5,
+    "price": 0,
+    "fee": 0,
+    "realized": 410,
+    "combinedRealized": 400
+  },
+  {
+    "id": "D-227",
+    "groupId": "GRP-206",
+    "day": 42,
+    "action": "OPTION_EXPIRY",
+    "ticker": "QBIT",
+    "qty": 7,
+    "price": 0,
+    "fee": 0,
+    "realized": 1253,
+    "combinedRealized": 1239
+  },
+  {
+    "id": "D-229",
+    "groupId": "GRP-212",
+    "day": 42,
+    "action": "OPTION_EXPIRY",
+    "ticker": "NVXT",
+    "qty": 7,
+    "price": 0,
+    "fee": 0,
+    "realized": 1232,
+    "combinedRealized": 1218
+  },
+  {
+    "id": "D-235",
+    "groupId": "GRP-232",
+    "day": 42,
+    "action": "STRATEGY_OPEN",
+    "ticker": "BIOV",
+    "qty": 7,
+    "price": 0.9,
+    "fee": 14,
+    "realized": -14,
+    "legs": [
+      {
+        "ticker": "BIOV",
+        "kind": "put",
+        "strike": 25,
+        "expiry": 49,
+        "side": 1,
+        "qty": 7,
+        "entry": 0.05,
+        "entryFee": 1
+      },
+      {
+        "ticker": "BIOV",
+        "kind": "put",
+        "strike": 30,
+        "expiry": 49,
+        "side": -1,
+        "qty": 7,
+        "entry": 0.95,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-241",
+    "groupId": "GRP-238",
+    "day": 42,
+    "action": "STRATEGY_OPEN",
+    "ticker": "QBIT",
+    "qty": 8,
+    "price": 1.22,
+    "fee": 16,
+    "realized": -16,
+    "legs": [
+      {
+        "ticker": "QBIT",
+        "kind": "call",
+        "strike": 110,
+        "expiry": 49,
+        "side": -1,
+        "qty": 8,
+        "entry": 2.35,
+        "entryFee": 1
+      },
+      {
+        "ticker": "QBIT",
+        "kind": "call",
+        "strike": 115,
+        "expiry": 49,
+        "side": 1,
+        "qty": 8,
+        "entry": 1.13,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-247",
+    "groupId": "GRP-244",
+    "day": 42,
+    "action": "STRATEGY_OPEN",
+    "ticker": "NVXT",
+    "qty": 8,
+    "price": 1.44,
+    "fee": 16,
+    "realized": -16,
+    "legs": [
+      {
+        "ticker": "NVXT",
+        "kind": "put",
+        "strike": 120,
+        "expiry": 49,
+        "side": 1,
+        "qty": 8,
+        "entry": 1.34,
+        "entryFee": 1
+      },
+      {
+        "ticker": "NVXT",
+        "kind": "put",
+        "strike": 125,
+        "expiry": 49,
+        "side": -1,
+        "qty": 8,
+        "entry": 2.78,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-249",
+    "groupId": "GRP-220",
+    "day": 44,
+    "action": "OPTION_EXPIRY",
+    "ticker": "SOLR",
+    "qty": 5,
+    "price": 0,
+    "fee": 0,
+    "realized": 390,
+    "combinedRealized": 380
+  },
+  {
+    "id": "D-255",
+    "groupId": "GRP-252",
+    "day": 44,
+    "action": "STRATEGY_OPEN",
+    "ticker": "SOLR",
+    "qty": 6,
+    "price": 0.78,
+    "fee": 12,
+    "realized": -12,
+    "legs": [
+      {
+        "ticker": "SOLR",
+        "kind": "call",
+        "strike": 50,
+        "expiry": 51,
+        "side": -1,
+        "qty": 6,
+        "entry": 0.93,
+        "entryFee": 1
+      },
+      {
+        "ticker": "SOLR",
+        "kind": "call",
+        "strike": 55,
+        "expiry": 51,
+        "side": 1,
+        "qty": 6,
+        "entry": 0.15,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-257",
+    "groupId": "GRP-238",
+    "day": 46,
+    "action": "STRATEGY_CLOSE",
+    "ticker": "QBIT",
+    "qty": 8,
+    "price": -4.78,
+    "fee": 16,
+    "realized": -2864,
+    "combinedRealized": -2880
+  },
+  {
+    "id": "D-263",
+    "groupId": "GRP-260",
+    "day": 46,
+    "action": "STRATEGY_OPEN",
+    "ticker": "QBIT",
+    "qty": 4,
+    "price": 1.3,
+    "fee": 8,
+    "realized": -8,
+    "legs": [
+      {
+        "ticker": "QBIT",
+        "kind": "call",
+        "strike": 125,
+        "expiry": 53,
+        "side": -1,
+        "qty": 4,
+        "entry": 2.9,
+        "entryFee": 1
+      },
+      {
+        "ticker": "QBIT",
+        "kind": "call",
+        "strike": 130,
+        "expiry": 53,
+        "side": 1,
+        "qty": 4,
+        "entry": 1.6,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-265",
+    "groupId": "GRP-232",
+    "day": 47,
+    "action": "STRATEGY_CLOSE",
+    "ticker": "BIOV",
+    "qty": 7,
+    "price": -0.09,
+    "fee": 14,
+    "realized": 553,
+    "combinedRealized": 539
+  },
+  {
+    "id": "D-271",
+    "groupId": "GRP-268",
+    "day": 47,
+    "action": "STRATEGY_OPEN",
+    "ticker": "BIOV",
+    "qty": 5,
+    "price": 0.43,
+    "fee": 10,
+    "realized": -10,
+    "legs": [
+      {
+        "ticker": "BIOV",
+        "kind": "put",
+        "strike": 25,
+        "expiry": 54,
+        "side": 1,
+        "qty": 5,
+        "entry": 0.02,
+        "entryFee": 1
+      },
+      {
+        "ticker": "BIOV",
+        "kind": "put",
+        "strike": 30,
+        "expiry": 54,
+        "side": -1,
+        "qty": 5,
+        "entry": 0.45,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-273",
+    "groupId": "GRP-244",
+    "day": 49,
+    "action": "OPTION_EXPIRY",
+    "ticker": "NVXT",
+    "qty": 8,
+    "price": 0,
+    "fee": 0,
+    "realized": 1152,
+    "combinedRealized": 1136
+  },
+  {
+    "id": "D-279",
+    "groupId": "GRP-276",
+    "day": 49,
+    "action": "STRATEGY_OPEN",
+    "ticker": "NVXT",
+    "qty": 8,
+    "price": 1.71,
+    "fee": 16,
+    "realized": -16,
+    "legs": [
+      {
+        "ticker": "NVXT",
+        "kind": "call",
+        "strike": 130,
+        "expiry": 56,
+        "side": -1,
+        "qty": 8,
+        "entry": 4.13,
+        "entryFee": 1
+      },
+      {
+        "ticker": "NVXT",
+        "kind": "call",
+        "strike": 135,
+        "expiry": 56,
+        "side": 1,
+        "qty": 8,
+        "entry": 2.42,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-281",
+    "groupId": "GRP-252",
+    "day": 51,
+    "action": "OPTION_EXPIRY",
+    "ticker": "SOLR",
+    "qty": 6,
+    "price": 0,
+    "fee": 0,
+    "realized": 468,
+    "combinedRealized": 456
+  },
+  {
+    "id": "D-287",
+    "groupId": "GRP-284",
+    "day": 51,
+    "action": "STRATEGY_OPEN",
+    "ticker": "SOLR",
+    "qty": 7,
+    "price": 0.78,
+    "fee": 14,
+    "realized": -14,
+    "legs": [
+      {
+        "ticker": "SOLR",
+        "kind": "call",
+        "strike": 50,
+        "expiry": 58,
+        "side": -1,
+        "qty": 7,
+        "entry": 0.89,
+        "entryFee": 1
+      },
+      {
+        "ticker": "SOLR",
+        "kind": "call",
+        "strike": 55,
+        "expiry": 58,
+        "side": 1,
+        "qty": 7,
+        "entry": 0.11,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-289",
+    "groupId": "GRP-268",
+    "day": 52,
+    "action": "STRATEGY_CLOSE",
+    "ticker": "BIOV",
+    "qty": 5,
+    "price": -0.03,
+    "fee": 10,
+    "realized": 190,
+    "combinedRealized": 180
+  },
+  {
+    "id": "D-295",
+    "groupId": "GRP-292",
+    "day": 52,
+    "action": "STRATEGY_OPEN",
+    "ticker": "BIOV",
+    "qty": 6,
+    "price": 0.19,
+    "fee": 12,
+    "realized": -12,
+    "legs": [
+      {
+        "ticker": "BIOV",
+        "kind": "put",
+        "strike": 25,
+        "expiry": 59,
+        "side": 1,
+        "qty": 6,
+        "entry": 0.01,
+        "entryFee": 1
+      },
+      {
+        "ticker": "BIOV",
+        "kind": "put",
+        "strike": 30,
+        "expiry": 59,
+        "side": -1,
+        "qty": 6,
+        "entry": 0.2,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-297",
+    "groupId": "GRP-260",
+    "day": 53,
+    "action": "OPTION_EXPIRY",
+    "ticker": "QBIT",
+    "qty": 4,
+    "price": 0,
+    "fee": 0,
+    "realized": 520,
+    "combinedRealized": 512
+  },
+  {
+    "id": "D-303",
+    "groupId": "GRP-300",
+    "day": 53,
+    "action": "STRATEGY_OPEN",
+    "ticker": "QBIT",
+    "qty": 8,
+    "price": 1.36,
+    "fee": 16,
+    "realized": -16,
+    "legs": [
+      {
+        "ticker": "QBIT",
+        "kind": "call",
+        "strike": 125,
+        "expiry": 60,
+        "side": -1,
+        "qty": 8,
+        "entry": 2.86,
+        "entryFee": 1
+      },
+      {
+        "ticker": "QBIT",
+        "kind": "call",
+        "strike": 130,
+        "expiry": 60,
+        "side": 1,
+        "qty": 8,
+        "entry": 1.5,
+        "entryFee": 1
+      }
+    ]
+  },
+  {
+    "id": "D-305",
+    "groupId": "GRP-276",
+    "day": 56,
+    "action": "OPTION_EXPIRY",
+    "ticker": "NVXT",
+    "qty": 8,
+    "price": -2.15,
+    "fee": 0,
+    "realized": -352,
+    "combinedRealized": -368
+  },
+  {
+    "id": "D-307",
+    "groupId": "GRP-300",
+    "day": 57,
+    "action": "STRATEGY_CLOSE",
+    "ticker": "QBIT",
+    "qty": 8,
+    "price": -0.06,
+    "fee": 16,
+    "realized": 1024,
+    "combinedRealized": 1008
+  },
+  {
+    "id": "D-309",
+    "groupId": "GRP-284",
+    "day": 58,
+    "action": "OPTION_EXPIRY",
+    "ticker": "SOLR",
+    "qty": 7,
+    "price": 0,
+    "fee": 0,
+    "realized": 546,
+    "combinedRealized": 532
+  },
+  {
+    "id": "D-311",
+    "groupId": "GRP-292",
+    "day": 59,
+    "action": "OPTION_EXPIRY",
+    "ticker": "BIOV",
+    "qty": 6,
+    "price": -2.42,
+    "fee": 0,
+    "realized": -1338,
+    "combinedRealized": -1350
+  }
+]

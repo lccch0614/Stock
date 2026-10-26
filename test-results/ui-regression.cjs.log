@@ -9,4 +9,24 @@ PASS declining transaction confirmation leaves all legs unopened
 PASS localStorage V2.2 autoload migrates existing save on startup
 PASS JSON import/export round-trip and malformed import protection through UI
 PASS all production assets resolve relatively inside a Pages subdirectory
-11/11 DOM tests passed
+PASS secretary empty state starts first real trading day and renders all five pages
+PASS holdings drawer follows navigation, live prices and keyboard close
+PASS monitor stock, short and option routes inspect only, without new trades
+PASS continuous setting keeps current page and shows unread reports
+PASS advice becomes pending task, manual completion is reviewed next day
+PASS advisor navigation never submits an order or consumes market randomness
+PASS past brief remains unchanged and cannot add stale advice
+PASS saving and startup reload retain reports, tasks, settings and money
+PASS legacy V2.3.0 startup uses current account as baseline with no invented briefs
+PASS secretary report data is escaped when imported, not rendered as HTML
+PASS capital detail links identify individual order and strategy locks
+PASS mark all read clears each unread brief without altering positions or prices
+PASS career missions UI accepts two, rejects third, abandons and shows XP after closes
+PASS plan form saves intent and budget, selects next opening, and cancels draft
+PASS planned option open, loss reminder and navigated close require explicit confirmation
+PASS risk panel and Lv4 career use strategy-aware score and finite displayed scenarios
+PASS mission and plan persistence reloads without duplicate rewards
+PASS imported intent is escaped in both plan cards and daily secretary review
+PASS invalid plan inputs show a message and no trade or plan is created
+PASS legacy report without decision fields still renders all five pages
+31/31 DOM tests passed

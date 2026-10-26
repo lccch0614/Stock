@@ -7,7 +7,7 @@ function positiveQty(x){return Number.isSafeInteger(x)&&x>0&&x<=1e9}
 function validate(s){
  try {
   const tickers=SYMBOLS.map(x=>x[0]),known=t=>tickers.includes(t),nonnegative=x=>finite(x)&&x>=0;
-  if(!s||![1,2,3].includes(s.version)||!Number.isSafeInteger(s.day)||s.day<0||!finite(s.cash)||!Number.isSafeInteger(s.rng)||!Number.isSafeInteger(s.seq)||s.seq<0||!Number.isSafeInteger(s.level)||s.level<1||s.level>3||!s.stocks||Object.keys(s.stocks).length!==15||!s.positions)return false;
+  if(!s||![1,2,3,4,5].includes(s.version)||!Number.isSafeInteger(s.day)||s.day<0||!finite(s.cash)||!Number.isSafeInteger(s.rng)||!Number.isSafeInteger(s.seq)||s.seq<0||!Number.isSafeInteger(s.level)||s.level<1||s.level>4||!s.stocks||Object.keys(s.stocks).length!==15||!s.positions)return false;
   if(!['orders','transactions','history','news'].every(k=>Array.isArray(s[k]))||!Array.isArray(s.completed)||!Array.isArray(s.unlocks))return false;
   if(!tickers.every(t=>{const st=s.stocks[t];return st&&st.ticker===t&&finite(st.price)&&st.price>0&&finite(st.vol)&&st.vol>0&&['anchor','start','prior','baseGrowth','beta','eps','revenue','debt','quality','momentum'].every(k=>finite(st[k]))&&Array.isArray(st.historical)&&st.historical.length&&st.historical.every(h=>['day','open','high','low','close','volume'].every(k=>finite(h[k]))) }))return false;
   if(!Object.entries(s.positions).every(([t,p])=>known(t)&&p&&positiveQty(p.qty)&&nonnegative(p.cost)))return false;
@@ -33,6 +33,8 @@ function validate(s){
   }
   if(!Object.entries(shareLocks).every(([t,n])=>n<=(s.positions[t]?.qty||0))||!Object.entries(shortLocks).every(([t,n])=>n<=(s.shorts[t]?.qty||0)))return false;
   for(const t of tickers){if((shareLocks[t]||0)+s.orders.filter(o=>o.status==='open'&&o.side==='sell'&&o.ticker===t).reduce((a,o)=>a+o.qty,0)>(s.positions[t]?.qty||0))return false}
+  if(s.version>=4&&!validateSecretary(s.secretary,s.day,s.seq))return false;
+  if(s.version===5&&!validateCareer(s.career,s.day,s.seq))return false;
   return true;
  } catch {return false}
 }
@@ -42,7 +44,10 @@ function migrate(input){
  if(legacy){s.optionGroups=[];for(const o of s.options){o.side=1;o.entryFee=1;o.groupId='MIG-'+o.id;s.optionGroups.push({id:o.groupId,strategy:'long_'+o.kind,ticker:o.ticker,expiry:o.expiry,qty:o.qty,openedDay:s.day})}}
  s.tutorial = s.tutorial&&['new','active','skipped','completed'].includes(s.tutorial.status)&&Number.isSafeInteger(s.tutorial.step)&&s.tutorial.step>=0&&s.tutorial.step<=8?s.tutorial:{status:'new',step:0};
  s.lastBorrowDay=Number.isSafeInteger(s.lastBorrowDay)?s.lastBorrowDay:s.day;
- s.version=3;s.gameVersion='2.3.0';return s;
+ if(s.version<4||!s.secretary)s.secretary=newSecretary(closingBaseline(snapshotAccount(s)));
+ for(const r of s.secretary.reports)if(typeof r.read!=='boolean')r.read=r.day<=s.secretary.readThrough;
+ if(s.version<5||!s.career)s.career=newCareer(s.day);
+ s.version=5;s.gameVersion='2.5.0';return s;
 }
 async function openDB(){
  if(!window.indexedDB)return null;
@@ -73,7 +78,7 @@ async function loadSave(){
 }
 function download(){
  const blob=new Blob([saveData()],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');
- a.href=url;a.download=`stock-tycoon-v2.3.0-day-${state.day}.json`;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);toast('已啟動 JSON 備份下載，請保留下載檔案');return true;
+ a.href=url;a.download=`stock-tycoon-v2.5.0-day-${state.day}.json`;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);toast('已啟動 JSON 備份下載，請保留下載檔案');return true;
 }
 async function resetCareer({confirmed=false,exportBackup=false,seed=Date.now()>>>0}={}){
  if(!confirmed)return fail('已取消重新開始');
@@ -83,7 +88,7 @@ async function resetCareer({confirmed=false,exportBackup=false,seed=Date.now()>>
  if(exportBackup){try{if(saveBlocked)return fail('舊存檔未成功讀取，請先使用「匯出原始備份」');if(download()===false)return fail('備份未啟動，已取消重啟')}catch(e){return fail('無法匯出備份，已取消重啟：'+e.message)}}
  state=initial(seed||1);saveBlocked=false;
  if(!await persist()){state=previous;saveBlocked=blocked;render();return fail('新生涯未能儲存，已保留目前帳戶')}
- view='home';ticker='NVXT';derivativeTicker='NVXT';optionKind='call';optionDte=30;optionStrike=0;selectedStrategy='bull_call';strategyLow=0;strategyHigh=0;strategyQty=1;chartRange=30;orderSide='buy';orderType='market';pnlIVShift=0;pnlDaysAhead=0;
+ selectedReportDay=null;briefPage=0;holdingsPanelOpen=false;view='home';ticker='NVXT';derivativeTicker='NVXT';optionKind='call';optionDte=30;optionStrike=0;selectedStrategy='bull_call';strategyLow=0;strategyHigh=0;strategyQty=1;chartRange=30;orderSide='buy';orderType='market';pnlIVShift=0;pnlDaysAhead=0;
  render();return {ok:true,msg:'新生涯已開始：$10,000 · Day 0'};
 }
 async function downloadRawSave(){

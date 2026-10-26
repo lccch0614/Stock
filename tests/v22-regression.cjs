@@ -1,6 +1,6 @@
 const fs=require('fs'),vm=require('vm'),path=require('path'),assert=require('node:assert/strict');
 const context=vm.createContext({console,Math,Date,Number,Object,Array,JSON,setTimeout:()=>0,clearTimeout:()=>0,document:{getElementById:()=>({textContent:'',classList:{add(){},remove(){}}})},window:{}});
-const root=path.join(__dirname,'..');for(const name of ['core','trading','market','options-pricing','options-market','derivatives','options-strategies','storage'])vm.runInContext(fs.readFileSync(path.join(root,'js',name+'.js'),'utf8'),context,{filename:name});
+const root=path.join(__dirname,'..');for(const name of ['core','trading','market','options-pricing','options-market','derivatives','options-strategies','career-system','secretary','storage'])vm.runInContext(fs.readFileSync(path.join(root,'js',name+'.js'),'utf8'),context,{filename:name});
 const g=s=>vm.runInContext(s,context);let passed=0;
 function test(label,fn){try{g('state=migrate(initial(2345))');fn();passed++;console.log('PASS',label)}catch(e){console.error('FAIL',label,e);process.exitCode=1}}
 const close=(a,b,tol=.02)=>assert.ok(Math.abs(a-b)<tol,`${a} vs ${b}`);
